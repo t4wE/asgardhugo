@@ -46,7 +46,9 @@
 </head>
 <body class="body">
 	<div class="container container--outer">
-		{{ block "header" . }}{{ partial "header.html" . }}{{ end }}
+		{{ block "header" . }} <a href="/home">
+<center><img src="/images/banner.png" alt="banner" width="1100" /></center>
+</a> {{ partial "header.html" . }}{{ end }}
 		<div class="wrapper flex">
 			<div class="primary">
 			{{ block "main" . }}
@@ -58,9 +60,7 @@
 			{{ end }}
 			</div>
 			{{ block "sidebar" . }}{{ partial "sidebar.html" . }}{{ end }}
-		</div>
-		{{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
-	</div>
+
 <script async defer src="{{ "js/menu.js" | relURL }}"></script>
 {{ range .Site.Params.customJS -}}
 <script src="{{ . | relURL }}"></script>
