@@ -41,6 +41,4 @@ Every character starts with 99 lvl and completed quests.
 Make a character of your dream in 10-15 minutes!<br>
 Use cube recipes to make items or just take them from in-game accounts.<br><br>
 <h2>HAVE FUN!</h2>
-<br>
-<br>
 {{< /rawhtml >}}

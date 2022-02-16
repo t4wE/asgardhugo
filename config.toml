@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "mainroad"
-paginate = 5
+paginate = 20
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -9,13 +9,13 @@ paginate = 5
   #contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "black"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
 
   # show selector to switch language
-  showLanguageSelector = false
+  showLanguageSelector = true
 
   # set theme to full screen width
   fullWidthTheme = false
@@ -24,7 +24,7 @@ paginate = 5
   centerTheme = false
 
   # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+  favicon = "favicon.ico"
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
@@ -35,6 +35,8 @@ paginate = 5
   # set all headings to their default size (depending on browser settings)
   # it's set to `true` by default
   # oneHeadingSize = false
+
+  logoImage = "/images/banner.png"
   
 
 [params.twitter]
@@ -66,7 +68,7 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "Home"
         name = "Home"
-        url = "/home"
+        url = "/"
         weight = 1
       [[languages.en.menu.main]]
         identifier = "How to connect"
@@ -101,8 +103,9 @@ paginate = 5
       [[languages.en.menu.main]]
         identifier = "Guides"
         name = "Guides"
-        url = "/guides"
+        url = "/guides/"
         weight = 8
+
       [[languages.en.menu.main]]
         identifier = "Contacts"
         name = "Contacts"

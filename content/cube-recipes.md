@@ -64,7 +64,7 @@ Buy Monarch-looking Shield(Kite Shield) at Charsi.</span>
 </ol>
 <p>&nbsp;</span></p>
 <hr>
-<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 8pt;"><em>If you are sick and tired of rerolling item with needed affixes - you can install item's auto-reroller. Watch the bottom of&nbsp;<a href="http://asgardpvp.com/mod-info" rel="alternate">Mod info</a>&nbsp;section.</em></span></p>
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif; font-size: 8pt;"><em>If you are sick and tired of rerolling item with needed affixes - you can install item's auto-reroller. Watch the bottom of&nbsp;<a href="/mod-info" rel="alternate">Mod info</a>&nbsp;section.</em></span></p>
 <hr>
 <h1 style="text-align: center;"> General recipes<br><br></span></h1>
 <p><strong>Any Item +&nbsp;reroll = Superior Item (ilvl 99)</strong>&nbsp; &lt;so make sure to reroll an item before adding sockets (<em>to make maximum sockets possible</em>)</span></p>

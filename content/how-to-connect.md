@@ -19,12 +19,12 @@ Step 2
 Our server requires version 1.14d. If you already have 1.14d, then just skip further to step 3.<br>
 If you have version 1.13d or less - you got two options:<br><br>
 <em>Option #1</em><br><br>
-Our server has auto-update till version 1.14d. So you can just download our <a href="https://drive.google.com/uc?authuser=0&amp;id=1uiEPp6MkNFN3Tj_ZjnZ2c4seVwEcfrgE&amp;export=download" target="_blank" rel="noopener noreferrer">reg file</a>. Add the server's info to the registry. Launch game (<em>close all other d2 windows before that</em>) as Administrator (<em>if you won't do that, the update might crash and the message will say "unable to identify application version" - watch ref #1 in that case</em>) and connect to Asgard. The game will be updated till 1.14d. <br>
+Our server has auto-update till version 1.14d. So you can just download our <a href="https://drive.google.com/uc?authuser=0&amp;id=1uiEPp6MkNFN3Tj_ZjnZ2c4seVwEcfrgE&amp;export=download" target="_blank" rel="noopener noreferrer">reg file</a>. Add the server's info to the registry. Launch game (<em>close all other d2 windows before that</em>) as Administrator (<em>if you won't do that, the update might crash and the message will say "unable to identify application version" - watch <a href="#ref1">ref #1</a> in that case</em>) and connect to Asgard. The game will be updated till 1.14d. <br>
 Now you can skip further&nbsp;to step 4.<br><br>
 <em>Option #2</em><br><br>
 Install the patch manually. Download official <a href="http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_114d.exe" target="_blank" rel="noopener noreferrer">patch 1.14d</a>. Run it. If the update was successful, skip till step 3.<br>
 The problem might appear if you have multiple folders of Diablo II. The patch might start installing into the wrong folder. To avoid that, you need to download <a href="https://drive.google.com/uc?authuser=0&amp;id=1bcOCMcdadPi_ff05wLMpnTUAUDVg_4TN&amp;export=download" target="_blank" rel="noopener noreferrer">LodRepair.exe</a>. Run it. Choose your game folder and push "Apply Path" button. Now any patch will be installed into the folder you just chose. Install <a href="http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_114d.exe" target="_blank" rel="noopener noreferrer">patch 1.14d</a> again. <br>
-If you still have a problem (<em>invalid game version</em>) - watch <a href ="#ref">ref #1 </a>
+If you still have a problem (<em>invalid game version</em>) - watch <a href="#ref1">ref #1</a>
 </p>
 <hr>
 Step 3
@@ -80,7 +80,7 @@ Create your character, make items via <a href="/cube-recipes" target="_blank" re
 ~
 ~
 <hr>
-ref #1
+<p id="ref1">ref #1</p>
 <hr>
 <p>
 If you are having any problems with your game's version (<em>invalid game version</em>) install <a href="https://drive.google.com/uc?authuser=0&amp;id=1bcOCMcdadPi_ff05wLMpnTUAUDVg_4TN&amp;export=download" target="_blank" rel="noopener noreferrer">LodRepair.exe</a>. Run it. Choose your game folder. Push the "Apply path" button. Push "Start Update". This will reset your game's version to clear 1.07(<em>iirc</em>). After that install <a href="http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_114d.exe" target="_blank" rel="noopener noreferrer">patch 1.14d</a> again.

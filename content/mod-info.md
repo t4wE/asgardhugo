@@ -4,16 +4,19 @@ date: 2022-02-11T21:20:47+03:00
 draft: false
 ---
 {{< rawhtml >}}
-<p class="speshal-fancy-custom">
-
-<span style="color: #008000;"> <h1> Pay attention!<br>
+  <p class="speshal-fancy-custom">
+<h1 style= "color: green"> Pay attention!
 Normal's penalties are the same as in Hell (-100 all res). <br>
-However, they aren't shown correctly (visual bug), so you need to count them manually.</h1><br><br>
-To avoid this you can download a mini-mod - watch the bottom of this page</span><br><br>
+However, they aren't shown correctly (visual bug), so you need to count them manually.</h1>
+<br>
+<br>
+To avoid this you can download a mini-mod - watch the bottom of this page</span>
+<br>
+<br>
 <b>Ladder</b> features legit items only.<br>
 <b>Non-Ladder</b> features bugged items, hybrid runewords, 08 items.<br><br>
 Our server also features <b>Low-Level Dueling (30 lvl)</b>. If you want to make an lld character — contact one of the moderators in game.<br>
-If some of you want to see <b>8/49/60 Level Dueling</b> on our server and ready to put your energy in it <em>(create a massive list of all needed items)</em> - <a href="https://asgardpvp.win/contacts" rel="alternate">contact</a> us.</p> <br>
+If some of you want to see <b>8/49/60 Level Dueling</b> on our server and ready to put your energy in it <em>(create a massive list of all needed items)</em> - <a href="/contacts" rel="alternate">contact</a> us.</p> <br>
 Ladder in-game accounts: *items, *chars, *chars_fpk, *chars_fpk1, *chars_mirror, *chars_mirror1,&nbsp;*chars_block (also *items_lld, *chars_lld, *chars_lld1)<br>
 Non-Ladder in-game accounts: *items_nl, *chars_nl, *chars_nl1<br>
 Password to all accounts:<span style="color: #008000;"><b>asgard</b></span><br><br>
@@ -26,7 +29,7 @@ Changes:<br>
 <li>Monsters and Shrines removed from &nbsp;Blood Moor location</li><br>
 <li>All spawned items have perfect stats, prefixes, and&nbsp;suffixes</li><br>
 <li>Dsabled "non-pvp" affixes to appear on generated items <em>_like +% Magic Find, Gold Find)</em></li><br>
-<li>Added new <a href="https://asgardpvp.win/cube-recipes" rel="alternate">Horadric Cube recipes</a></li><br>
+<li>Added new <a href="/cube-recipes" rel="alternate">Horadric Cube recipes</a></li><br>
 <li>NPC sell items of any kind</li><br>
 <li>All items have 1 gold price <em>(if shows more - visual bug)</em></li><br>
 <li>You only need gem for crafting</li><br>
@@ -57,7 +60,7 @@ Run it (better as Administrator). Right-click it.
 <center><img src="images/wmc.png" alt="wmc"></p></center>
 <br>
 Choose Hotkey. Push Specify Window and click your Diablo 2 window. Press chosen hotkey.
-Another option is <a href="https://www.techspot.com/downloads/7061-borderless-gaming.html" rel="alternate">Borderless Gaming</a>. It is little harder to configure but the right side won't be bugged when trying to <a href="https://asgardpvp.win/guides/ct-trick" target="_blank" rel="alternate noopener noreferrer">C/T</a>.
+Another option is <a href="https://www.techspot.com/downloads/7061-borderless-gaming.html" rel="alternate">Borderless Gaming</a>. It is little harder to configure but the right side won't be bugged when trying to <a href="/guides/ct" target="_blank" rel="alternate noopener noreferrer">C/T</a>.
 <hr>
 <h3>Auto Town portal on death</h3>
 <hr>

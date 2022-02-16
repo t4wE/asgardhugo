@@ -137,7 +137,7 @@ sections in the example below.
 
 ```toml
 [Params.widgets]
-  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  recent_num = 20 # Set the number of articles in the "Recent articles" widget
   categories_counter = false # Enable counter for each category in "Categories" widget
   tags_counter = false # Enable counter for each tag in "Tags" widget
 ```
