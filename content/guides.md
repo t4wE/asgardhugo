@@ -4,7 +4,7 @@ date: 2022-02-11T21:20:47+03:00
 draft: false
 ---
 {{< rawhtml >}}
-  <p class="speshal-fancy-custom">
+<p class="speshal-fancy-custom">
 
 <ul>
   <li><a href="/guides/pvp">Diablo 2 PvP/Duels #guidlines for a PvP beginner</a></li>

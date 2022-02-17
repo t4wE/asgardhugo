@@ -68,7 +68,7 @@ paginate = 20
       [[languages.en.menu.main]]
         identifier = "Home"
         name = "Home"
-        url = "/"
+        url = "/home"
         weight = 1
       [[languages.en.menu.main]]
         identifier = "How to connect"

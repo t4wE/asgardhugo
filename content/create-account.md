@@ -4,7 +4,7 @@ date: 2022-02-11T21:20:47+03:00
 draft: false
 ---
 {{< rawhtml >}}
-  <p class="speshal-fancy-custom">
+<p class="speshal-fancy-custom">
 
 <em>
 Remember, that your password should be maximum 12 symbols long!<br>

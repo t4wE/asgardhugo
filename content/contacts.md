@@ -4,7 +4,7 @@ date: 2022-02-11T21:20:47+03:00
 draft: false
 ---
 {{< rawhtml >}}
-  <p class="speshal-fancy-custom">
+<p class="speshal-fancy-custom">
 
 <p>General:</p>
 <p>
@@ -20,9 +20,8 @@ draft: false
 <a title="Youtube" href="https://gaming.youtube.com/channel/UC3hPD5pw4H-xsxv9iUbYcnQ/live" target="_blank">Youtube</a><br />
 <a title="Goodgame" href="https://goodgame.ru/channel/kup9_/" target="_blank">Goodgame</a>
 </p>
-<h2>Skype and Discord conversations where you can find an opponent for duels:</h2>
+<p>Skype and Discord conversations where you can find an opponent for duels:</p>
 <p>
-<br />
 <a title="Skype" href="https://join.skype.com/gfH12ceq68nE" target="_blank">Skype</a><br />
 <a title="Discord" href="https://discord.gg/neCv6Xu" target="_blank">Discord</a>
 </p>

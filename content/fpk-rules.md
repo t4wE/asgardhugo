@@ -86,5 +86,12 @@ draft: false
 <li>Bash, Concentrate, Frenzy, Double Swing, and Double Throw isn't allowed</li>
 <li>No Widowmaker</li>
 </ul>
+
+<details>
+<summary></summary>
+B'v'B is kinda gay
+If Dudu uses wolves - Nec can IBS and defwhore like Mario. Works the other way round as well
+</details>
+
 {{< /rawhtml >}}
 

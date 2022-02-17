@@ -4,7 +4,7 @@ date: 2022-02-11T21:20:47+03:00
 draft: false
 ---
 {{< rawhtml >}}
-  <p class="speshal-fancy-custom">
+<p class="speshal-fancy-custom">
 
 <p style="text-align: left;">GM - are certain dueling rules, most popular and fair ones.</p>
 <p>These GM rules are made and adjusted specifically for Asgard PvP Realm. If the game has a "gm" prefix (e.g." gm duels"), then don't be a jerk and obey them - otherwise, you might be kicked out of the game by one of the moderators. Continuous disobeying might lead to a temp/perm ban.</p>
@@ -114,7 +114,7 @@ draft: false
 <ul>
 <li>Duels take place on Nightmare difficulty</li>
 </ul>
-<p>&nbsp;</p>
+<br>
 <ul>
 <li>The duel starts once everybody said "go" or "g"</li>
 <li>Quoting the game results in a loss</li>

@@ -4,7 +4,7 @@ date: 2022-02-11T21:20:47+03:00
 draft: false
 ---
 {{< rawhtml >}}
-  <p class="speshal-fancy-custom">
+<p class="speshal-fancy-custom">
 
 <hr>
 Step 1
@@ -20,7 +20,7 @@ Our server requires version 1.14d. If you already have 1.14d, then just skip fur
 If you have version 1.13d or less - you got two options:<br><br>
 <em>Option #1</em><br><br>
 Our server has auto-update till version 1.14d. So you can just download our <a href="https://drive.google.com/uc?authuser=0&amp;id=1uiEPp6MkNFN3Tj_ZjnZ2c4seVwEcfrgE&amp;export=download" target="_blank" rel="noopener noreferrer">reg file</a>. Add the server's info to the registry. Launch game (<em>close all other d2 windows before that</em>) as Administrator (<em>if you won't do that, the update might crash and the message will say "unable to identify application version" - watch <a href="#ref1">ref #1</a> in that case</em>) and connect to Asgard. The game will be updated till 1.14d. <br>
-Now you can skip further&nbsp;to step 4.<br><br>
+Now you can skip further to step 4.<br><br>
 <em>Option #2</em><br><br>
 Install the patch manually. Download official <a href="http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_114d.exe" target="_blank" rel="noopener noreferrer">patch 1.14d</a>. Run it. If the update was successful, skip till step 3.<br>
 The problem might appear if you have multiple folders of Diablo II. The patch might start installing into the wrong folder. To avoid that, you need to download <a href="https://drive.google.com/uc?authuser=0&amp;id=1bcOCMcdadPi_ff05wLMpnTUAUDVg_4TN&amp;export=download" target="_blank" rel="noopener noreferrer">LodRepair.exe</a>. Run it. Choose your game folder and push "Apply Path" button. Now any patch will be installed into the folder you just chose. Install <a href="http://ftp.blizzard.com/pub/diablo2exp/patches/PC/LODPatch_114d.exe" target="_blank" rel="noopener noreferrer">patch 1.14d</a> again. <br>
@@ -66,8 +66,8 @@ Our server has three hosts:</p>
 <li>London</li>
 <li>New York</li>
 </ul>
-<img style="display: block; margin-left: auto; margin-right: auto;" src="./images/servers.png" alt="servers"><br>
-The message of the day names the host&nbsp;where the game is created. Keep creating games until it is the server you want. Usually takes 3-4 tries.
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/servers.png" alt="servers"><br>
+The message of the day names the host where the game is created. Keep creating games until it is the server you want. Usually takes 3-4 tries.
 </p>
 <hr>
 Step 7
