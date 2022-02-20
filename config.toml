@@ -20,21 +20,6 @@ paginate = 20
     keywords = ""
     copyright = ""
 
-
-  [languages.ru]
-    contentDir = 'content/ru'
-    baseURL = ''
-    LanguageName = "Русский"
-    weight=2
-    title = "АсгардПвП"
-    subtitle = "Международный Диабло 2 ПвП сервер"
-    owner = "Progon & Holy"
-    keywords = ""
-    copyright = ""
-
-
-
-
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "Home"
@@ -89,14 +74,3 @@ paginate = 20
         name = "Contacts"
         url = "/contacts"
         weight = 9
-
-  [languages.ru.params.logo]
-      logoText = "AsgardPvP"
-      logoHomeLink = ""
-
-    [languages.ru.menu]
-      [[languages.en.menu.main]]
-        identifier = "Home"
-        name = "Home"
-        url = ""
-        weight = 1
