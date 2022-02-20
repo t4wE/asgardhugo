@@ -1,105 +1,83 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = "mainroad"
 paginate = 20
 
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  #contentTypeName = "posts"
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "black"
-
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-
-  # show selector to switch language
   showLanguageSelector = true
-
-  # set theme to full screen width
-  fullWidthTheme = false
-
-  # center theme with default width
-  centerTheme = false
-
-  # set a custom favicon (default is a `themeColor` square)
-  favicon = "favicon.ico"
-
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
-
-  # set all headings to their default size (depending on browser settings)
-  # it's set to `true` by default
-  # oneHeadingSize = false
-
-  logoImage = "/images/banner.png"
-  
-
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = ""
-  site = ""
+  defaultContentLanguageInSubdir = true
 
 [languages]
+
   [languages.en]
+    contentDir = 'content/en'
+    baseURL = ''
     languageName = "English"
-    title = "Asgard"
-    subtitle = "An attempt to rewrite asgardpvp.com website via Hugo"
-    owner = ""
+    weight=1
+    title = "AsgardPvP"
+    subtitle = "International Diablo 2 PvP/Duel server/realm"
+    owner = "Progon & Holy"
     keywords = ""
     copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
 
-    [languages.en.params.logo]
-      logoText = "Asgard"
-      logoHomeLink = "/"
+
+  [languages.ru]
+    contentDir = 'content/ru'
+    baseURL = ''
+    LanguageName = "Русский"
+    weight=2
+    title = "АсгардПвП"
+    subtitle = "Международный Диабло 2 ПвП сервер"
+    owner = "Progon & Holy"
+    keywords = ""
+    copyright = ""
+
+
+
 
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "Home"
         name = "Home"
-        url = "/home"
+
         weight = 1
+
       [[languages.en.menu.main]]
         identifier = "How to connect"
         name = "How to connect"
         url = "/how-to-connect"
         weight = 2
+
       [[languages.en.menu.main]]
         identifier = "Create account"
         name = "Create account"
         url = "/create-account"
         weight = 3
+
       [[languages.en.menu.main]]
         identifier = "Mod info"
         name = "Mod info"
         url = "/mod-info"
         weight = 4
+
       [[languages.en.menu.main]]
         identifier = "Cube recipes"
         name = "Cube recipes"
         url = "/cube-recipes"
         weight = 5
+
       [[languages.en.menu.main]]
         identifier = "GM Rules"
         name = "GM Rules"
         url = "/gm-rules"
         weight = 6
+
       [[languages.en.menu.main]]
         identifier = "FPK Rules"
         name = "FPK Rules"
         url = "/fpk-rules"
         weight = 7
+
       [[languages.en.menu.main]]
         identifier = "Guides"
         name = "Guides"
@@ -111,3 +89,14 @@ paginate = 20
         name = "Contacts"
         url = "/contacts"
         weight = 9
+
+  [languages.ru.params.logo]
+      logoText = "AsgardPvP"
+      logoHomeLink = ""
+
+    [languages.ru.menu]
+      [[languages.en.menu.main]]
+        identifier = "Home"
+        name = "Home"
+        url = ""
+        weight = 1

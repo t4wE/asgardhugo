@@ -1,0 +1,113 @@
+html {
+	font-size: 100%;
+	-ms-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+}
+body {
+	font-size: 14px;
+	font-size: .875rem;
+	line-height: 1.5;
+	background: black;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+h1 {
+	font-size: 32px;
+	text-align: center;
+}
+a {
+	color: #e22d30;
+	text-decoration: none;
+}
+a:hover {
+	color: #de5b5d;
+}
+header {
+	text-align: center;
+	font-weight: 900;
+	color: white;
+}
+nav {
+	position: flexible;
+	max-width: 1100px;
+	margin: auto;
+}
+
+/*Logo*/
+
+.logo__title {
+	font-size: 150px;
+	line-height: 1;
+	color: white;
+	display: flex;
+  	justify-content: center;
+}
+.logo__tagline {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 1;
+	display: flex;
+  	justify-content: center;
+	color: #e22d30;
+}
+
+a {
+	color: #e22d30;
+	text-decoration: none;
+}
+
+
+.content a,a:hover,.authorbox__description a,.authorbox__description a:hover {
+	font-weight: 700;
+	color: #e22d30;
+}
+a:hover,
+.authorbox__description a:hover {
+}
+
+.content {
+	background: black;
+	color: white;
+	order: 1;
+	max-width: 1000px;
+	margin: auto;
+}
+.menu__item,
+.btn {
+	transition: background-color .25s ease-out;
+	font-size:	17px;
+}
+.menu__btn {
+	display: block;
+	width: 100%;
+	padding: 0;
+	color: white;
+}
+.menu__list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #2a2a2a;
+}
+.menu__item:hover {
+	background: #e22d30;
+	color: white;
+}
+.menu__link {
+	display: block;
+	padding: .625rem .9375rem;
+	font-weight: 700;
+	color: white;
+}
+.menu__link:hover {
+	color: white;
+}
+.menu__list,
+.js .menu__list {
+	display: flex;
+}
+
+
+
+

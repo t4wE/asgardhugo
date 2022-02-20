@@ -1,0 +1,145 @@
+---
+title: "WSM Bug [+Auto WSM]"
+date: 2022-02-11T21:20:47+03:00
+draft: false
+---
+<p>When I was digging for this info, this <a href="https://web.archive.org/web/20180726104230/http://xepolite.technocow.nl/index.php?p=IAS" rel="alternate">site</a> helped me a lot. There's a lot of text there, so I'm going to simplify it a little.</p>
+<p>So, to avoid further misunderstanding:<br><br>(c) all right reserved <a href="https://web.archive.org/web/20180726104230/http://xepolite.technocow.nl/index.php?p=IAS" rel="alternate">Xepolite's shithole</a>!</p>
+<p>WSM Bug is intended to decrease the requirement of IAS to reach a 9-frame trap laying breakpoint without* using BoS.</p>
+<p><em>*Against chars that deal physical damage, we will use Fade, because it gives us DR that can't be taken from other items (102 fcr build). Also, we need to stack our IAS to neutralize Clay Golem's slow (will be discussed later). Therefore, the gear for an Assassin (C/C) </em>is<em> chosen in order to achieve maximum trap laying speed without BoS.</em></p>
+<p>Auto WSM is a little trick that makes this bug be performed automatically, without any manual action from your side.</p>
+<p>Firstly, you need to understand how the trap laying speed is calculated when using C/C.</p>
+<hr>
+<h1>IAS needed for 9-frame trap laying speed</h1>
+<hr>
+<p><strong>Primary claw</strong> is the one that is under the gloves.<br><strong>Secondary claw</strong> is the one under the boots.</p>
+<p>Look up your claw's Weapon Speed (later - WS).<br>
+				<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/wsm1.png" alt="wsm1" width="250" height="411">
+</p>
+<p>The lower the number is, the faster the claws are. Claws with WS=-30 are the fastest, and ones with WS=10 are the slowest.<br><br>The next spreadsheet shows how much IAS you need to reach 9 frame trap laying speed considering your Claw's WS. Now substitute your values in this table. It's symmetrical, so you can put Primary claw's IAS both to the left and to the top.</p>
+<p>
+				<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/wsm2.png" alt="wsm2" width="386" height="180">
+</p>
+<p>Let's say you use 2xGreater Talons. Their WS=-30. After looking at column -30 and line -30, we see a breakpoint of <strong>42 IAS</strong>. We need to get IAS NECESSARILY from the Primary claw (above the gloves). There are 3 affixes: 20 IAS/ 30 IAS/ 40 IAS. 30 and 40 are good for us because we can insert jewel 15 IAS (or Shael) and get 45 (55) IAS breakpoint. You can insert jewel 15 IAS (or Shael) in a tiara as well, but do NOT put it in your Secondary claw (boots one)! We don't want any additional IAS on that claw, it doesn't "count". Even <strong>0 IAS</strong> is good for us. If there already is IAS on — nothing terrible, just don't additionally insert Jewel or Shael there. After all, Primary claw's IAS must be greater than the Secondary. </p>
+<p>Now we have the maximum possible trap laying speed — 9 frames.</p>
+<p>As you can see from the table, we are mostly interested in "fast" Claws (-20,-30 WS). The best options here are Greater Claws, Greater Talons (Runic Talons and Feral Claws, however, have high requirements). With Greater Claws and Greater Talons, we will only need <strong>42-63 IAS</strong>, which is not difficult to achieve. With two slow claws (10,0 WS) will have to gain 125-174 IAS (damn that's a lot D:).</p>
+<p>If you still doubt, whether you chose the right claws, test them on this <a href="https://docs.google.com/spreadsheets/d/1A3yb031fKlCPLqOYShYCPLHHUnMAdito12Ll00dnOKs/edit?usp=sharing" target="_blank" rel="alternate noopener noreferrer">calculator</a>.</p>
+<p>If you are playing as a W/S Assassin (Hoto+Spirit), you will always use BoS. You will need at least <strong>16 lvl BoS</strong> for 9 frames.</p>
+<p>Here is a perfect option for a classic ls+fb Assassin:</p>
+<p>
+				<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/wsm3.png" alt="wsm3">
+</p>
+<p>The disadvantage of this option is that, firstly, we have to insert Jewel (or Shael) in the gloves-claw socket. Secondly, if our opponent has "Slows target by xx %" or Clay Golem, your trap laying speed will decrease.</p>
+<p>This should be mentioned:<br><br>Some rules say "Clay Golem is banned against IAS-dependent characters, including Traps-Assassin". However, thanks to the WSM Bug, Assassin will gain tons of overstacked IAS, so Clay Golem won't affect our speed at all. Decent Assassins will always use WSM Bug and will never say anything against Necro with Clay Golem (besides skilling Fire Golem is a waste of skill points. No decent Necro would ever do such a thing).</p>
+<p>So let's take a look at...</p>
+<hr>
+<h1>WSM Bug</h1>
+<hr>
+<h3>Traps-Sin</h3>
+<hr>
+<p>The hing is that when we equip our claws (roughly after each swap or BO it re-equips), claw under the gloves equips first and becomes our Primary claw and the claw under the boots becomes our Secondary claw. After doing a little trick (flashing our gloves-claws),</p>
+<p>
+				<img src="/images/wsm4.png" alt="wsm4">
+</p>
+<p>we make the boots-claw equip first, so it becomes Primary. After we put back the gloves-claw, they become our Secondary claw. So, generally, they swap.</p>
+<p>The result of this is a change in the formula for calculating trap laying speed. Now we should use another table.</p>
+<p>
+				<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/wsm5.png" alt="wsm5">
+				<br>Take your claw's WS and fill it in a new table. As you can see, it is better to have fast claws (preferably -30) on the right and slow (0, 10) on the left. Then we will only need <strong>13-19 IAS</strong> on our (already) boots-claw. We will most likely easily get it without Jewel or Shael (claw's IAS affixes are 20, 30, or 40 IAS). Here is an extra socket.</p>
+<p>If you still doubt, whether you chose the right claws, then test them on this <a href="https://docs.google.com/spreadsheets/d/1iFYg1JPnAPiF8SONr8gs-9yHfjaswZEYyUBlRDHBrGc/edit?usp=sharing" rel="alternate">calculator</a>.</p>
+<p>For a classic Traps-sin, the ideal option would be:</p>
+<p>
+				<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/wsm6.png" alt="wsm6">
+</p>
+<p>As you remember, the IAS of our (already) left claw won't matter, because it has become the Primary claw. On the boots-claws, we will only need all <strong>13 IAS</strong>.</p>
+<hr>
+<h3>Slow (Clay Golem // Arachnid Mesh// Nostefaru's Coil)</h3>
+<hr>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 18pt;"><strong>C/C:</strong></span></p>
+<p>In a duel vs Necro, we will use BoS in order to neutralize the "slow", so Clay Golem won't affect our trap laying speed.</p>
+<p>I didn't want to go into unnecessary details (numbers), but now I have to.</p>
+<p>Generally, there is such a thing as AWSM. It is calculated based on WS of your claws by the following formula:</p>
+<p><br>(( [RC] + [LC] ) / 2 ) + ( [RC] - [LC] ) - the formula for AWSM after WSM Bug.</p>
+<p>RC - Right claw<br>LC - Left one</p>
+<p>Assassins mainly use 2 options:</p>
+<ul>
+				<li>War Fist + Greater Talons</li>
+				<li>Scissors Quhab + Greater Talons</li>
+</ul>
+<p>Let's use the formula for these two most popular options:</p>
+<ul>
+				<li>War Fist + Greater Talons = <span style="color: red;">-50</span></li>
+				<li>Scissors Quhab + Greater Talons = <span style="color: red;">-45</span><br><br></li>
+</ul>
+<p><u>Slow from Arach and Nostefaru</u> cuts our AWSM by 10, so it becomes <span style="color: green;">-40</span> /<span style="color: green;"> -35</span>.</p>
+<p><strong><u>Conclusion</u>:</strong> <strong>to overstack the slow from Arach and Nostefaru, we should have <span style="color: #ccffcc;">26</span> / <span style="color: #ccffcc;">34 IAS</span>. BoS is not needed.</strong></p>
+<p><u>Slow Clay Golem</u> cuts our AWSM by 50, so it becomes <span style="color: purple;">0</span> /<span style="color: purple;">5</span>.</p>
+<p><strong><u>Conclusion</u>: to overstack the slow from Clay Golem, we should have <span style="color: #800080;">11 </span>/ <span style="color: #800080;">18</span> IAS (18 lvl BoS).</strong></p>
+<p>
+				<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/wsm-table.png" alt="wsm-table">
+</p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 18pt;"><strong>W/S:</strong></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">HotO's AWSM is -10. You will need at least <strong>16 lvl BoS</strong> for 9 frames.<br></span></p>
+<p><u>Slow from Arach and Nostefaru</u> cuts our AWSM by 10, so it becomes <span style="color: purple;">0</span>. <br><br><strong><u>Conclusion</u>: we should insert a 15 IAS jewel in our Circlet to reach 9 frames.</strong></p>
+<p><u>Slow Clay Golem</u> cuts our AWSM by 50, so it becomes 30 (actually, 40. but capped at 30).</p>
+<p><strong><u>Conclusion</u>: we do nothing and just wait until slow passes (34 seconds iirc), cause getting 58 IAS (20 lvl BoS) is impossible for 174 Sin.</strong></p>
+<p> </p>
+<hr>
+<h3>DC-Sin</h3>
+<hr>
+<p>In the case of a DC Assassin, we also use Dragon Claw (1 point) and deal physical damage, so the base claw's damage matters to us as well. The most powerful slow claws are Suwayyah and War Fist. As for the fast — Greater Talons and Runic Talons (in fact, even though the average damage of RT is bigger, after the PvP penalty and DR the difference will be like 10 HP. Also, RT has too high requirements). Greater Claws and Feral Claws will match nicely with WF (10 WS), but with Suwayyah (-20 WS)(look for the line "-20" and column "0") after Golem's slow, we will have 20 AWSM. At 18 lvl BoS we will need 40 IAS.</p>
+<p>Here is a perfect option for a DC-Assassin:</p>
+<p>
+				<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/wsm7.png" alt="wsm7">
+</p>
+<hr>
+<h3>WW-Sin</h3>
+<hr>
+<p>Chaos's preferable base is Suwayyah. WF has bigger damage, but it can only have 2 sockets.</p>
+<p>By the way, there is a small addition when playing with Chaos. Besides wanting to achieve the 9-frame trap laying speed, we will also need to have a WW breakpoint — 4 FPA for each claw. It is calculated separately for each claw. You want to have a number less than "-13" when you subtract your claw's WS from its own IAS.</p>
+<p>For Suwayyah: 0-35 (IAS on Chaos) = -35. Chaos will hit every 4th frame.<br>GT: -30 - (your IAS here). So there is never a problem with fast claws.</p>
+<p>After all, on the left, we have Chaos in Suwayyah (35 IAS), on the right, fast claw (GT, RT).</p>
+<hr>
+<p>A small disadvantage of WSM Bug is that you need to do the claws flashing manually before every duel (and after each swap). Therefore, if you are lazy, you can do ...</p>
+<hr>
+<h1>Auto WSM Bug</h1>
+<hr>
+<h3>Traps-Sin</h3>
+<hr>
+<p>The trick is to insert a "+X to dexterity" jewel into our right claw. With a proper selection of claws and your dexterity, your left claw won't be able to equip without the dexterity of the right claw. In that case, the right claw "has" to equip the first. And this is exactly the condition of the WSM Bug.</p>
+<p>For example, our Assassin has 24 basic dexterity, 20 from Torch, 20 from Anih, and 25 from Shadow Dancers. A total of 89 dexterity.</p>
+<p>War Fist (98 Dex Req) can't be equipped. So, we insert a 9 dex jewel into the right claw. Now the right claw will let the left equip.</p>
+<p>
+				<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/wsm8.png" alt="wsm8">
+</p>
+<p>An indicator that Auto WSM Bug works on your Assassin is that your left claw will become red if you lift up the right claw. If it happens, it means you did everything correctly. So after each swap, you won't have to flash boot-claw. WSM Bug will be done automatically.</p>
+<p>
+				<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/wsm9.png" alt="wsm9">
+</p>
+<hr>
+<h3>DC-Sin</h3>
+<hr>
+<p>For a DC Assassin the best option is:</p>
+<p>
+				<img src="/images/wsm10.png" alt="wsm10">
+				<br>These claws are Ethereal. It will be hard to find similar claws on a normal server. Requirements will be different for a non-eth claw, and therefore the value of your dexterity.</p>
+<p>For example, when using non-eth WF (dex Req 108) in addition to the perf Anihm, perf Torch, and perf SD (total of 85 dexterity) you will need to get 15 more dexterity (from rings, for example) for 100 dexterity. After inserting a 9 dex jewel in your right claw, your dex will become 109 and WF will be able to equip.</p>
+<p><em>^all this is assuming you want to have base dexterity. If you don't have all the items I mentioned above, you can just put some points in dexterity, but in that case, be sure to choose the right armor base for <a href="/guides/str" rel="alternate">Strength Bug</a>.</em></p>
+<hr>
+<h3>WW-Sin</h3>
+<hr>
+<p>Here is a perfect option for a WW-Sin (Ghost/Hybrid):</p>
+<h1>
+				<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/wsm11.png" alt="wsm11">
+</h1>
+<hr>
+<p>Don't forget that AWSM Bug is intended only for convenience. For some serious face duels/bet duels, where every detail is important, it is advantageous to gear something like this.</p>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/wsm12.png" alt="wsm12">
+<p>In this case, affix "+2 to Assassin Skills" is sacrificed for 50% OW, but it's not about that.</p>
+<p>In a serious face duel, it would be better to insert Um in the right claw for an additional 25% OW. Flashing gloves-claw before the duel for an additional 25% OW is definitely worth it. <span style="color: #000000;">Drew(OD) is a silly copy/paster, who probably doesn't even read what he copy/pasted.</span></p>
+<hr>
+<p>Good Luck and Have Fun!</p>
+<hr>
+<p>Wish you good luck in all your endeavors!</p>
+<hr>
+<p>© Progon_mulov</p>
