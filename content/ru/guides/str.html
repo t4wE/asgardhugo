@@ -3,154 +3,183 @@ title: "Strength Bug [Str Bug]"
 date: 2022-02-11T21:20:47+03:00
 draft: false
 ---
-<p style="text-align: center;"><em>Prologue:</em></p>
-<p><em> <br>When Expansion Set "Lord of Destruction" was not yet released, the game looked a little different. There was only known to you now "classic". Fifth Act didn't exist, there were no charms, no runes.</em></p>
-<h2 style="text-align: center;"><strong>Idea</strong></h2>
-<p>During the game, the server sends information to your game client (and all other users connected to this game) telling what is happening.</p>
-<p>For example:</p>
-<p>Situation No. 1</p>
+<p>
+				<em>Prologue:</em></p>
+<p>
+				<em>When Expansion Set "Lord of Destruction" was not yet released, the game looked a little different. There was only known to you now "classic". Fifth Act didn't exist, there were no charms, no runes.</em></p>
+<h2>Idea</h2>
+<p>
+				During the game, the server sends information to your game client (and all other users connected to this game) telling what is happening.</p>
+<p>
+				For example:</p>
+<p>
+				Situation No. 1</p>
 <hr>
-<p><strong>«Player 1</strong> moved to the certain point and used a certain skill in a certain direction.» </p>
+<p>
+				<b>«Player 1</b> moved to the certain point and used a certain skill in a certain direction.» </p>
 <hr>
-<p>This information is transmitted to all connected players and each game client reproduces the situation on player's screen based on the data he received. That way the situation #1 on the screen of each player looks as close as possible to actual, which occurs on the server. In addition to the location of the players, the server also sends information about player's speed of movement (FRW), the speed of the casting skills (FCR), as well as stats and items that he is wearing. And after obtaining this information, and based on it, the client decides whether certain items can be equipped (whether strength, level, class requirements are met). </p>
-<p>Since it was the era of classics and there were no charms — you couldn't receive any bonuses from your inventory, so there was no necessity to send any information about a player's inventory. So it wasn't scanned and therefore wasn't sent to other players. That's how a server would read information about player's items:</p>
-<p><span style="font-family: arial, helvetica, sans-serif;">
-								<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/str1.png" alt="str1">
-				</span></p>
-<p>After the release of LoD, charms appeared, including Torch and Annihilus. However, Blizzard missed that point and the information about the inventory of the opponent still isn't scanned. You can often see a situation when you don't see armor or shield of the opponent, even though he is obviously wearing it.</p>
-<p><span style="font-family: arial, helvetica, sans-serif;">
-								<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/str2.png" alt="str2">
-				</span></p>
-<p>This is because your client doesn't see the bonuses of "+20 to all attributes" from Torch and Annihilus. A total of "<strong>40 strength"</strong> and "40 Dexterity". We will only be interested in the strength.</p>
-<p>As an example, your client doesn't understand how a character could gear a <strong>Monarch</strong> (<strong>156</strong> str req). He sees the base <strong>12</strong> strength (let's say it's a Sorceress), <strong>74</strong> str from Enigma and <strong>30</strong> str from the belt. A total of <strong>116</strong> str. The client does not understand how the opponent was able to gear a<strong> Monarch</strong> (<strong>156</strong> str req) when he only got <strong>116</strong> str. He does not see that missing <strong>40 str</strong> from inventory. So he simply ignores it as if it doesn't exist at all. The result is a <strong>Strength Bug</strong>, after which the game client sees opponent's gear like this:</p>
-<p><span style="font-family: arial, helvetica, sans-serif;">
-								<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/str3.png" alt="str3">
-				</span></p>
-<p>For your client, these "bugged" items do not exist, nor all the bonuses from them: <strong>FCR, FRW</strong>, FHR, and so on. We are interested in<strong> FCR</strong> and <strong>FRW</strong>.</p>
-<p>Now imagine that we are str-bugged. Our opponent won't see "<strong>+35% Faster Cast Rate</strong>" from our Spirit, "<strong>+30% Faster Run/Walk</strong>" from our boots and "<strong>+45% Faster Run/Walk</strong>" from Enigma.</p>
-<h1><strong>What does it give us?</strong></h1>
+<p>
+				This information is transmitted to all connected players and each game client reproduces the situation on player's screen based on the data he received. That way the situation #1 on the screen of each player looks as close as possible to actual, which occurs on the server. In addition to the location of the players, the server also sends information about player's speed of movement (FRW), the speed of the casting skills (FCR), as well as stats and items that he is wearing. And after obtaining this information, and based on it, the client decides whether certain items can be equipped (whether strength, level, class requirements are met). </p>
+<p>
+				Since it was the era of classics and there were no charms — you couldn't receive any bonuses from your inventory, so there was no necessity to send any information about a player's inventory. So it wasn't scanned and therefore wasn't sent to other players. That's how a server would read information about player's items:</p>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/str1.png" alt="str1">
+<p>
+				After the release of LoD, charms appeared, including Torch and Annihilus. However, Blizzard missed that point and the information about the inventory of the opponent still isn't scanned. You can often see a situation when you don't see armor or shield of the opponent, even though he is obviously wearing it.</p>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/str2.png" alt="str2">
+<p>
+				This is because your client doesn't see the bonuses of "+20 to all attributes" from Torch and Annihilus. A total of "<b>40 strength"</b> and "40 Dexterity". We will only be interested in the strength.</p>
+<p>
+				As an example, your client doesn't understand how a character could gear a <b>Monarch</b> (<b>156</b> str req). He sees the base <b>12</b> strength (let's say it's a Sorceress), <b>74</b> str from Enigma and <b>30</b> str from the belt. A total of <b>116</b> str. The client does not understand how the opponent was able to gear a<b> Monarch</b> (<b>156</b> str req) when he only got <b>116</b> str. He does not see that missing <b>40 str</b> from inventory. So he simply ignores it as if it doesn't exist at all. The result is a <b>Strength Bug</b>, after which the game client sees opponent's gear like this:</p>
+<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/str3.png" alt="str3">
+<p>
+				For your client, these "bugged" items do not exist, nor all the bonuses from them: <b>FCR, FRW</b>, FHR, and so on. We are interested in<b> FCR</b> and <b>FRW</b>.</p>
+<p>
+				Now imagine that we are str-bugged. Our opponent won't see "<b>+35% Faster Cast Rate</b>" from our Spirit, "<b>+30% Faster Run/Walk</b>" from our boots and "<b>+45% Faster Run/Walk</b>" from Enigma.</p>
+<h1><b>What does it give us?</b></h1>
 <ol>
 				<li>Increased desynchronization while run/walk/charge*.</li>
 				<li>Desynchronization when using skills.</li>
 				<li>You seem to be naked for your opponent (aka *~sWaAaG~).</li>
 </ol>
-<p><em>*some sources say:</em></p>
-<p>Charging - <b>Unaffected</b> <b>by</b><wbr> item-based <b>Faster</b> <b>Run</b>/<b>Walk</b><br><br><em>can't say for sure whether it's true or not. but based on my experience, for example, when I am Str Bugged, desync is getting better. so it's for you to decide the truth of this judgment. but I can tell that Str Bug for a Paladin will be worth it at least for the FCR desynchronization.<br></em></p>
-<h2><strong>FRW desynch</strong></h2>
-<p> </p>
-<p>Opponent's client will only see <strong>30</strong> FRW from tiara (Circlets have no str req, so they cannot be bugged) instead of <strong>+105</strong> (30 from boots + 30 from tiara + 45 from Enigma).</p>
-<p></p>
+<p>
+				<em>*some sources say:</em></p>
+<p>
+				Charging - <b>Unaffected</b> <b>by</b><wbr> item-based <b>Faster</b> <b>Run</b>/<b>Walk</b><br><br><em>can't say for sure whether it's true or not. but based on my experience, for example, when I am Str Bugged, desync is getting better. so it's for you to decide the truth of this judgment. but I can tell that Str Bug for a Paladin will be worth it at least for the FCR desynchronization.<br></em></p>
+<h3><b>FRW desynch</b></h3>
+<p>
+				Opponent's client will only see <b>30</b> FRW from tiara (Circlets have no str req, so they cannot be bugged) instead of <b>+105</b> (30 from boots + 30 from tiara + 45 from Enigma).</p>
 <a href="https://www.youtube.com/watch?v=qxSG-pl-ppE" target="_blank">
 				<img src="/images/str4.png" alt="str4">
 </a>
 <a href="https://www.youtube.com/watch?v=v2vLtZgsu4g" target="_blank">
 				<img src="/images/str5.png" alt="str5">
 </a>
-</span>
-<p></p>
-<p><em>(nec performing str-bugged wsg)</em></p>
-<p>Not bad, huh? This is a very important issue in duels like NvT, NvD, DvT BvT, ZvT (T — trap-sin).</p>
-<p> </p>
-<h2><strong>FCR desynch</strong></h2>
-<p> </p>
-<p>Opponent's client will only see <strong>90</strong> FCR (no 35 FCR from a Spirit), instead of +<strong>125</strong> FCR. The animation becomes "buggy".</p>
-<p></p>
+<p>
+				<em>(nec performing str-bugged wsg)</em></p>
+<p>
+				Not bad, huh? This is a very important issue in duels like NvT, NvD, DvT BvT, ZvT (T — trap-sin).</p>
+<h3><b>FCR desynch</b></h3>
+<p>
+				Opponent's client will only see <b>90</b> FCR (no 35 FCR from a Spirit), instead of +<b>125</b> FCR. The animation becomes "buggy".</p>
 <a href="https://www.youtube.com/watch?v=eX0ANO36rl0" target="_blank">
 				<img src="/images/str6.png" alt="str6">
 </a>
-<br><br><span style="font-family: arial, helvetica, sans-serif;">
-				<a href="https://www.youtube.com/watch?v=XFL5YMNB1ZI" target="_blank">
-								<img src="/images/str7.png" alt="str7">
-				</a>
-</span>
-<p></p>
-<p>Your opponent will often get hit by Bone Spirit (or any other missile) before it actually reached him.</p>
-<p>It's super effective when using Bone Spear, Bone Spirit, Teeth, Blessed Hammer, Tornado.</p>
-<p> </p>
-<h2><strong>~~sWaG~~ </strong></h2>
-<p> </p>
-<p><span style="font-family: arial, helvetica, sans-serif;">
-								<img style="display: block; margin-left: auto; margin-right: auto;" src="/images/str8.png" alt="str8">
-				</span></p>
-<p style="text-align: center;"><strong>These are the advantages of Str Bug</strong>.</p>
-<h1><strong>How do we get ourselves strength bugged?</strong></h1>
-<p>The main idea is to bug certain items on purpose - Armor, Boots, Shield, Weapon, and Gloves.</p>
-<p>«<b>Formula for making your character Strength bugged":</b></p>
-<p>Strength req of an item needs to be higher than the Visible strength + strength on the item<br>Visible strength = strength on non-strength bugged gear and the base character’s strength<br>The «bugged» strength = strength provided by your inventory (Like Anni/Torch)*<br>At some builds, you’ll have to flash an item for being str bugged.»<i>*</i></p>
-<hr>
-<p><em>*In case of bugging Enigma strength from Circlet, Rings and Amulet is considered as a bugged strength, cause when we flash it (lift up and pit back immediately), it becomes bugged</em></p>
-<p>The main idea is to bug Enigma. That way we will get rid of that <strong>+74 to Strength</strong> and other items will bug easily after that.</p>
-<h2>Let's examine str bug with <strong>Paladin.</strong></h2>
-<p>Judging by the formula above, Enigma's str req should be higher than <strong>base str (25)</strong>+<strong>str from Enigma (74) = &gt;99 str</strong></p>
-<p>The best option would be <strong>Archon Plate </strong>(<strong>103</strong> str req). Our Paladin has <strong>base (25)</strong>+<strong>20 (torch)</strong>+<strong>20 (annihilus) </strong>= <strong>65 str. </strong>To gear Archon Plate with base str we will need additionally <strong>38</strong> <strong>str. </strong>Strength should be taken Circlet, Rings or Amulet <em>(these items don't have str req, that's why the can be bugged by flashing)</em>. In case of base strength* we better get <strong>30 str</strong> from amulet and <strong>8+ str</strong> from the ring.</p>
-<p><em>*but I'd advise putting 3 str in addition to base</em><em> strength. that way we would only need 5 str from the ring. now we can use Blood Craft ring (5 str, 60hp)</em></p>
-<p>Now, all we need is to flash our amulet and ring before the duel and then disappear from an enemy's minimap for at least one moment.</p>
-<p></p>
-<a href="https://www.youtube.com/watch?v=TkJJWBFZRN4" target="_blank">
-				<img src="/images/str9.png" alt="str9">
+<a href="https://www.youtube.com/watch?v=XFL5YMNB1ZI" target="_blank">
+				<img src="/images/str7.png" alt="str7">
 </a>
-<p></p>
-<p>Good job. Now <strong>Enigma</strong> is bugged. Now it's way easier.</p>
-<p>To bug our boots their<strong> str req</strong> should be higher than base str + str from ring/ammy/circ.</p>
-<p><strong>base (28</strong><strong>)</strong>+<strong>amul (30)</strong>+<strong>ring (<em>5</em>)</strong><em> </em>=<strong>63</strong><strong> str</strong></p>
-<p>So if you have<strong> Waterwalks </strong><strong>(47 str req)</strong><em> (or any other Normal/Exceptional boots/gloves/belt)</em>, don't forget to upgrade them till Exceptional<strong>/</strong>Elite in case of low <strong>str req</strong><strong>.</strong></p>
-<p>If it's a<strong> сraft</strong> — better upgrade it until Exceptional/Elite<b>.</b></p>
-<p>HotO's str req — same formula. Make it in <strong>Scourge (125 str req).</strong></p>
-<h2><strong>Let's look into other classes.</strong></h2>
-<p> </p>
-<p>It's better to gain strength from amulet + ring. But it as well can be taken from tiara+ring/tiara+ammy/ring+ring etc. The choice is yours.</p>
-<p>Preferable ammys and rings will be for<strong> bold bases.</strong></p>
-<p>For bases in brackets, they will be different.</p>
-<h3><strong>Necromancer:</strong></h3>
-<ul>
-				<li>Base's str req: <strong>&gt; 89</strong></li>
-				<li>Preferable base: <strong>Scarab Husk (95 str req) </strong><em>(Archon Plate)</em></li>
-				<li>Amul: <strong>30 str</strong></li>
-				<li>Ring: <strong>rare (craft) ring 10+ str </strong><em>(second ring is usually Nature/BK/Wisp/Raven)</em></li>
-</ul>
-<p><em>! flash ammy and ring</em></p>
-<p><em>!! it's possible to have ammy(30) + two 5 str rings. don't forget to flash both rings.</em></p>
-<h3><strong>Barbarian:</strong></h3>
-<ul>
-				<li>Base's str req: <strong>&gt; 104</strong></li>
-				<li>Preferable base:<strong> Great Hauberk (118 str req) </strong><em>(Wire Fleece)</em></li>
-				<li>Amul: <strong>non-str</strong></li>
-				<li>Ring: <strong>non-str</strong></li>
-</ul>
-<p><em>! on swap we should have Club +3 to Warcries, +30 to str — insert 2 Fals (+10 str) or 2 jewels (+9 str). after death, we simply pick corpse from the swap</em></p>
-<p><em>!! nothing else should be done</em></p>
-<h3><strong>Sorceress:</strong></h3>
-<ul>
-				<li>Base's str req: <strong>&gt; 84</strong></li>
-				<li>Preferable base: <strong>Scarab Husk (95 str req), eth Scarab Husk* (85 str req)</strong> <em>(*if having ethereal armor isn't <u>BM</u> (duel vs caster's, where defense doesn't matter (that way you will be able to gear 5 str craft ring))</em></li>
-				<li>Amul: <strong>30 str</strong></li>
-				<li>Ring: <strong>rare (craft) ring</strong><strong> 15+ str</strong></li>
-</ul>
-<p><em>! flash ammy and ring</em></p>
-<h3><strong>Druid:</strong></h3>
-<ul>
-				<li>Base's str req: <strong>&gt; 89</strong></li>
-				<li>Preferable base: <strong>Scarab Husk (95 str req) </strong><em>(Archon Plate)</em></li>
-				<li>Amul: <strong>30 str</strong></li>
-				<li>Ring: <strong>rare (craft) ring 10+ str</strong></li>
-</ul>
-<p><em>! flash ammy and ring</em></p>
-<p><em>!! if we play 163 FCR with Pelt - we better gear two 5 str craft rings. flashing one ring is enough</em></p>
-<p> </p>
-<h3><strong>Assassin:</strong></h3>
-<ul>
-				<li>Base's str req: <strong>&gt;94</strong></li>
-				<li>Preferable base: <strong>Scarab Husk (95 str req) </strong><em>(Archon Plate)</em></li>
-				<li>Amul: <strong>30 str*</strong></li>
-				<li>Ring: <strong>rare (craft) ring 5+ str</strong></li>
-</ul>
-<p><em>! flash ammy and ring</em></p>
-<p><em>!! if we play 102FCR - we better gear two 5 str craft rings. don't forget to flash both<span style="color: #000000;">.</em></span></p>
-<h3><strong>Amazon: </strong></h3>
-<p>Zons use<strong> Fortitude</strong>. The best option here is <strong>Archon Plate</strong>. Nothing else needs to be done. </p>
-<hr>
-<p>Good Luck and Have Fun!</p>
-<hr>
-<p> Wish you good luck in all your endeavors!</p>
-<hr>
-<p>© Progon_mulov</p>
+<p>
+				Your opponent will often get hit by Bone Spirit (or any other missile) before it actually reached him.</p>
+<p>
+				It's super effective when using Bone Spear, Bone Spirit, Teeth, Blessed Hammer, Tornado.</p>
+<p style="text-align: center;">
+				<~~sWaG~~ </p> <img src="/images/str8.png" alt="str8">
+								<p>
+												<b>These are the advantages of Str Bug</b>.</p>
+								<h3><b>How do we get ourselves strength bugged?</b></h3>
+								<p>
+												The main idea is to bug certain items on purpose - Armor, Boots, Shield, Weapon, and Gloves.</p>
+								<p>
+												«<b>Formula for making your character Strength bugged":</b></p>
+								<p>
+												Strength req of an item needs to be higher than the Visible strength + strength on the item<br>Visible strength = strength on non-strength bugged gear and the base character’s strength<br>The «bugged» strength = strength provided by your inventory (Like Anni/Torch)*<br>At some builds, you’ll have to flash an item for being str bugged.»<i>*</i></p>
+								<hr>
+								<p>
+												<em>*In case of bugging Enigma strength from Circlet, Rings and Amulet is considered as a bugged strength, cause when we flash it (lift up and pit back immediately), it becomes bugged</em></p>
+								<p>
+												The main idea is to bug Enigma. That way we will get rid of that <b>+74 to Strength</b> and other items will bug easily after that.</p>
+								<h4>Let's examine str bug with <b>Paladin.</b></h4>
+								<p>
+												Judging by the formula above, Enigma's str req should be higher than <b>base str (25)</b>+<b>str from Enigma (74) = &gt;99 str</b></p>
+								<p>
+												The best option would be <b>Archon Plate </b>(<b>103</b> str req). Our Paladin has <b>base (25)</b>+<b>20 (torch)</b>+<b>20 (annihilus) </b>= <b>65 str. </b>To gear Archon Plate with base str we will need additionally <b>38</b> <b>str. </b>Strength should be taken Circlet, Rings or Amulet <em>(these items don't have str req, that's why the can be bugged by flashing)</em>. In case of base strength* we better get <b>30 str</b> from amulet and <b>8+ str</b> from the ring.</p>
+								<p>
+												<em>*but I'd advise putting 3 str in addition to base</em><em> strength. that way we would only need 5 str from the ring. now we can use Blood Craft ring (5 str, 60hp)</em></p>
+								<p>
+												Now, all we need is to flash our amulet and ring before the duel and then disappear from an enemy's minimap for at least one moment.</p>
+								<a href="https://www.youtube.com/watch?v=TkJJWBFZRN4" target="_blank">
+												<img src="/images/str9.png" alt="str9">
+								</a>
+								<p>
+												Good job. Now <b>Enigma</b> is bugged. Now it's way easier.</p>
+								<p>
+												To bug our boots their<b> str req</b> should be higher than base str + str from ring/ammy/circ.</p>
+								<p>
+												<b>base (28</b><b>)</b>+<b>amul (30)</b>+<b>ring (<em>5</em>)</b><em> </em>=<b>63</b><b> str</b></p>
+								<p>
+												So if you have<b> Waterwalks </b><b>(47 str req)</b><em> (or any other Normal/Exceptional boots/gloves/belt)</em>, don't forget to upgrade them till Exceptional<b>/</b>Elite in case of low <b>str req</b><b>.</b></p>
+								<p>
+												If it's a<b> сraft</b> — better upgrade it until Exceptional/Elite<b>.</b></p>
+								<p>
+												HotO's str req — same formula. Make it in <b>Scourge (125 str req).</b></p>
+								<h4><b>Let's look into other classes.</b></h4>
+								<p>
+												It's better to gain strength from amulet + ring. But it as well can be taken from tiara+ring/tiara+ammy/ring+ring etc. The choice is yours.</p>
+								<p>
+												Preferable ammys and rings will be for<b> bold bases.</b></p>
+								<p>
+												For bases in brackets, they will be different.</p>
+								<h4><b>Necromancer:</b></h4>
+								<ul>
+												<li>Base's str req: <b>&gt; 89</b></li>
+												<li>Preferable base: <b>Scarab Husk (95 str req) </b><em>(Archon Plate)</em></li>
+												<li>Amul: <b>30 str</b></li>
+												<li>Ring: <b>rare (craft) ring 10+ str </b><em>(second ring is usually Nature/BK/Wisp/Raven)</em></li>
+								</ul>
+								<p>
+												<em>! flash ammy and ring</em></p>
+								<p>
+												<em>!! it's possible to have ammy(30) + two 5 str rings. don't forget to flash both rings.</em></p>
+								<h4><b>Barbarian:</b></h4>
+								<ul>
+												<li>Base's str req: <b>&gt; 104</b></li>
+												<li>Preferable base:<b> Great Hauberk (118 str req) </b><em>(Wire Fleece)</em></li>
+												<li>Amul: <b>non-str</b></li>
+												<li>Ring: <b>non-str</b></li>
+								</ul>
+								<p>
+												<em>! on swap we should have Club +3 to Warcries, +30 to str — insert 2 Fals (+10 str) or 2 jewels (+9 str). after death, we simply pick corpse from the swap</em></p>
+								<p>
+												<em>!! nothing else should be done</em></p>
+								<h4><b>Sorceress:</b></h4>
+								<ul>
+												<li>Base's str req: <b>&gt; 84</b></li>
+												<li>Preferable base: <b>Scarab Husk (95 str req), eth Scarab Husk* (85 str req)</b> <em>(*if having ethereal armor isn't <u>BM</u> (duel vs caster's, where defense doesn't matter (that way you will be able to gear 5 str craft ring))</em></li>
+												<li>Amul: <b>30 str</b></li>
+												<li>Ring: <b>rare (craft) ring</b><b> 15+ str</b></li>
+								</ul>
+								<p>
+												<em>! flash ammy and ring</em></p>
+								<h4><b>Druid:</b></h4>
+								<ul>
+												<li>Base's str req: <b>&gt; 89</b></li>
+												<li>Preferable base: <b>Scarab Husk (95 str req) </b><em>(Archon Plate)</em></li>
+												<li>Amul: <b>30 str</b></li>
+												<li>Ring: <b>rare (craft) ring 10+ str</b></li>
+								</ul>
+								<p>
+												<em>! flash ammy and ring</em></p>
+								<p>
+												<em>!! if we play 163 FCR with Pelt - we better gear two 5 str craft rings. flashing one ring is enough</em></p>
+								<h4><b>Assassin:</b></h4>
+								<ul>
+												<li>Base's str req: <b>&gt;94</b></li>
+												<li>Preferable base: <b>Scarab Husk (95 str req) </b><em>(Archon Plate)</em></li>
+												<li>Amul: <b>30 str*</b></li>
+												<li>Ring: <b>rare (craft) ring 5+ str</b></li>
+								</ul>
+								<p>
+												<em>! flash ammy and ring</em></p>
+								<p>
+												<em>!! if we play 102FCR - we better gear two 5 str craft rings. don't forget to flash both<span style="color: #000000;">.</em></span></p>
+								<h4><b>Amazon: </b></h4>
+								<p>
+												Zons use<b> Fortitude</b>. The best option here is <b>Archon Plate</b>. Nothing else needs to be done. </p>
+								<hr>
+								<p>
+												Good Luck and Have Fun!</p>
+								<hr>
+								<p>
+												Wish you good luck in all your endeavors!</p>
+								<hr>
+								<p>
+												© Progon_mulov</p>
