@@ -1,125 +1,205 @@
+{
+								{
+								- $highlightColor: =.Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#e22d30") -
+				}
+}
+
+				{
+								{
+								- $fontSans: =`"Open Sans", Helvetica, Arial, sans-serif` -
+				}
+}
+
+				{
+								{
+								- $fontMono: =`SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace` -
+				}
+}
+
+				{
+								{
+								- $fontFamilyPrimary: =.Site.Params.style.vars.fontFamilyPrimary | default $fontSans -
+				}
+}
+
+				{
+								{
+								- $fontFamilySecondary: =.Site.Params.style.vars.fontFamilySecondary | default $fontMono -
+				}
+}
+
 html {
-	font-size: 100%;
-	-ms-text-size-adjust: none;
-	-webkit-text-size-adjust: none;
+				font-size: 100%;
+				-ms-text-size-adjust: none;
+				-webkit-text-size-adjust: none;
 }
+
 body {
-	line-height: 1.5;
-	background: black;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+				line-height: 1.5;
+				background: black;
+
+				font-family: {
+												{
+												$fontFamilyPrimary
+								}
+				}
+
+				;
 }
+
 h1 {
-	font-size: 32px;
-	text-align: center;
+				font-size: 32px;
+				text-align: center;
 }
+
 a {
-	color: #e22d30;
-	text-decoration: none;
+				color: #e22d30;
+				text-decoration: none;
 }
+
 a:hover {
-	color: #de5b5d;
+				color: #de5b5d;
 }
+
 header {
-	font-weight: 900;
-	color: white;
+				font-weight: 900;
+				color: white;
 }
+
 nav {
-	position: flexible;
-	max-width: 1070px;
-	margin: auto;
+				position: flexible;
+				max-width: 1110px;
+				margin: auto;
 }
+
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
 }
+
 a {
-	color: #e22d30;
-	text-decoration: none;
+				color: {
+												{
+												$highlightColor
+								}
+				}
+
+				;
+				text-decoration: none;
 }
 
 
 /*Logo*/
 
 .logo__title {
-	font-size: 150px;
-	line-height: 1;
-	color: white;
-	display: flex;
-  	justify-content: center;
+				font-size: 150px;
+				line-height: 1;
+				color: white;
+				display: flex;
+				justify-content: center;
 }
+
 .logo__tagline {
-	padding-top: 25px;
-	padding-bottom: 10px;
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 1;
-	display: flex;
-  	justify-content: center;
-	color: #e22d30;
+				padding-top: 25px;
+				padding-bottom: 10px;
+				font-size: 30px;
+				font-weight: 700;
+				line-height: 1;
+				display: flex;
+				justify-content: center;
+
+				color: {
+												{
+												$highlightColor
+								}
+				}
+
+				;
 }
 
 
 
 
-.content a,a:hover,.authorbox__description a,.authorbox__description a:hover {
+.content a,
+a:hover,
+.authorbox__description a,
+.authorbox__description a:hover {
 
-	color: #e22d30;
+				color: {
+												{
+												$highlightColor
+								}
+				}
+
+				;
 }
+
 a:hover,
 .authorbox__description a:hover {
-	color: pink;
+				color: pink;
 }
 
 .content {
-	background: black;
-	color: white;
-	order: 1;
-	max-width: 1000px;
-	margin: auto;
+				background: black;
+				color: white;
+				order: 1;
+				max-width: 1000px;
+				margin: auto;
 }
+
 .menu__item,
 .btn {
-	transition: background-color .25s ease-out;
-	font-size:	17px;
-	border-left: 1px solid;
+				transition: background-color .25s ease-out;
+				font-size: 17px;
+				border-left: 1px solid;
 }
 
 .menu__item:first-child {
-	border: 0;
+				border: 0;
 }
 
 }
+
 .menu__btn {
-	display: block;
-	width: 100%;
-	padding: 0;
-	color: white;
+				display: block;
+				width: 100%;
+				padding: 0;
+				color: white;
 }
+
 .menu__list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	background: #2a2a2a;
-	justify-content: center;
+				list-style: none;
+
+				padding: 0;
+				margin: 0;
+				background: #2a2a2a;
+				justify-content: center;
 }
+
 .menu__item:hover {
-	background: #e22d30;
-	color: white;
+				background: {
+												{
+												$highlightColor
+								}
+				}
+
+				;
+				color: white;
 }
+
 .menu__link {
-	display: block;
-	padding: .625rem .9375rem;
-	font-weight: 700;
-	color: white;
+				display: block;
+				padding: .625rem .9375rem;
+				font-weight: 700;
+				color: white;
 }
+
 .menu__link:hover {
-	color: white;
+				color: white;
 }
+
 .menu__list,
 .js .menu__list {
-	display: flex;
+				display: flex;
 }
-
-
-

@@ -1,11 +1,13 @@
 baseurl = "/"
 languageCode = "en-us"
 paginate = 20
+defaultContentLanguage = 'en'
+  showLanguageSelector = true
 
 [params]
 
   showLanguageSelector = true
-  defaultContentLanguageInSubdir = true
+
 
 [languages]
 
@@ -22,9 +24,9 @@ paginate = 20
 
       [languages.ru]
     contentDir = 'content/ru'
-    baseURL = ''
+    baseURL = '' 
     languageName = "Рус"
-    weight=1
+    weight=2
     title = "АсгардПвП"
     subtitle = "Международный Диабло 2 ПвП сервер"
     owner = "Progon & Holy"
