@@ -145,7 +145,7 @@ a:hover,
 	background: black;
 	color: white;
 	order: 1;
-	max-width: 1050px;
+	max-width: 1000px;
 	margin: auto;
 }
 
@@ -219,5 +219,6 @@ a:hover,
 
 .lang-switcher {
 	/*border: 1px solid red;*/
-	padding: 1rem 1rem;
+
+	padding-left: 10px;
 }

@@ -67,9 +67,13 @@ header {
 }
 
 nav {
-	position: flexible;
-	max-width: 1110px;
+	display: flex;
+	justify-content: center;
 	margin: auto;
+
+
+}
+
 }
 
 img {
@@ -118,9 +122,6 @@ a {
 	;
 }
 
-
-
-
 .content a,
 a:hover,
 .authorbox__description a,
@@ -144,7 +145,7 @@ a:hover,
 	background: black;
 	color: white;
 	order: 1;
-	max-width: 1050px;
+	max-width: 1000px;
 	margin: auto;
 }
 
@@ -153,10 +154,12 @@ a:hover,
 	transition: background-color .25s ease-out;
 	font-size: 17px;
 	border-left: 1px solid;
+	float: left;
 }
 
 .menu__item:first-child {
 	border: 0;
+	float: left;
 }
 
 }
@@ -170,11 +173,11 @@ a:hover,
 
 .menu__list {
 	list-style: none;
-
 	padding: 0;
-	margin: 0;
 	background: #2a2a2a;
 	justify-content: center;
+	float: left;
+	/**border: 1px solid red;*/
 }
 
 .menu__item:hover {
@@ -186,6 +189,7 @@ a:hover,
 
 	;
 	color: white;
+	float: left;
 }
 
 .menu__link {
@@ -199,11 +203,22 @@ a:hover,
 	color: white;
 }
 
-.menu__list,
-.js .menu__list {
-	display: flex;
-}
-
 :focus {
 	outline: none;
+}
+
+.nav {
+	border: 1px solid black;
+	max-width: 1300px;
+	margin: auto;
+	padding: 2rem 2rem;
+	text-align: center;
+	align-content: center;
+}
+
+
+.lang-switcher {
+	/*border: 1px solid red;*/
+
+	padding-left: 10px;
 }

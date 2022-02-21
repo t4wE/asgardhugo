@@ -34,7 +34,9 @@
 	<nav>
 		<ul class="menu__list"> {{ partial "nav.html" . }}</ul>
 		<div class="lang-switcher" style="justify-content:right; align-content:right;text-align: center ; 
- color: white;"> Switch to: <img src="/images/lang-switch.png">{{ partial "langs.html" .}}</div>
+ color: white;"> Switch to:
+			<br>
+			<img src="/{{.Language}}.png" />{{ partial "langs.html" .}}</div>
 	</nav>
 	<div class="content">
 		{{ block "main" . }}
