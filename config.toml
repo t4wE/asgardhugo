@@ -1,14 +1,13 @@
-languageCode = "en"
 paginate = 20
 defaultContentLanguage = 'en'
 showLanguageSelector = true
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
+baseURL = 'asgardhugo.pages.dev'
 
 [params]
 [languages]
 [languages.en]
   contentDir = 'content/en'
-  baseURL = '/'
   languageName = "Eng"
   weight=1
   title = "AsgardPvP"
@@ -19,7 +18,6 @@ defaultContentLanguageInSubdir = false
 
 [languages.ru]
   contentDir = 'content/ru'
-  baseURL = '/' 
   languageName = "Рус"
   weight=2
   title = "АсгардПвП"
@@ -32,55 +30,55 @@ defaultContentLanguageInSubdir = false
   [[languages.en.menu.main]]
         identifier = "Home"
         name = "Home"
-        url = "/"
+        url = "/en/"
         weight = 1
 
   [[languages.en.menu.main]]
         identifier = "How to connect"
         name = "How to connect"
-        url = "/how-to-connect"
+        url = "/en/how-to-connect"
         weight = 2
 
   [[languages.en.menu.main]]
         identifier = "Create account"
         name = "Create account"
-        url = "/create-account"
+        url = "/en/create-account"
         weight = 3
 
   [[languages.en.menu.main]]
         identifier = "Mod info"
         name = "Mod info"
-        url = "/mod-info"
+        url = "/en/mod-info"
         weight = 4
 
   [[languages.en.menu.main]]
         identifier = "Cube recipes"
         name = "Cube recipes"
-        url = "/cube-recipes"
+        url = "/en/cube-recipes"
         weight = 5
 
   [[languages.en.menu.main]]
         identifier = "GM Rules"
         name = "GM Rules"
-        url = "/gm-rules"
+        url = "/en/gm-rules"
         weight = 6
 
   [[languages.en.menu.main]]
         identifier = "FPK Rules"
         name = "FPK Rules"
-        url = "/fpk-rules"
+        url = "/en/fpk-rules"
         weight = 7
 
   [[languages.en.menu.main]]
         identifier = "Guides"
         name = "Guides"
-        url = "/guides/"
+        url = "/en/guides/"
         weight = 8
 
   [[languages.en.menu.main]]
         identifier = "Contacts"
         name = "Contacts"
-        url = "/contacts"
+        url = "/en/contacts"
         weight = 9
 
 
@@ -88,52 +86,52 @@ defaultContentLanguageInSubdir = false
   [[languages.ru.menu.main]]
         identifier = "Главная"
         name = "Главная"
-        url = "/"
+        url = "/ru/"
         weight = 1
   [[languages.ru.menu.main]]
         identifier = "How to connect"
         name = "Как присеоедениться"
-        url = "/how-to-connect"
+        url = "/ru/how-to-connect"
         weight = 2
 
   [[languages.ru.menu.main]]
         identifier = "Create account"
         name = "Создать аккаунт"
-        url = "/create-account"
+        url = "/ru/create-account"
         weight = 3
 
   [[languages.ru.menu.main]]
         identifier = "Mod info"
         name = "Мод"
-        url = "/mod-info"
+        url = "/ru/mod-info"
         weight = 4
 
   [[languages.ru.menu.main]]
         identifier = "Cube recipes"
         name = "Рецепты куба"
-        url = "/cube-recipes"
+        url = "/ru/cube-recipes"
         weight = 5
 
   [[languages.ru.menu.main]]
         identifier = "ГМ правила"
         name = "ГМ правила"
-        url = "/gm-rules"
+        url = "/ru/gm-rules"
         weight = 6
 
   [[languages.ru.menu.main]]
         identifier = "ФПК правила"
         name = "ФПК правила"
-        url = "/fpk-rules"
+        url = "/ru/fpk-rules"
         weight = 7
 
   [[languages.ru.menu.main]]
         identifier = "Guides"
         name = "Гайды"
-        url = "/guides/"
+        url = "/ru/guides/"
         weight = 8
 
   [[languages.ru.menu.main]]
         identifier = "Contacts"
         name = "Контакты"
-        url = "/contacts"
+        url = "/ru/contacts"
         weight = 9

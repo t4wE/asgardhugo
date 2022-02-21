@@ -2,9 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on АсгардПвП</title>
-    <link>/categories/</link>
+    <link>asgardhugo.pages.dev/ru/categories/</link>
     <description>Recent content in Categories on АсгардПвП</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="asgardhugo.pages.dev/ru/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
