@@ -5,7 +5,7 @@
     <link>/</link>
     <description>Recent content in Асгард ПвП сервер on АсгардПвП</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Fri, 11 Feb 2022 21:20:47 +0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Breakpoints [FBR / FHR / FCR / FRW / IAS]</title>
@@ -48,16 +48,6 @@ Youtube
 Goodgame Skype and Discord conversations where you can find an opponent for duels:
  Skype
 Discord </description>
-    </item>
-    
-    <item>
-      <title>Cube recipes</title>
-      <link>/cube-recipes/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/cube-recipes/</guid>
-      <description>First of all, remember that there are in-game accounts that contain the most popular items:
- *items (has most hard-to-roll rares/crafts bases etc.) *chars (has ready-to-go geared builds)  All items respawn every 2 hours so don&#39;t be shy to take anything you want from those accounts. You can as well simply copy chars from *chars account by dropping all they got on the ground and then picking it all up with your character.</description>
     </item>
     
     <item>
@@ -125,8 +115,8 @@ General rules  The duel starts once everybody said &#34;</description>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/mod-info/</guid>
-      <description>Внимание! Сопротивления на сложности Нормал такие же, как на Хелл (-100 all res). Однако, отображаются они некорректно (визуальный баг), так что считайте резисты самостоятельно! Чтобы избежать этого бага - установите мини-мод. Подробнее внизу данной страницы.  Ladder features legit items only.
-Non-Ladder features bugged items, hybrid runewords, 08 items.  Our server also features Low-Level Dueling (30 lvl). If you want to make an lld character — contact one of the moderators in game.</description>
+      <description>Внимание! Сопротивления на сложности Нормал такие же, как на Хелл (-100 all res). Однако, отображаются они некорректно (визуальный баг), так что считайте резисты самостоятельно! Чтобы избежать этого бага - установите мини-мод. Подробнее внизу данной страницы.  В Ладдере все предметы легитимные.
+В Нон-ладдере имеются также багнутые предметы (Bug belt, Wizardspike gloves etc.), гибридные рунные слова и предметы из версии 1.08.  На нашем сервере также есть возможность низкоуровневых дуэлей (30 lvl).</description>
     </item>
     
     <item>
@@ -238,6 +228,17 @@ Idea  During the game, the server sends information to your game client (and all
 Шаг 2
  Наш сервер поддерживает версии 1.14+ . Если у вас уже есть игра с версией 1.14+, то читайте Шаг 3. Если у вас версия 1.13д или ниже, то вас есть два варианта:
  Вариант #1  У нашего сервера стоит автообновление до версии 1.14д. Так что вы можете просто скачать наш рег файл.  Добавьте информацию в реестр. Предварительно закрыв этим все окна Диабло 2, запустите игру от имени Администратора(если этого не сделать, то при авто-обновлении может возникнуть ошибка, при которой вылезет окошко &#34;</description>
+    </item>
+    
+    <item>
+      <title>Рецепты куба</title>
+      <link>/cube-recipes/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/cube-recipes/</guid>
+      <description>Имейте ввиду, что проще всего просто взять вещи с внутриигровых аккаунтов:
+ *items (здесь находятся самые популярные крафты и рарки) *chars (здесь находятся готовые одетые персонажи)   Все предметы и персонажи на этих аккаунтах возобновляются каждые 2 часа, так что не стесняйтесь и полностью раздевайте персонажей, забирайте любые предметы.
+ И только в том случае, если вы не нашли то, что хотели, используйте данные рецепты чтобы с помощью них сварить то, что вы хотите.</description>
     </item>
     
     <item>
