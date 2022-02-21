@@ -2,7 +2,7 @@ paginate = 20
 defaultContentLanguage = 'en'
 showLanguageSelector = true
 defaultContentLanguageInSubdir = true
-baseURL = 'asgardhugo.pages.dev'
+baseURL = ''
 
 [params]
 [languages]
