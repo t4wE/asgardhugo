@@ -2,7 +2,7 @@ languageCode = "en"
 paginate = 20
 defaultContentLanguage = 'en'
 showLanguageSelector = true
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 [params]
 [languages]
