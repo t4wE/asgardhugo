@@ -37,7 +37,7 @@ defaultContentLanguage = 'en'
       [[languages.en.menu.main]]
         identifier = "Home"
         name = "Home"
-
+        url = "/"
         weight = 1
 
       [[languages.en.menu.main]]
