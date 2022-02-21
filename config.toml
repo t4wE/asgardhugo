@@ -13,7 +13,7 @@ showLanguageSelector = true
 
   [languages.en]
     contentDir = 'content/en'
-    baseURL = ''
+    baseURL = '/'
     languageName = "Eng"
     weight=1
     title = "AsgardPvP"
@@ -22,9 +22,9 @@ showLanguageSelector = true
     keywords = ""
     copyright = ""
 
-      [languages.ru]
+  [languages.ru]
     contentDir = 'content/ru'
-    baseURL = '' 
+    baseURL = '/' 
     languageName = "Рус"
     weight=2
     title = "АсгардПвП"
@@ -33,7 +33,7 @@ showLanguageSelector = true
     keywords = ""
     copyright = ""
 
-    [languages.en.menu]
+[languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "Home"
         name = "Home"
