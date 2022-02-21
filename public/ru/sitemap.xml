@@ -2,19 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/"
-                />
-  </url><url>
     <loc>/guides/bp/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
@@ -52,19 +39,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="/contacts/"
-                />
-  </url><url>
-    <loc>/create-account/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/create-account/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/create-account/"
                 />
   </url><url>
     <loc>/cube-recipes/</loc>
@@ -156,19 +130,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="/guides/"
-                />
-  </url><url>
-    <loc>/how-to-connect/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/how-to-connect/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/how-to-connect/"
                 />
   </url><url>
     <loc>/guides/ibs/</loc>
@@ -312,6 +273,45 @@
                 rel="alternate"
                 hreflang="ru"
                 href="/guides/wsm/"
+                />
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/"
+                />
+  </url><url>
+    <loc>/how-to-connect/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/how-to-connect/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/how-to-connect/"
+                />
+  </url><url>
+    <loc>/create-account/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/create-account/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/create-account/"
                 />
   </url><url>
     <loc>/categories/</loc>

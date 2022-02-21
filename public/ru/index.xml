@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Asgard PvP Realm on АсгардПвП</title>
+    <title>Асгард ПвП сервер on АсгардПвП</title>
     <link>/</link>
-    <description>Recent content in Asgard PvP Realm on АсгардПвП</description>
+    <description>Recent content in Асгард ПвП сервер on АсгардПвП</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Feb 2022 21:20:47 +0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -48,17 +48,6 @@ Youtube
 Goodgame Skype and Discord conversations where you can find an opponent for duels:
  Skype
 Discord </description>
-    </item>
-    
-    <item>
-      <title>Create account</title>
-      <link>/create-account/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/create-account/</guid>
-      <description>  Remember, that your password should be maximum 12 symbols long!
-Sometimes there is a bug when the password you chose will appear incorrect when trying to enter it in the game (usually happens when your password contains symbols other than Latin letters or numbers).
-Contact us and we will fix it.  </description>
     </item>
     
     <item>
@@ -121,19 +110,6 @@ General rules  The duel starts once everybody said &#34;</description>
     </item>
     
     <item>
-      <title>How to connect</title>
-      <link>/how-to-connect/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/how-to-connect/</guid>
-      <description>Step 1
-Install Diablo II and Lord of Destruction Expansion.
-Step 2
- Our server requires version 1.14d. If you already have 1.14d, then just skip further to step 3. If you have version 1.13d or less - you got two options:
- Option #1  Our server has an automatic update till version 1.14d. So you can just download our reg file.  Add the server&#39;s info to the registry.</description>
-    </item>
-    
-    <item>
       <title>IBS [Train]</title>
       <link>/guides/ibs/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
@@ -149,7 +125,7 @@ Step 2
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/mod-info/</guid>
-      <description>Pay attention! Normal&#39;s penalties are the same as in Hell (-100 all res). However, they aren&#39;t shown correctly (visual bug), so you need to count them manually. To avoid this you can download a mini-mod - watch the bottom of this page  Ladder features legit items only.
+      <description>Внимание! Сопротивления на сложности Нормал такие же, как на Хелл (-100 all res). Однако, отображаются они некорректно (визуальный баг), так что считайте резисты самостоятельно! Чтобы избежать этого бага - установите мини-мод. Подробнее внизу данной страницы.  Ladder features legit items only.
 Non-Ladder features bugged items, hybrid runewords, 08 items.  Our server also features Low-Level Dueling (30 lvl). If you want to make an lld character — contact one of the moderators in game.</description>
     </item>
     
@@ -249,6 +225,29 @@ Idea  During the game, the server sends information to your game client (and all
 (c) all right reserved Xepolite&#39;s shithole!
  WSM Bug is intended to decrease the requirement of IAS to reach a 9-frame trap laying breakpoint without* using BoS.
  *Against chars that deal physical damage, we will use Fade, because it gives us DR that can&#39;t be taken from other items (102 fcr build).</description>
+    </item>
+    
+    <item>
+      <title>Как присоедениться</title>
+      <link>/how-to-connect/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/how-to-connect/</guid>
+      <description>Шаг 1
+Скачайте Диабло 2: Лорд Разрушения.
+Шаг 2
+ Наш сервер поддерживает версии 1.14+ . Если у вас уже есть игра с версией 1.14+, то читайте Шаг 3. Если у вас версия 1.13д или ниже, то вас есть два варианта:
+ Вариант #1  У нашего сервера стоит автообновление до версии 1.14д. Так что вы можете просто скачать наш рег файл.  Добавьте информацию в реестр. Предварительно закрыв этим все окна Диабло 2, запустите игру от имени Администратора(если этого не сделать, то при авто-обновлении может возникнуть ошибка, при которой вылезет окошко &#34;</description>
+    </item>
+    
+    <item>
+      <title>Создать аккаунт</title>
+      <link>/create-account/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/create-account/</guid>
+      <description>  Помните, что пароль должен состоять максимум из 12 символов!
+Иногда происходит баг и при заходе в игру пароль окажется неверным. Это обычно происходит, если пароль содержал что-то кроме латинский букв и цифр . Свяжитесь с нами и мы решим эту проблему.   </description>
     </item>
     
   </channel>
