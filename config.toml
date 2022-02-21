@@ -7,7 +7,7 @@ defaultContentLanguageInSubdir = false
 [params]
 [languages]
 [languages.en]
-  contentDir = 'content/en/'
+  contentDir = 'content/en'
   baseURL = '/'
   languageName = "Eng"
   weight=1
@@ -18,7 +18,7 @@ defaultContentLanguageInSubdir = false
   copyright = ""
 
 [languages.ru]
-  contentDir = 'content/ru/'
+  contentDir = 'content/ru'
   baseURL = '/' 
   languageName = "Рус"
   weight=2
