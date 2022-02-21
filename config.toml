@@ -2,13 +2,13 @@ paginate = 20
 defaultContentLanguage = 'en'
 showLanguageSelector = true
 defaultContentLanguageInSubdir = true
-baseURL = ''
+baseURL = '/'
 
 [params]
 [languages]
 [languages.en]
   contentDir = 'content/en'
-  languageName = "Eng"
+  languageName = "ENG"
   weight=1
   title = "AsgardPvP"
   subtitle = "International Diablo 2 PvP/Duel server/realm"
@@ -16,9 +16,10 @@ baseURL = ''
   keywords = ""
   copyright = ""
 
+
 [languages.ru]
   contentDir = 'content/ru'
-  languageName = "Рус"
+  languageName = "RU"
   weight=2
   title = "АсгардПвП"
   subtitle = "Международный Диабло 2 ПвП сервер"

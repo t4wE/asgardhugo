@@ -31,18 +31,10 @@
 	<header>
 		{{ partial "header.html" . }}
 	</header>
-	<div style="justify-content: center;">
-		<center style="color: white;">Languages:
-			<ul class="language-list" style="list-style-type: none;">
-				{{ range $.Site.Home.AllTranslations }}
-				<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-				{{ end }}
-			</ul>
-		</center>
-	</div>
-	<div class="language-list"> {{ partial "allLanguages.html" .}}</div>
 	<nav>
-		{{ partial "nav.html" . }}
+		<ul class="menu__list"> {{ partial "nav.html" . }}</ul>
+		<div class="lang-switcher" style="justify-content:right; align-content:right;text-align: center ; 
+ color: white;"> Switch to: <img src="/images/lang-switch.png">{{ partial "langs.html" .}}</div>
 	</nav>
 	<div class="content">
 		{{ block "main" . }}

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guides on АсгардПвП</title>
-    <link>asgardhugo.pages.dev/ru/guides/</link>
+    <link>/ru/guides/</link>
     <description>Recent content in Guides on АсгардПвП</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 11 Feb 2022 21:20:47 +0300</lastBuildDate><atom:link href="asgardhugo.pages.dev/ru/guides/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Feb 2022 21:20:47 +0300</lastBuildDate><atom:link href="/ru/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Breakpoints [FBR / FHR / FCR / FRW / IAS]</title>
-      <link>asgardhugo.pages.dev/ru/guides/bp/</link>
+      <link>/ru/guides/bp/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/bp/</guid>
+      <guid>/ru/guides/bp/</guid>
       <description>In Diablo 2, a second is divided into 25 frames. As a result, every action (animation) is measured in these frames. By reaching certain breakpoints, you increase the speed of the animations.
 Recommended breakpoints will be marked red.
 It is worth mentioning that further suggestions are rather PvP-oriented, yet they are pretty similar to PvE ones. FBR FBR stands for Faster Block Rate. When you get hit with physical damage, you have a chance to block it (if you have a shield).</description>
@@ -19,10 +19,10 @@ It is worth mentioning that further suggestions are rather PvP-oriented, yet the
     
     <item>
       <title>C/T Trick [CT]</title>
-      <link>asgardhugo.pages.dev/ru/guides/ct/</link>
+      <link>/ru/guides/ct/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/ct/</guid>
+      <guid>/ru/guides/ct/</guid>
       <description>The name of the C/T Trick comes from the default binds that are used for this technique.
 C — Character Screen
 T— Skill Tree
@@ -31,57 +31,57 @@ Of course, these binds should be changed. Personally, I have them as follows: &#
     
     <item>
       <title>Desynch Bug [Jodering]</title>
-      <link>asgardhugo.pages.dev/ru/guides/desynch/</link>
+      <link>/ru/guides/desynch/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/desynch/</guid>
+      <guid>/ru/guides/desynch/</guid>
       <description>Due to lack of skill, some players decided to ease the usage of buttons on their keyboard and created their own playstyle - jodering. It&#39;s simply desynching around all the map and spamming invisible Hammers, hoping some newbie will fly into them. They even examined the best ways to make desynch better (bumping into holes, etc.). So they created an illusion of skill in desynch usage. Like you must be experienced, so you can master this &#34;</description>
     </item>
     
     <item>
       <title>Diablo 2 PvP/Duels #guidlines for a PvP beginner</title>
-      <link>asgardhugo.pages.dev/ru/guides/pvp/</link>
+      <link>/ru/guides/pvp/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/pvp/</guid>
+      <guid>/ru/guides/pvp/</guid>
       <description>Hello, my dear friend! This article is made for all those who have just started their journey as a PvP player in Diablo 2. I will try to show the bigger picture, give you some tips (to guide you on the right path, so to say) and motivate.  Diablo 2 — is an iconic Hack&#39;n&#39;Slash game of all time. This game was indeed done wisely and thoughtfully. It was made from the heart and was intended for ages.</description>
     </item>
     
     <item>
       <title>IBS [Train]</title>
-      <link>asgardhugo.pages.dev/ru/guides/ibs/</link>
+      <link>/ru/guides/ibs/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/ibs/</guid>
+      <guid>/ru/guides/ibs/</guid>
       <description>A Train is a Necromancer&#39;s trick, flying in one line train of Bone Spirits. It is a very simple trick. We hold the Bone Spirit skill in any of the corners of the screen. After five casts of Spirits, we switch to TP and immediately back to Bone Spirit. The cursor does not move.
   After 3 packs there will be about 15 Spirits which is about 75 k magic damage.</description>
     </item>
     
     <item>
       <title>Skill Bug[SB]</title>
-      <link>asgardhugo.pages.dev/ru/guides/sb/</link>
+      <link>/ru/guides/sb/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/sb/</guid>
+      <guid>/ru/guides/sb/</guid>
       <description>The thing with this trick is a visual display of one skill, while you are actually using another.   In this case, Sorc is actually using Inferno, but Frozen Orb is displayed instead with FPA (Frames Per Attack) of Inferno. When performing Skill Bug all characters (except Paladin and Barbarian) do it while standing in one spot.  How does that help us in PvP, since it is just a &#34;</description>
     </item>
     
     <item>
       <title>Stomping [Namelock, Lock (Stomp), Chainlock, Chain]</title>
-      <link>asgardhugo.pages.dev/ru/guides/stomp/</link>
+      <link>/ru/guides/stomp/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/stomp/</guid>
+      <guid>/ru/guides/stomp/</guid>
       <description>It&#39;s worth mentioning that if you play in a windowed mode (&#34;-w&#34; in the shortcut properties), you should install the Cursor Locker. Otherwise, your cursor will constantly fly out of the window and your play will simply be awful. So if you want to learn how to duel in Diablo 2 - make sure you download, install, and use it.
  Namelock   Let&#39;s start with the simple techniques.</description>
     </item>
     
     <item>
       <title>Strength Bug [Str Bug]</title>
-      <link>asgardhugo.pages.dev/ru/guides/str/</link>
+      <link>/ru/guides/str/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/str/</guid>
+      <guid>/ru/guides/str/</guid>
       <description>Prologue:
  When Expansion Set &#34;Lord of Destruction&#34; was not yet released, the game looked a little different. There was only known to you now &#34;classic&#34;. Fifth Act didn&#39;t exist, there were no charms, no runes.
 Idea  During the game, the server sends information to your game client (and all other users connected to this game) telling what is happening.
@@ -92,19 +92,19 @@ Idea  During the game, the server sends information to your game client (and all
     
     <item>
       <title>Swirls [Smite/Shock Wave]</title>
-      <link>asgardhugo.pages.dev/ru/guides/swirls/</link>
+      <link>/ru/guides/swirls/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/swirls/</guid>
+      <guid>/ru/guides/swirls/</guid>
       <description>The effect of birds above your head (aka ~Swirls~) which is well-known from Assassin’s Mind Blast also procs from Smite and Shock Wave. The thing about these birds is that until they are circling over your head — any attack with any damage triggers Faster Hit Recovery animation. If not swirled, FHR will only take place when you get damage that takes away at least 1/16 of your hp in a single hit.</description>
     </item>
     
     <item>
       <title>Tank Trick [TT]</title>
-      <link>asgardhugo.pages.dev/ru/guides/tt/</link>
+      <link>/ru/guides/tt/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/tt/</guid>
+      <guid>/ru/guides/tt/</guid>
       <description>You need to know what WSG is before reading this.
  So, WSG is a technique for &#34;breaking&#34; FHR animation and increasing desynchronization. But few people know that this technique can be used not only when running, but when you teleport and even attack. No special complications/differences from WSG.
   Tank Trick while teleport will help you avoid the Leap of Barb:
@@ -113,19 +113,19 @@ Idea  During the game, the server sends information to your game client (and all
     
     <item>
       <title>Truth about PvP on PG</title>
-      <link>asgardhugo.pages.dev/ru/guides/pg/</link>
+      <link>/ru/guides/pg/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/pg/</guid>
+      <guid>/ru/guides/pg/</guid>
       <description> This article explains, how poor are the conditions for dueling on Russian Playground.ru server. Won&#39;t be interesting for EU guys, so just forget it ;) </description>
     </item>
     
     <item>
       <title>What server to pick in 2k21</title>
-      <link>asgardhugo.pages.dev/ru/guides/server/</link>
+      <link>/ru/guides/server/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/server/</guid>
+      <guid>/ru/guides/server/</guid>
       <description>I will try to make a little server classification here. I will point the pros and cons of every single one so it will be up to you to pick which one to play on.
  All servers can be divided into:
   Official  Unofficial  Official  These are well-known to you Europe/US West/US East/Asia. These are official servers. Ya need to buy a CD-Key to play here for two games: D2 и D2: LoD.</description>
@@ -133,10 +133,10 @@ Idea  During the game, the server sends information to your game client (and all
     
     <item>
       <title>WSG [Weapon Switch Glitch]</title>
-      <link>asgardhugo.pages.dev/ru/guides/wsg/</link>
+      <link>/ru/guides/wsg/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/wsg/</guid>
+      <guid>/ru/guides/wsg/</guid>
       <description>WSG is a simple basic technique in PvP. The essence of the trick lies in the constant switching of weapons while running.
  What you should know about swapping:
  Swapping breaks FHR animation Swapping increases desynchronization  FHR  So the animation of Faster Hit Recovery, depending on the class lasts somewhere between 4 and 7 frames. If you will swap weapons during this animation, the animation of FHR will end.</description>
@@ -144,10 +144,10 @@ Idea  During the game, the server sends information to your game client (and all
     
     <item>
       <title>WSM Bug [&#43;Auto WSM]</title>
-      <link>asgardhugo.pages.dev/ru/guides/wsm/</link>
+      <link>/ru/guides/wsm/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
-      <guid>asgardhugo.pages.dev/ru/guides/wsm/</guid>
+      <guid>/ru/guides/wsm/</guid>
       <description>When I was digging for this info, this site helped me a lot. There&#39;s a lot of text there, so I&#39;m going to simplify it a little.
  So, to avoid further misunderstanding:
 (c) all right reserved Xepolite&#39;s shithole!
