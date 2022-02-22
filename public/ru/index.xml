@@ -30,26 +30,6 @@ Of course, these binds should be changed. Personally, I have them as follows: &#
     </item>
     
     <item>
-      <title>Contacts</title>
-      <link>/ru/contacts/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/contacts/</guid>
-      <description>General:
- Jsp
-Skype
-Discord: t4wE#5142
-E-mail
-Facebook
-Vk Streams:
- Twitch
-Youtube
-Goodgame Skype and Discord conversations where you can find an opponent for duels:
- Skype
-Discord </description>
-    </item>
-    
-    <item>
       <title>Desynch Bug [Jodering]</title>
       <link>/ru/guides/desynch/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
@@ -68,24 +48,6 @@ Discord </description>
     </item>
     
     <item>
-      <title>FPK</title>
-      <link>/ru/fpk-rules/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/fpk-rules/</guid>
-      <description>ФПК это определенные правила, при которых идёт ограничение всего на четырех персонажей: Некромансер, Друид, Варвар, Ассасин.  Конкретно эти правила созданы и подстроены под Asgard PvP Realm. В играх с приставкой &#34;fpk&#34; (например, &#34;fpk duels&#34;) - будьте любезыны их соблюдать, иначе вас запросто может кикнуть один из модераторов. Неоднократное нарушение этого правила может привести к темпо-бану или даже пермачу.  General rules  Поединок начинается, когда оба соперника скажут «go» или «g&#34;</description>
-    </item>
-    
-    <item>
-      <title>Guides</title>
-      <link>/ru/guides/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/guides/</guid>
-      <description> Diablo 2 PvP/Duels #guidlines for a PvP beginner IBS [Train] Swirls [Smite/Shock Wave] Skill Bug [SB] Desynch Bug [Jodering] C/T Trick [CT] WSM Bug [+Auto WSM] Strength Bug [Str Bug] Tank Trick [TT] WSG [Weapon Switch Glitch] Stomping [Namelock, Lock (Stomp), Chainlock, Chain] Breakpoints [FBR / FHR / FCR / FRW / IAS] What server to pick in 2k21 Truth about PvP on PG  </description>
-    </item>
-    
-    <item>
       <title>IBS [Train]</title>
       <link>/ru/guides/ibs/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
@@ -93,16 +55,6 @@ Discord </description>
       <guid>/ru/guides/ibs/</guid>
       <description>A Train is a Necromancer&#39;s trick, flying in one line train of Bone Spirits. It is a very simple trick. We hold the Bone Spirit skill in any of the corners of the screen. After five casts of Spirits, we switch to TP and immediately back to Bone Spirit. The cursor does not move.
   After 3 packs there will be about 15 Spirits which is about 75 k magic damage.</description>
-    </item>
-    
-    <item>
-      <title>Mod info</title>
-      <link>/ru/mod-info/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/mod-info/</guid>
-      <description>Внимание! Сопротивления на сложности Нормал такие же, как на Хелл (-100 all res). Однако, отображаются они некорректно (визуальный баг), так что считайте резисты самостоятельно! Чтобы избежать этого бага - установите мини-мод. Подробнее внизу данной страницы.  В Ладдере все предметы легитимные.
-В Нон-ладдере имеются также багнутые предметы (Bug belt, Wizardspike gloves etc.), гибридные рунные слова и предметы из версии 1.08.  На нашем сервере также есть возможность низкоуровневых дуэлей (30 lvl).</description>
     </item>
     
     <item>
@@ -214,6 +166,15 @@ Idea  During the game, the server sends information to your game client (and all
     </item>
     
     <item>
+      <title>Гайды</title>
+      <link>/ru/guides/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/guides/</guid>
+      <description> Diablo 2 PvP/Duels #начинающему ПвП-шнику посвящается НБС [Поезда] Свирлс [Smite/Shock Wave] Скилл баг [SB] Десинк [Jodering] C/T трик [CT] ВСМ баг [+Auto WSM] Стр баг [Str Bug] Танк трик [TT] ВСГ [Weapon Switch Glitch] Приёмы ПвП [Нэймлок, Лок (Стомп), Чейнлок, Чейн]] Пороги/Брейкпоинты/Breakpoints [FBR / FHR / FCR / FRW / IAS] Где поиграть в Diablo 2 в 2k21 Вся правда про PvP на PG  </description>
+    </item>
+    
+    <item>
       <title>Как присоедениться</title>
       <link>/ru/how-to-connect/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
@@ -224,6 +185,36 @@ Idea  During the game, the server sends information to your game client (and all
 Шаг 2
  Наш сервер поддерживает версии 1.14+ . Если у вас уже есть игра с версией 1.14+, то читайте Шаг 3. Если у вас версия 1.13д или ниже, то вас есть два варианта:
  Вариант #1  У нашего сервера стоит автообновление до версии 1.14д. Так что вы можете просто скачать наш рег файл.  Добавьте информацию в реестр. Предварительно закрыв этим все окна Диабло 2, запустите игру от имени Администратора(если этого не сделать, то при авто-обновлении может возникнуть ошибка, при которой вылезет окошко &#34;</description>
+    </item>
+    
+    <item>
+      <title>Контакты</title>
+      <link>/ru/contacts/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/contacts/</guid>
+      <description>Общие:
+ ДжиЭсПи
+Скайп
+Дискорд: t4wE#5142
+И-мэйл
+Фейсбук 
+Вконтакте Стримы:
+ Твич
+Ютьюб
+Гудгейм Конференции в Скайп и Дискорд, где вы можете найти себе соперников:
+ Скайп
+Дискорд </description>
+    </item>
+    
+    <item>
+      <title>Мод</title>
+      <link>/ru/mod-info/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/mod-info/</guid>
+      <description>Внимание! Сопротивления на сложности Нормал такие же, как на Хелл (-100 all res). Однако, отображаются они некорректно (визуальный баг), так что считайте резисты самостоятельно! Чтобы избежать этого бага - установите мини-мод. Подробнее внизу данной страницы.  В Ладдере все предметы легитимные.
+В Нон-ладдере имеются также багнутые предметы (Bug belt, Wizardspike gloves etc.), гибридные рунные слова и предметы из версии 1.08.  На нашем сервере также есть возможность низкоуровневых дуэлей (30 lvl).</description>
     </item>
     
     <item>
@@ -245,6 +236,15 @@ Idea  During the game, the server sends information to your game client (and all
       <guid>/ru/create-account/</guid>
       <description>  Помните, что пароль должен состоять максимум из 12 символов!
 Иногда происходит баг и при заходе в игру пароль окажется неверным. Это обычно происходит, если пароль содержал что-то кроме латинский букв и цифр . Свяжитесь с нами и мы решим эту проблему.   </description>
+    </item>
+    
+    <item>
+      <title>ФПК правила</title>
+      <link>/ru/fpk-rules/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/fpk-rules/</guid>
+      <description>ФПК это определенные правила, при которых идёт ограничение всего на четырех персонажей: Некромансер, Друид, Варвар, Ассасин.  Конкретно эти правила созданы и подстроены под Asgard PvP Realm. В играх с приставкой &#34;fpk&#34; (например, &#34;fpk duels&#34;) - будьте любезыны их соблюдать, иначе вас запросто может кикнуть один из модераторов. Неоднократное нарушение этого правила может привести к темпо-бану или даже пермачу.  General rules  Поединок начинается, когда оба соперника скажут «go» или «g&#34;</description>
     </item>
     
   </channel>

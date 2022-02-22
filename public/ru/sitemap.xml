@@ -28,19 +28,6 @@
                 href="/ru/guides/ct/"
                 />
   </url><url>
-    <loc>/ru/contacts/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/contacts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/contacts/"
-                />
-  </url><url>
     <loc>/ru/guides/desynch/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
@@ -67,32 +54,6 @@
                 href="/ru/guides/pvp/"
                 />
   </url><url>
-    <loc>/ru/fpk-rules/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/fpk-rules/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/fpk-rules/"
-                />
-  </url><url>
-    <loc>/ru/guides/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/guides/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/guides/"
-                />
-  </url><url>
     <loc>/ru/guides/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
@@ -117,19 +78,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="/ru/guides/ibs/"
-                />
-  </url><url>
-    <loc>/ru/mod-info/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/mod-info/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/mod-info/"
                 />
   </url><url>
     <loc>/ru/guides/sb/</loc>
@@ -275,6 +223,19 @@
                 href="/ru/gm-rules/"
                 />
   </url><url>
+    <loc>/ru/guides/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/guides/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/guides/"
+                />
+  </url><url>
     <loc>/ru/how-to-connect/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
@@ -286,6 +247,32 @@
                 rel="alternate"
                 hreflang="ru"
                 href="/ru/how-to-connect/"
+                />
+  </url><url>
+    <loc>/ru/contacts/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/contacts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/contacts/"
+                />
+  </url><url>
+    <loc>/ru/mod-info/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/mod-info/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/mod-info/"
                 />
   </url><url>
     <loc>/ru/cube-recipes/</loc>
@@ -312,6 +299,19 @@
                 rel="alternate"
                 hreflang="ru"
                 href="/ru/create-account/"
+                />
+  </url><url>
+    <loc>/ru/fpk-rules/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/fpk-rules/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/fpk-rules/"
                 />
   </url><url>
     <loc>/ru/categories/</loc>
