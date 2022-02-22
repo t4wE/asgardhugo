@@ -93,19 +93,6 @@
                 href="/ru/guides/server/"
                 />
   </url><url>
-    <loc>/ru/guides/wsg/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/guides/wsg/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/guides/wsg/"
-                />
-  </url><url>
     <loc>/ru/guides/wsm/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
@@ -130,6 +117,19 @@
                 rel="alternate"
                 hreflang="ru"
                 href="/ru/"
+                />
+  </url><url>
+    <loc>/ru/guides/wsg/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/guides/wsg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/guides/wsg/"
                 />
   </url><url>
     <loc>/ru/gm-rules/</loc>
