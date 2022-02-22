@@ -12,49 +12,25 @@
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/ru/guides/bp/</guid>
-      <description>In Diablo 2, a second is divided into 25 frames. As a result, every action (animation) is measured in these frames. By reaching certain breakpoints, you increase the speed of the animations.
-Recommended breakpoints will be marked red.
-It is worth mentioning that further suggestions are rather PvP-oriented, yet they are pretty similar to PvE ones. FBR FBR stands for Faster Block Rate. When you get hit with physical damage, you have a chance to block it (if you have a shield).</description>
+      <description>В игре Diablo 2 секунда делиться на 25 фреймов. В итоге каждое действие (анимация) измеряется в этих самых фреймах. Достигая определенные пороги, вы увеличиваете скорость соответствующих анимаций.  Красным цветом будут указаны рекомендуемые пороги..  Стоит упомянуть, что последующие рекомендации ориентированы на ПвП.  FBR  Когда вас бьют физическим уроном - у вас есть шанс блокировать удар при условии, что у вас имеется Shield. Во время блока никакие другие физические атаки не наносят урон.</description>
     </item>
     
     <item>
-      <title>C/T Trick [CT]</title>
+      <title>C/T трик [CT]</title>
       <link>/ru/guides/ct/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/ru/guides/ct/</guid>
-      <description>The name of the C/T Trick comes from the default binds that are used for this technique.
-C — Character Screen
-T— Skill Tree
-Of course, these binds should be changed. Personally, I have them as follows: &#34;A&#34; — CS, S — ST, but when playing Hdin I am lack of available binds, so I had to bind Fanaticism on &#34;T&#34;, which is not very convenient. One of my friend&#39;s binds are as follows: &#34;</description>
+      <description>Название C/T берёт своё начало от дефолтных биндов кнопок, которые используются для этого приёма.  C — Character Screen  T— Skill Tree  (естественно, эти бинды нужно поменять на подходящие вам. лично у меня они стоят так: «A» — CS, «S» — ST, но при игре за Хаммера кнопок много и Fanaticism пришлось забиндить на «T», что не очень удобно. у одного моего знакомого бинды стоять на «C» — CS и «B» — ST.</description>
     </item>
     
     <item>
-      <title>Desynch Bug [Jodering]</title>
-      <link>/ru/guides/desynch/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/guides/desynch/</guid>
-      <description>Due to lack of skill, some players decided to ease the usage of buttons on their keyboard and created their own playstyle - jodering. It&#39;s simply desynching around all the map and spamming invisible Hammers, hoping some newbie will fly into them. They even examined the best ways to make desynch better (bumping into holes, etc.). So they created an illusion of skill in desynch usage. Like you must be experienced, so you can master this &#34;</description>
-    </item>
-    
-    <item>
-      <title>Diablo 2 PvP/Duels #guidlines for a PvP beginner</title>
+      <title>Diablo 2 PvP/Duels #начинающему ПвП-шнику посвящается</title>
       <link>/ru/guides/pvp/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/ru/guides/pvp/</guid>
-      <description>Hello, my dear friend! This article is made for all those who have just started their journey as a PvP player in Diablo 2. I will try to show the bigger picture, give you some tips (to guide you on the right path, so to say) and motivate.  Diablo 2 — is an iconic Hack&#39;n&#39;Slash game of all time. This game was indeed done wisely and thoughtfully. It was made from the heart and was intended for ages.</description>
-    </item>
-    
-    <item>
-      <title>IBS [Train]</title>
-      <link>/ru/guides/ibs/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/guides/ibs/</guid>
-      <description>A Train is a Necromancer&#39;s trick, flying in one line train of Bone Spirits. It is a very simple trick. We hold the Bone Spirit skill in any of the corners of the screen. After five casts of Spirits, we switch to TP and immediately back to Bone Spirit. The cursor does not move.
-  After 3 packs there will be about 15 Spirits which is about 75 k magic damage.</description>
+      <description>Здравствуй, дорогой друг! Эта статья будет посвящена всем тем, кто только-только начал свой путь ПвП-шника в игре Diablo 2. В ней я постараюсь показать общую картину, дать вам некоторые советы (направить вас на верный путь, так сказать) и мотивировать..  Diablo 2 — это культовый Hack’n’Slash всех времён. Эта игра действительно сделана с умом. В неё вкладывали душу и делалась она на века. Тогда о прибыли и не думали. Целью было создать что-то действительно уникальное и стоящее.</description>
     </item>
     
     <item>
@@ -67,57 +43,12 @@ Of course, these binds should be changed. Personally, I have them as follows: &#
     </item>
     
     <item>
-      <title>Stomping [Namelock, Lock (Stomp), Chainlock, Chain]</title>
-      <link>/ru/guides/stomp/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/guides/stomp/</guid>
-      <description>It&#39;s worth mentioning that if you play in a windowed mode (&#34;-w&#34; in the shortcut properties), you should install the Cursor Locker. Otherwise, your cursor will constantly fly out of the window and your play will simply be awful. So if you want to learn how to duel in Diablo 2 - make sure you download, install, and use it.
- Namelock   Let&#39;s start with the simple techniques.</description>
-    </item>
-    
-    <item>
-      <title>Strength Bug [Str Bug]</title>
-      <link>/ru/guides/str/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/guides/str/</guid>
-      <description>Prologue:
- When Expansion Set &#34;Lord of Destruction&#34; was not yet released, the game looked a little different. There was only known to you now &#34;classic&#34;. Fifth Act didn&#39;t exist, there were no charms, no runes.
-Idea  During the game, the server sends information to your game client (and all other users connected to this game) telling what is happening.
- For example:
- Situation No. 1
-  «Player 1 moved to the certain point and used a certain skill in a certain direction.</description>
-    </item>
-    
-    <item>
-      <title>Swirls [Smite/Shock Wave]</title>
-      <link>/ru/guides/swirls/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/guides/swirls/</guid>
-      <description>The effect of birds above your head (aka ~Swirls~) which is well-known from Assassin’s Mind Blast also procs from Smite and Shock Wave. The thing about these birds is that until they are circling over your head — any attack with any damage triggers Faster Hit Recovery animation. If not swirled, FHR will only take place when you get damage that takes away at least 1/16 of your hp in a single hit.</description>
-    </item>
-    
-    <item>
-      <title>Tank Trick [TT]</title>
-      <link>/ru/guides/tt/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/guides/tt/</guid>
-      <description>You need to know what WSG is before reading this.
- So, WSG is a technique for &#34;breaking&#34; FHR animation and increasing desynchronization. But few people know that this technique can be used not only when running, but when you teleport and even attack. No special complications/differences from WSG.
-  Tank Trick while teleport will help you avoid the Leap of Barb:
-    Often you&#39;ll be caught for double or even triple Leap</description>
-    </item>
-    
-    <item>
       <title>Truth about PvP on PG</title>
       <link>/ru/guides/pg/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/ru/guides/pg/</guid>
-      <description> This article explains, how poor are the conditions for dueling on Russian Playground.ru server. Won&#39;t be interesting for EU guys, so just forget it ;) </description>
+      <description>Через 20 минут тема была удалена с ПГ без каких либо объяснений. Видимо, боятся правды.  Сразу дам вам спойлер: его нет.  Глубокоуважаемый модератор! Прошу до конца прочитать мою тему. По-началу она покажется очень вызывающей и критично настроенной, но уверяю — несет она самые благие намерения, а именно — привлечение внимание людей к проблеме ПвП. Я, вроде бы никого не оскорбил, ничто не рекламировал (офф есть офф). Да, где-то был чрезмерно резок, но всё это в рамках моего мнения.</description>
     </item>
     
     <item>
@@ -126,9 +57,7 @@ Idea  During the game, the server sends information to your game client (and all
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/ru/guides/server/</guid>
-      <description>I will try to make a little server classification here. I will point the pros and cons of every single one so it will be up to you to pick which one to play on.
- All servers can be divided into:
-  Official  Unofficial  Official  These are well-known to you Europe/US West/US East/Asia. These are official servers. Ya need to buy a CD-Key to play here for two games: D2 и D2: LoD.</description>
+      <description>I will try to make a little server classification here. I will point the pros and cons of every single one so it will be up to you to pick which one to play on.  All servers can be divided into:   Official  Unofficial   Official  These are well-known to you Europe/US West/US East/Asia. These are official servers. Ya need to buy a CD-Key to play here for two games: D2 и D2: LoD.</description>
     </item>
     
     <item>
@@ -137,9 +66,7 @@ Idea  During the game, the server sends information to your game client (and all
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/ru/guides/wsg/</guid>
-      <description>WSG is a simple basic technique in PvP. The essence of the trick lies in the constant switching of weapons while running.
- What you should know about swapping:
- Swapping breaks FHR animation Swapping increases desynchronization  FHR  So the animation of Faster Hit Recovery, depending on the class lasts somewhere between 4 and 7 frames. If you will swap weapons during this animation, the animation of FHR will end.</description>
+      <description>Wsg — достаточно простой базовый приём в PvP. Суть приёма заключается в постоянном переключении свапа (swap) во время бега.  Что вы должны знать о свапе:  При свапе сбрасывается анимация FHR При свапе усиливается десинхронизация   FHR  Итак, анимация Faster Hit Recovery в зависимости от класса и сборки длится где-то от 4 до 7 фреймов. Если во время этой анимации сделать Swap, то анимация закончится. 4 и 7 фреймов — это меньше, чем 1/3 секунды, а значит свап нужно делать непрерывно (!</description>
     </item>
     
     <item>
@@ -148,11 +75,61 @@ Idea  During the game, the server sends information to your game client (and all
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/ru/guides/wsm/</guid>
-      <description>When I was digging for this info, this site helped me a lot. There&#39;s a lot of text there, so I&#39;m going to simplify it a little.
- So, to avoid further misunderstanding:
-(c) all right reserved Xepolite&#39;s shithole!
- WSM Bug is intended to decrease the requirement of IAS to reach a 9-frame trap laying breakpoint without* using BoS.
- *Against chars that deal physical damage, we will use Fade, because it gives us DR that can&#39;t be taken from other items (102 fcr build).</description>
+      <description>Когда я со всем этим сам разбирался, мне очень помог данный сайт. Текста там много и написан он на английском. Так что я буду основываться на нём. Многое просто переведу и постараюсь упростить.  Так что на всякий:  (c) all right reserved Xepolite&#39;s shithole!  WSM Bug предназначается для облегчения набора IAS на Claws для набора максимальной скорости каста Traps (9 frame’ов) без! использования скила Burst of Speed.  *Против чаров, наносящих физический урон мы будем использовать Fade, ведь он даёт нам ДР, который сложно набрать со вещей.</description>
+    </item>
+    
+    <item>
+      <title>Десинк [Jodering]</title>
+      <link>/ru/guides/desynch/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/guides/desynch/</guid>
+      <description>Due to lack of skill, some players decided to ease the usage of buttons on their keyboard and created their own playstyle - jodering. It&#39;s simply desynching around all the map and spamming invisible Hammers, hoping some newbie will fly into them. They even examined the best ways to make desynch better (bumping into holes, etc.). So they created an illusion of skill in desynch usage. Like you must be experienced, so you can master this &#34;</description>
+    </item>
+    
+    <item>
+      <title>НБС [Train]</title>
+      <link>/ru/guides/ibs/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/guides/ibs/</guid>
+      <description>Train (он же «Паровоз» ) это приём за Некроманта — летящий по одной линии паровоз Bone Spirit’ов. Делается он очень просто. Мы зажимаем скилл Bone Spirit в любой из углов экрана. После каста пяти Спиритов переключаемся на ТП и сразу обратно на Bone Spirit. Курсор при этом не двигается.   После 3 паков в таком паровозе летит около 15 Спиритов, а это 75 к магического урона. После пенальти это потенциальные 12 к ХП.</description>
+    </item>
+    
+    <item>
+      <title>Приёмы ПвП [Нэймлок, Лок (Стомп), Чейнлок, Чейн]</title>
+      <link>/ru/guides/stomp/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/guides/stomp/</guid>
+      <description>Сразу стоит упомянуть, что если вы играете в оконном режиме (-w в свойствах ярлыка), то вам следует установить Cursor Locker. В противном случае ваш курсор будет постоянно улетать за пределы окна и это будет ужасно сказываться на вашей игре. Так что если хотите научиться дуэлиться в Diablo 2, то обязательно скачайте.   Нэймлок    Начнем с самого простого приема. Он заключается в том чтобы, точно, быстро и прицельно сделать тп (или же навести и зажать атакующим скиллом) на ник соперника.</description>
+    </item>
+    
+    <item>
+      <title>Свирлс [Smite/Shock Wave]</title>
+      <link>/ru/guides/swirls/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/guides/swirls/</guid>
+      <description>Эффект «птичек» над головой (swirls) который многим известен из за скилла Assassin’а Mind Blast также присутствует у таких скиллов как Smite и Shock Wave. Особенность этих «птичек» заключается в том, что до тех пор пока они кружат у вас над головой — любая атака с любым уроном вводит вас в анимацию Faster Hit Recovery. Без птичек анимация появится только тогда, когда вам нанесут урон больше, чем 1/16 ваших ХП (хит пойнтов).</description>
+    </item>
+    
+    <item>
+      <title>Стр баг [Str Bug]</title>
+      <link>/ru/guides/str/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/guides/str/</guid>
+      <description>Небольшая предыстория:   Во времена, когда ещё не вышел патч «Lord of Destruction» привычная нам игра выглядела немного иначе. Была только лишь сейчас нам известная «классика» . Не было 5 акта, не было чармов, не было рун.  Идея   Во время игры сервер передает информацию вашему клиенту (и всем другим подключенным к данной игре) о том, что происходит.  Например:  Ситуация №1   «Игрок 1 переместился в такую-то точку и использовал такой-то скилл в таком-то направлении.</description>
+    </item>
+    
+    <item>
+      <title>Танк трик [TT]</title>
+      <link>/ru/guides/tt/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/guides/tt/</guid>
+      <description>Чтобы осилить этот текст, вам нужно знать, что такое WSG перед дальнейшим чтением.  Итак, Wsg — это приём для «сбрасывания» анимации FHR и увеличения десинхронизации. Но мало кто знает, что это приём можно использовать только при беге, а при телепорте или даже атаке. Никаких особых осложнений/отличий от WSG.   Tank Trick во время телепорта поможет вам избежать попадания на Leap бабра:   Зачастую вы будете попадаться на двойной или даже тройной Leapap   *4 секунда видео  В этом случае вы отделитесь от стака и с большой вероятностью умрёте от одного WW после ТП бабра.</description>
     </item>
     
   </channel>

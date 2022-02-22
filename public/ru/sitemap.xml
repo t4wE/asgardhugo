@@ -28,19 +28,6 @@
                 href="/ru/guides/ct/"
                 />
   </url><url>
-    <loc>/ru/guides/desynch/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/guides/desynch/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/guides/desynch/"
-                />
-  </url><url>
     <loc>/ru/guides/pvp/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
@@ -67,19 +54,6 @@
                 href="/ru/guides/"
                 />
   </url><url>
-    <loc>/ru/guides/ibs/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/guides/ibs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/guides/ibs/"
-                />
-  </url><url>
     <loc>/ru/guides/sb/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
@@ -91,58 +65,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="/ru/guides/sb/"
-                />
-  </url><url>
-    <loc>/ru/guides/stomp/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/guides/stomp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/guides/stomp/"
-                />
-  </url><url>
-    <loc>/ru/guides/str/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/guides/str/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/guides/str/"
-                />
-  </url><url>
-    <loc>/ru/guides/swirls/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/guides/swirls/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/guides/swirls/"
-                />
-  </url><url>
-    <loc>/ru/guides/tt/</loc>
-    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/guides/tt/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/guides/tt/"
                 />
   </url><url>
     <loc>/ru/guides/pg/</loc>
@@ -236,6 +158,19 @@
                 href="/ru/guides/"
                 />
   </url><url>
+    <loc>/ru/guides/desynch/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/guides/desynch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/guides/desynch/"
+                />
+  </url><url>
     <loc>/ru/how-to-connect/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
@@ -275,6 +210,32 @@
                 href="/ru/mod-info/"
                 />
   </url><url>
+    <loc>/ru/guides/ibs/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/guides/ibs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/guides/ibs/"
+                />
+  </url><url>
+    <loc>/ru/guides/stomp/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/guides/stomp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/guides/stomp/"
+                />
+  </url><url>
     <loc>/ru/cube-recipes/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
@@ -288,6 +249,19 @@
                 href="/ru/cube-recipes/"
                 />
   </url><url>
+    <loc>/ru/guides/swirls/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/guides/swirls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/guides/swirls/"
+                />
+  </url><url>
     <loc>/ru/create-account/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
@@ -299,6 +273,32 @@
                 rel="alternate"
                 hreflang="ru"
                 href="/ru/create-account/"
+                />
+  </url><url>
+    <loc>/ru/guides/str/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/guides/str/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/guides/str/"
+                />
+  </url><url>
+    <loc>/ru/guides/tt/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/guides/tt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/guides/tt/"
                 />
   </url><url>
     <loc>/ru/fpk-rules/</loc>
