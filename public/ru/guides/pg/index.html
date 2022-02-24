@@ -2,6 +2,12 @@
 <html lang="ru">
 
 <head>
+
+	
+	
+	<link rel="alternate" hreflang="en" href="/guides/pg/" title="ENG">
+	
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +17,38 @@
 	<link rel="stylesheet" href="/css/style.css">
 	
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	
+
+
+<script>
+    var body = document.body;
+	var switcher = document.getElementsByClassName('js-toggle')[0];
+
+	
+	switcher.addEventListener("click", function() {
+        this.classList.toggle('js-toggle--checked');
+        this.classList.add('js-toggle--focus');
+		
+		if (this.classList.contains('js-toggle--checked')) {
+			body.classList.add('dark-mode');
+			
+			localStorage.setItem('darkMode', 'true');
+		} else {
+			body.classList.remove('dark-mode');
+			setTimeout(function() {
+				localStorage.removeItem('darkMode');
+			}, 100);
+		}
+	})
+
+	
+	if (localStorage.getItem('darkMode')) {
+		
+        switcher.classList.add('js-toggle--checked');
+        body.classList.add('dark-mode');
+	}
+
+</script>
 	
 </head>
 
@@ -24,7 +62,9 @@
 
 </a>
 	</header>
-	<nav>
+
+<nav>
+
 		<ul class="menu__list"> 
 <li class="menu__item">
 	<a class="menu__link" href="/ru/">
@@ -33,7 +73,7 @@
 </li>
 <li class="menu__item">
 	<a class="menu__link" href="/ru/how-to-connect">
-		<span class="menu__text">Как присеоедениться</span>
+		<span class="menu__text">Как присоедениться</span>
 	</a>
 </li>
 <li class="menu__item">
@@ -48,7 +88,7 @@
 </li>
 <li class="menu__item">
 	<a class="menu__link" href="/ru/cube-recipes">
-		<span class="menu__text">Рецепты куба</span>
+		<span class="menu__text">Рецепты</span>
 	</a>
 </li>
 <li class="menu__item">
@@ -73,16 +113,32 @@
 </li>
 </ul>
 		<div class="lang-switcher" style="justify-content:right; align-content:right;text-align: center ; 
- color: white;"> Switch to:
+ color: white;">Switch to:
 			<br>
 			<img src="/ru.png" />
 <nav class="LangNav">
 	
-	<a href="/en/guides/pg/">ENG</a>
+	<a href="/guides/pg/">ENG</a>
 	
 </nav>
 
 </div>
+
+<div class="js-toggle-wrapper">
+    <div class="js-toggle">
+        <div class="js-toggle-track">
+            <div class="js-toggle-track-check">
+                <img src="data:image/png;base64,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" role="presentation" style="pointer-events: none;" width="16" height="16">
+            </div>
+            <div class="js-toggle-track-x">
+                <img src="data:image/png;base64,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" role="presentation" style="pointer-events: none;" width="16" height="16">
+            </div>
+        </div>
+        <div class="js-toggle-thumb"></div>
+        <input class="js-toggle-screenreader-only" type="checkbox" aria-label="Switch between Dark and Light mode">
+    </div>
+</div>
+
 	</nav>
 	<div class="content">
 		
@@ -98,7 +154,7 @@ Truth about PvP on PG
 	Сразу дам вам спойлер: его нет.
 </p>
 <p>
-	Глубокоуважаемый модератор! Прошу до конца прочитать мою тему. По-началу она покажется очень вызывающей и критично настроенной, но уверяю — несет она самые благие намерения, а именно — привлечение внимание людей к проблеме ПвП. Я, вроде бы никого не оскорбил, ничто не рекламировал (офф есть офф). Да, где-то был чрезмерно резок, но всё это в рамках моего мнения.
+	Глубокоуважаемый модератор! Прошу до конца прочитать мою тему. Поначалу она покажется очень вызывающей и критично настроенной, но уверяю — несет она самые благие намерения, а именно — привлечение внимание людей к проблеме ПвП. Я, вроде бы никого не оскорбил, ничто не рекламировал (офф есть офф). Да, где-то был чрезмерно резок, но всё это в рамках моего мнения.
 </p>
 <p>
 	Самое главное, что я нигде не наврал и за каждое своё слово готов ответить. Всё написанное мной — правда, какой бы грязной она не была.
@@ -110,7 +166,7 @@ Truth about PvP on PG
 	Ну-с…с чего бы начать…
 </p>
 <p>
-	Лично мне ПГ напоминает какое-то племя отшельников, которые обособились от всего развивающегося мира. Они намеренно решили отречься от всего и вся и жить в своём уютном уголке, без какого-либо влияния извне, от всех технологий, решили жить в пещере, заниматься собирательством, охотой, так и существовать препеваючи, не заморачиваясь по поводу политики, экономики, религии и всего прочего.
+	Лично мне ПГ напоминает какое-то племя отшельников, которые обособились от всего развивающегося мира. Они намеренно решили отречься от всего и вся и жить в своём уютном уголке, без какого-либо влияния извне, от всех технологий, решили жить в пещере, заниматься собирательством, охотой, так и существовать припеваючи, не заморачиваясь по поводу политики, экономики, религии и всего прочего.
 </p>
 <p>
 	К сожалению, все мы, кто играет на пг, как раз таки и «родились» в подобном племени, без права выбора. Не имея представления о нормальной жизни (нормальной игре), большинство из нас с этим смирились и так вязнем в этом болоте, не имея возможности выбраться.
@@ -119,10 +175,10 @@ Truth about PvP on PG
 	Дроп ниже, чем в версии 1.12. Серьёзно?
 </p>
 <p>
-	Мне сразу вспоминается, как перед началом нового сезона кто-то из ПГ-шников решил это дело прорекламировать. На Твиче с неделю 24/7 стояла трансляция с рекламой нового сезона. Название было что то вроде «New Season starts 16/05 … Russian server…VERY LOW DROP/ NO TOKENS/ RESET ONCE IN 2 YEARS…HARD SERVER~~~». Примерно так.
+	Мне сразу вспоминается, как перед началом нового сезона кто-то из ПГ-шников решил это дело прорекламировать. На Твиче с неделю 24/7 стояла трансляция с рекламой нового сезона. Название было что-то вроде «New Season starts 16/05 … Russian server…VERY LOW DROP/ NO TOKENS/ RESET ONCE IN 2 YEARS…HARD SERVER~~~». Примерно так.
 </p>
 <p>
-	Вы просто на секунду абстрогируйтесь и представьте в каких условиях вы играете со стороны. ПГ вообщем-то похож на Россию. Правительство режет населению зарплаты, повышает налоги, цены. Работы — нет. А вскоре где-то сверху звучит:
+	Вы просто на секунду абстрагируйтесь и представьте в каких условиях вы играете со стороны. ПГ во общем-то похож на Россию. Правительство режет населению зарплаты, повышает налоги, цены. Работы — нет. А вскоре где-то сверху звучит:
 </p>
 <p>
 	«Эй, вы что там, ещё не сдохли? Ну сейчас ещё что-нибудь придумаю.»
@@ -131,7 +187,7 @@ Truth about PvP on PG
 	Довольно-таки вызывающее вступление офк. Но тема же про ПвП, так что давайте ближе к делу.
 </p>
 <p>
-	В связи с такой политикой (дропом) на ПГ и были придуманы так называемые Fair правила. Они адаптированы как раз-таки под этот нищий дроп. Крафтом занимаются единицы. Годную тиару/когти/пелт/ринг найти очень сложно. Так что все бегают в шаках, хото, марах (+ все эти 76 ес сборки, бабры с ангелик комбо и паком клеар сц 20 хп). Battle Orders разрешён только варвару. Разрешен блок. Бой длится 5 минут и бой переводится на меньшую локацию, если по истечению 5 минут бой не закончился.
+	В связи с такой политикой (дропом) на ПГ и были придуманы так называемые Fair правила. Они адаптированы как раз таки под этот нищий дроп. Крафтом занимаются единицы. Годную тиару/когти/пелт/ринг найти очень сложно. Так что все бегают в шаках, хото, марах (+ все эти 76 ес сборки, бабры с ангелик комбо и паком клеар сц 20 хп). Battle Orders разрешён только варвару. Разрешен блок. Бой длится 5 минут и бой переводится на меньшую локацию, если по истечению 5 минут бой не закончился.
 </p>
 <p>
 	Сочетание всех этих составляющих делает ПвП настолько рандомным, что даже создаётся иллюзия какого-то баланса. (how pathetic tho :{ )
@@ -150,13 +206,13 @@ Truth about PvP on PG
 	<em> (имеется в виду шако_мара_хото&lt;—&gt;средний&lt;—&gt;топовый) </em>
 </ol>
 <p>
-	1. Это, в принципе, можно отбросить. У тех, кто живёт в европейской части России, максимальное значение пинга держится в районе 60-90, что вполне играбельно для большинства чаров (за исключением разве что БвЦ (привет 1е ^^ ))
+	1. Это, в принципе, можно отбросить. У тех, кто живёт в европейской части России, максимальное значение ping держится в районе 60-90, что вполне играбельно для большинства чаров (за исключением разве что БвЦ (привет 1е ^^ ))
 </p>
 <p>
 	2. Отбросив нижние 85% (напчики) и верхние 2% — мы имеем 13% (85-&gt;98) — общество зазнавшихся гордецов, которые считают себя отцами всея ПГ, хотя толком то ничего не представляют. Эти товарищи пекашать те самые 85% за счёт огромной разницы в шмоте и наличии своего low-mid/mid скилла.
 </p>
 <p>
-	Мне очень нравится стереотип, что «что десинк – это единственный прием, который позволяет хаммеру оставаться ПвП бильдом» (с) Torum. Ересь. В условиях ПГ и правил Фаир — скорее всего да. Ибо без Бо и Оака tele-хаммер — живая мишень которая умрёт после нескольких попаданий большинства мисайлов. А так знайте же: онли-десинк-пвп это удел рандомщиков, а проигрывать таким хаммерам — удел нубов (вне реалей ПГ офк).
+	Мне очень нравится стереотип, что «что десинк – это единственный прием, который позволяет хаммеру оставаться ПвП бильдом» (с) Torum. Ересь. В условиях ПГ и правил Фаир — скорее всего да. Ибо без Бо и Оака tele-хаммер — живая мишень которая умрёт после нескольких попаданий большинства мисайлов. А так знайте же: онли-десинк-пвп это удел рандомщиков, а проигрывать таким хаммерам — удел нубов (вне реалий ПГ офк).
 </p>
 <p>
 	Часто можно услышать: «да пиндосы лохи. у них хаммеры не дэсают, только тп». А вы хоть раз играли против такого хаммера? Не делайте поспешных выводов.
@@ -200,7 +256,7 @@ Truth about PvP on PG
 	<li>smiter &gt; bow-java</li>
 </ul>
 <p>
-	Если вы считаете сорку боеспособным персонажем (привет КВР ^ ), то вот вам ещё кусочек:
+	Если вы считаете сорку боеспособным персонажем (привет КВР ^), то вот вам ещё кусочек:
 </p>
 <ul>
 	<li>95 es fire soso &gt; necro</li>
@@ -211,7 +267,7 @@ Truth about PvP on PG
 	Все остальные чары &gt; сорки.
 </p>
 <p>
-	Остальных сорок лично я ПвП персами не считаю.
+	Остальных сорок я ПвП персами не считаю.
 </p>
 <p>
 	Естественно, если скилл игрока справа больше чем у того, что слева — всё может поменяться.
@@ -220,7 +276,7 @@ Truth about PvP on PG
 	Что мы видим? Если исключить блок на смитэре и хаммере (который благодаря HS как бы сам напрашивается) то он необходим, разве что синке против амки и смитэра.
 </p>
 <p>
-	На ПГ же из за тех составляющих, про которые я упоминал ранее: лоу дроп и, как следствие, Фаир правила —&gt; no-BO, блок — всё это коренным образом меняет баланс и покрывает его одеялом рандома.
+	На ПГ же из-за тех составляющих, про которые я упоминал ранее: лоу дроп и, как следствие, Фаир правила —&gt; no-BO, блок — всё это коренным образом меняет баланс и покрывает его одеялом рандома.
 </p>
 <p>
 	Я не понимаю, почему все так боятся дропа 1.13d.
@@ -229,7 +285,7 @@ Truth about PvP on PG
 	<strong>ПвМ</strong>
 </p>
 <p>
-	«Дроп 1.13d сделает ПвМ не интересным». А он разве интересный? Первый месяц-два после ресета — да. А после? Барб, друид, конвопал и сорка/синка — вывозят хбр на изи в лоу шмоте. Да даже голые (NMMC). Через 2-3 месяца хбр уже всё-равно не представляет сложности. Гонять пхбр вдвоём — тоже ничего сложного с мид шмоте. Соло — окей, для некоторых классов требует вложений (Эни+Инфинити на синке/Инфик на лайт сорке/Инфик на джавке). Ничего страшного в ПвМ это не принесёт. Разве что хбр перестанет быть чем-то сложным немного раньше.
+	«Дроп 1.13d сделает ПвМ не интересным». А он разве интересный? Первый месяц или два после ресета — да. А после? Барб, друид, конвопал и сорка/синка — вывозят хбр на изи в лоу шмоте. Да даже голые (NMMC). Через 2-3 месяца хбр уже всё равно не представляет сложности. Гонять пхбр вдвоём — тоже ничего сложного с мид шмоте. Соло — окей, для некоторых классов требует вложений (Эни+Инфинити на синке/Инфик на лайт сорке/Инфик на джавке). Ничего страшного в ПвМ это не принесёт. Разве что хбр перестанет быть чем-то сложным немного раньше.
 </p>
 <p>
 	<strong>Трейд</strong>
@@ -254,7 +310,7 @@ Truth about PvP on PG
 	Если руки у тебя не кривые — Энигма для тебя не помеха. Скорее всего так кричат эти самые 13%, которые до этого за счёт разницы в шмоте заболели синдромом ЧСВ. Но, опять же, повышенный дроп рун приведёт только к появлению у подобающего большинства годных Рунвордов: Эни, Феникс, Фаитх, Бист, но НЕ рарок, инвента, который, поверьте, гораздо важнее этой самой Энигмы.
 </p>
 <p>
-	Тут ещё наверняка подскочит Фирк и будут глаголить, мол ПвП шмот — это то, что должно доставаться огромным трудом, и даже то, что он совсем не обязателен для ПвП. Ну что ж, Фирк. Сделай себе приват сервер с версией 1.12 и играй там с ресетами раз в 5 лет. Норм тема, как раз для тебя.
+	Тут ещё наверняка подскочит Фирк и будут глаголить, мол ПвП шмот — это то, что должно доставаться огромным трудом, и даже то, что он совсем не обязателен для ПвП. Ну что ж, Фирк. Сделай себе приват сервер с версией 1.12 и играй там с ресетами раз в 5 лет. Норм тема. Как раз для тебя.
 </p>
 <p>
 	Энигма — обязательна для ПвП ВСЕМ классам, кроме Амазонки. Если вы считаете что я не прав, то значит нормального ПвП просто-напросто не видали, а так и застыли в этом каменном веке со своими «местными» стереотипами.
@@ -269,7 +325,7 @@ Truth about PvP on PG
 	Повторюсь, если руки у вас прямые — Энигма вам не помеха.
 </p>
 <p>
-	Однако, я не утверждаю, что дроп 1.13d вызовет «появление» нормального ПвП на ПГ. Всё-таки на ПГшном нонладдере от силы 20~ более менее одетых персов. Ресеты раз в 2-3 года много добра не сделают.
+	Однако, я не утверждаю, что дроп 1.13d вызовет «появление» нормального ПвП на ПГ. Всё-таки на ПГшном нонладдере от силы 20~ более-менее одетых персов. Ресеты раз в 2-3 года много добра не сделают.
 </p>
 <p>
 	Проводить турниры на ладдере — это же вообще смешно. По большей части это полнейший рандом.
@@ -308,10 +364,10 @@ Truth about PvP on PG
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 </p>
 <p>
-	Я, офк, просто рассуждаю, сам особо ни на что не надеюсь. Вряд ли г_н вот так подскочит и сразу начнёт что то там подкручивать. ПГ — пещера, ведь, скорее всего, после выхода нового патча (возможно добавятся новые РВ, акты, монстры) или даже после выхода HD мода — так и останется жить в своём «отшельническом» мирке в дропом 1.12.
+	Я, офк, просто рассуждаю, сам особо ни на что не надеюсь. Вряд ли г_н вот так подскочит и сразу начнёт что-то там подкручивать. ПГ — пещера ведь, скорее всего, после выхода нового патча (возможно добавятся новые РВ, акты, монстры) или даже после выхода HD мода — так и останется жить в своём «отшельническом» мирке в дропом 1.12.
 </p>
 <p>
-	Да, самый сок ПвП по миру был в 2008-2013 годах. Я, с сожалению в это время ПвП не увлекался, о чём сейчас жалею. Топ скилла, игроков, техник. Сейчас многие создали семью и времени на игру у них уже нет. И уровень ПвП по миру постепенно угасает. Вскоре про это останутся только видосы, которые, впрочем, показывают лишь малую часть всего скилла таких легендарных игроков как Gyomlalas, Jesper, Paul WeP, Kam, Marvel, Austin, DHA, Сам. Лучше 1 раз увидеть чем 100 раз услышать. На НЛ Европы и US ещё остались несколько топовых игроков, но скоро и они пропадут, и ПвП в игре Диабло 2 (чья механика, действительно, лучшая из когда либо созданный, со всеми Chainlok'ами, Chain'ами, Desynch, WSG, Str bug, C/T trick, Tank trick, Skill bug, которые делают ПвП в Диабло 2 уникальным в своём роде и ни с чем не сравнимым) — увянет а то и вовсе пропадёт.
+	Да, самый сок ПвП по миру был в 2008-2013 годах. Я, с сожалению, в это время ПвП не увлекался, о чём сейчас жалею. Топ скилла, игроков, техник. Сейчас многие создали семью и времени на игру у них уже нет. И уровень ПвП по миру постепенно угасает. Вскоре про это останутся только видосы, которые, впрочем, показывают лишь малую часть всего скилла таких легендарных игроков как Gyomlalas, Jesper, Paul WeP, Kam, Marvel, Austin, DHA, Сам. Лучше 1 раз увидеть чем 100 раз услышать. На НЛ Европы и US ещё остались несколько топовых игроков, но скоро и они пропадут, и ПвП в игре Диабло 2 (чья механика, действительно, лучшая из когда-либо созданный, со всеми Chainlok'ами, Chain'ами, Desynch, WSG, Str bug, C/T trick, Tank trick, Skill bug, которые делают ПвП в Диабло 2 уникальным в своём роде и ни с чем не сравнимым) — увянет, а то и вовсе пропадёт.
 </p>
 <p>
 	Про ТвТ вообще отдельный разговор. Когда я служил, у нас на космодроме был караул, и шакалы нам вечно твердили: «Караул — это лучшее, что есть во всей службе в армии». Так вот я Вам то же самое могу сказать про ТвТ. Это лучшее, что есть в Diablo 2. Все эти связки, сочетания и комбинации различных скиллов у разных классов делают ТвТ поистине потрясающим и неповторимым.

@@ -1,7 +1,7 @@
 paginate = 20
 defaultContentLanguage = 'en'
 showLanguageSelector = true
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 baseURL = '/'
 
 [params]
@@ -17,6 +17,7 @@ baseURL = '/'
   copyright = ""
 
 
+
 [languages.ru]
   contentDir = 'content/ru'
   languageName = "RU"
@@ -27,59 +28,60 @@ baseURL = '/'
   keywords = ""
   copyright = ""
 
+
 [languages.en.menu]
   [[languages.en.menu.main]]
         identifier = "Home"
         name = "Home"
-        url = "/en/"
+        url = "/"
         weight = 1
 
   [[languages.en.menu.main]]
         identifier = "How to connect"
         name = "How to connect"
-        url = "/en/how-to-connect"
+        url = "/how-to-connect"
         weight = 2
 
   [[languages.en.menu.main]]
         identifier = "Create account"
         name = "Create account"
-        url = "/en/create-account"
+        url = "/create-account"
         weight = 3
 
   [[languages.en.menu.main]]
         identifier = "Mod info"
         name = "Mod info"
-        url = "/en/mod-info"
+        url = "/mod-info"
         weight = 4
 
   [[languages.en.menu.main]]
         identifier = "Cube recipes"
         name = "Cube recipes"
-        url = "/en/cube-recipes"
+        url = "/cube-recipes"
         weight = 5
 
   [[languages.en.menu.main]]
         identifier = "GM Rules"
         name = "GM Rules"
-        url = "/en/gm-rules"
+        url = "/gm-rules"
         weight = 6
 
   [[languages.en.menu.main]]
         identifier = "FPK Rules"
         name = "FPK Rules"
-        url = "/en/fpk-rules"
+        url = "/fpk-rules"
         weight = 7
 
   [[languages.en.menu.main]]
         identifier = "Guides"
         name = "Guides"
-        url = "/en/guides/"
+        url = "/guides/"
         weight = 8
 
   [[languages.en.menu.main]]
         identifier = "Contacts"
         name = "Contacts"
-        url = "/en/contacts"
+        url = "/contacts"
         weight = 9
 
 
@@ -91,7 +93,7 @@ baseURL = '/'
         weight = 1
   [[languages.ru.menu.main]]
         identifier = "How to connect"
-        name = "Как присеоедениться"
+        name = "Как присоедениться"
         url = "/ru/how-to-connect"
         weight = 2
 
@@ -109,7 +111,7 @@ baseURL = '/'
 
   [[languages.ru.menu.main]]
         identifier = "Cube recipes"
-        name = "Рецепты куба"
+        name = "Рецепты"
         url = "/ru/cube-recipes"
         weight = 5
 

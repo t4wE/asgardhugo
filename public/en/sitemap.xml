@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/</loc>
+    <loc>/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -12,10 +12,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="/"
                 />
   </url><url>
-    <loc>/en/guides/bp/</loc>
+    <loc>/guides/bp/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -25,10 +25,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/bp/"
+                href="/guides/bp/"
                 />
   </url><url>
-    <loc>/en/guides/ct/</loc>
+    <loc>/guides/ct/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -38,10 +38,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/ct/"
+                href="/guides/ct/"
                 />
   </url><url>
-    <loc>/en/contacts/</loc>
+    <loc>/contacts/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -51,10 +51,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/contacts/"
+                href="/contacts/"
                 />
   </url><url>
-    <loc>/en/create-account/</loc>
+    <loc>/create-account/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -64,10 +64,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/create-account/"
+                href="/create-account/"
                 />
   </url><url>
-    <loc>/en/cube-recipes/</loc>
+    <loc>/cube-recipes/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -77,10 +77,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/cube-recipes/"
+                href="/cube-recipes/"
                 />
   </url><url>
-    <loc>/en/guides/desynch/</loc>
+    <loc>/guides/desynch/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -90,10 +90,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/desynch/"
+                href="/guides/desynch/"
                 />
   </url><url>
-    <loc>/en/guides/pvp/</loc>
+    <loc>/guides/pvp/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -103,10 +103,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/pvp/"
+                href="/guides/pvp/"
                 />
   </url><url>
-    <loc>/en/fpk-rules/</loc>
+    <loc>/fpk-rules/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -116,10 +116,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/fpk-rules/"
+                href="/fpk-rules/"
                 />
   </url><url>
-    <loc>/en/gm-rules/</loc>
+    <loc>/gm-rules/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -129,10 +129,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/gm-rules/"
+                href="/gm-rules/"
                 />
   </url><url>
-    <loc>/en/guides/</loc>
+    <loc>/guides/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -142,10 +142,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/"
+                href="/guides/"
                 />
   </url><url>
-    <loc>/en/guides/</loc>
+    <loc>/guides/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -155,10 +155,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/"
+                href="/guides/"
                 />
   </url><url>
-    <loc>/en/how-to-connect/</loc>
+    <loc>/how-to-connect/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -168,10 +168,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/how-to-connect/"
+                href="/how-to-connect/"
                 />
   </url><url>
-    <loc>/en/guides/ibs/</loc>
+    <loc>/guides/ibs/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -181,10 +181,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/ibs/"
+                href="/guides/ibs/"
                 />
   </url><url>
-    <loc>/en/mod-info/</loc>
+    <loc>/mod-info/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -194,10 +194,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/mod-info/"
+                href="/mod-info/"
                 />
   </url><url>
-    <loc>/en/guides/sb/</loc>
+    <loc>/guides/sb/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -207,10 +207,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/sb/"
+                href="/guides/sb/"
                 />
   </url><url>
-    <loc>/en/guides/stomp/</loc>
+    <loc>/guides/stomp/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -220,10 +220,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/stomp/"
+                href="/guides/stomp/"
                 />
   </url><url>
-    <loc>/en/guides/str/</loc>
+    <loc>/guides/str/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -233,10 +233,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/str/"
+                href="/guides/str/"
                 />
   </url><url>
-    <loc>/en/guides/swirls/</loc>
+    <loc>/guides/swirls/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -246,10 +246,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/swirls/"
+                href="/guides/swirls/"
                 />
   </url><url>
-    <loc>/en/guides/tt/</loc>
+    <loc>/guides/tt/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -259,10 +259,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/tt/"
+                href="/guides/tt/"
                 />
   </url><url>
-    <loc>/en/guides/pg/</loc>
+    <loc>/guides/pg/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -272,10 +272,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/pg/"
+                href="/guides/pg/"
                 />
   </url><url>
-    <loc>/en/guides/server/</loc>
+    <loc>/guides/server/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -285,10 +285,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/server/"
+                href="/guides/server/"
                 />
   </url><url>
-    <loc>/en/guides/wsg/</loc>
+    <loc>/guides/wsg/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -298,10 +298,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/wsg/"
+                href="/guides/wsg/"
                 />
   </url><url>
-    <loc>/en/guides/wsm/</loc>
+    <loc>/guides/wsm/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -311,10 +311,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/guides/wsm/"
+                href="/guides/wsm/"
                 />
   </url><url>
-    <loc>/en/categories/</loc>
+    <loc>/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -323,10 +323,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="/categories/"
                 />
   </url><url>
-    <loc>/en/tags/</loc>
+    <loc>/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -335,7 +335,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="/tags/"
                 />
   </url>
 </urlset>

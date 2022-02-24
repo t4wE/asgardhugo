@@ -2,12 +2,13 @@
 title: "Strength Bug [Str Bug]"
 date: 2022-02-11T21:20:47+03:00
 draft: false
+translationKey: str
 ---
 <p>
 	<em>Prologue:</em>
 </p>
 <p>
-	<em>When Expansion Set "Lord of Destruction" was not yet released, the game looked a little different. There was only known to you now "classic". Fifth Act didn't exist, there were no charms, no runes.</em>
+	<em>When Expansion Set "Lord of Destruction" was not yet released, the game looked a little different. There was only known to you now as "classic". The fifth Act didn't exist, there were no charms, no runes.</em>
 </p>
 <h2>
 	Idea
@@ -23,32 +24,32 @@ draft: false
 </p>
 <hr>
 <p>
-	«Player 1 moved to the certain point and used a certain skill in a certain direction.»
+	«Player 1 moved to a certain point and used a certain skill in a certain direction.»
 </p>
 <hr>
 <p>
-	This information is transmitted to all connected players and each game client reproduces the situation on player's screen based on the data he received. That way the situation #1 on the screen of each player looks as close as possible to actual, which occurs on the server. In addition to the location of the players, the server also sends information about player's speed of movement (FRW), the speed of the casting skills (FCR), as well as stats and items that he is wearing. And after obtaining this information, and based on it, the client decides whether certain items can be equipped (whether strength, level, class requirements are met).
+	This information is transmitted to all connected players and each game client reproduces the situation on the player's screen based on the data he received. That way situation #1 on the screen of each player looks as close as possible to the actual, which occurs on the server. In addition to the location of the players, the server also sends information about the player's speed of movement (FRW), the speed of the casting skills (FCR), as well as stats and items that he is wearing. And after obtaining this information, and based on it, the client decides whether certain items can be equipped (whether strength, level, class requirements are met).
 </p>
 <p>
 	Since it was the era of classics and there were no charms — you couldn't receive any bonuses from your inventory, so there was no necessity to send any information about a player's inventory. So it wasn't scanned and therefore wasn't sent to other players. That's how a server would read information about player's items:
 </p>
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/str1.png" alt="str1">
 <p>
-	After the release of LoD, charms appeared, including Torch and Annihilus. However, Blizzard missed that point and the information about the inventory of the opponent still isn't scanned. You can often see a situation when you don't see armor or shield of the opponent, even though he is obviously wearing it.
+	After the release of LoD, charms appeared, including Torch and Annihilus. However, Blizzard missed that point and the information about the inventory of the opponent still isn't scanned. You can often see a situation when you don't see the armor or shield of the opponent, even though he is obviously wearing it.
 </p>
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/str2.png" alt="str2">
 <p>
 	This is because your client doesn't see the bonuses of "+20 to all attributes" from Torch and Annihilus. A total of "40 strength" and "40 Dexterity". We will only be interested in the strength.
 </p>
 <p>
-	As an example, your client doesn't understand how a character could gear a Monarch (156 str req). He sees the base 12 strength (let's say it's a Sorceress), 74 str from Enigma and 30 str from the belt. A total of 116 str. The client does not understand how the opponent was able to gear a Monarch (156 str req) when he only got 116 str. He does not see that missing 40 str from inventory. So he simply ignores it as if it doesn't exist at all. The result is a Strength Bug, after which the game client sees opponent's gear like this:
+	As an example, your client doesn't understand how a character could gear a Monarch (156 str req). He sees the base 12 strength (let's say it's a Sorceress), 74 str from Enigma, and 30 str from the belt. A total of 116 str. The client does not understand how the opponent was able to gear a Monarch (156 str req) when he only got 116 str. He does not see that missing 40 str from inventory. So he simply ignores it as if it doesn't exist at all. The result is a Strength Bug, after which the game client sees the opponent's gear like this:
 </p>
 <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/str3.png" alt="str3">
 <p>
-	For your client, these "bugged" items do not exist, nor all the bonuses from them: FCR, FRW, FHR, and so on. We are interested in FCR and FRW.
+	For your client, these "bugged" items do not exist, nor do all the bonuses from them: FCR, FRW, FHR, and so on. We are interested in FCR and FRW.
 </p>
 <p>
-	Now imagine that we are str-bugged. Our opponent won't see "+35% Faster Cast Rate" from our Spirit, "+30% Faster Run/Walk" from our boots and "+45% Faster Run/Walk" from Enigma.
+	Now imagine that we are str-bugged. Our opponent won't see "+35% Faster Cast Rate" from our Spirit, "+30% Faster Run/Walk" from our boots, and "+45% Faster Run/Walk" from Enigma.
 </p>
 <h1>
 	What does it give us?
@@ -133,7 +134,7 @@ draft: false
 			Judging by the formula above, Enigma's str req should be higher than base str (25)+str from Enigma (74) = &gt;99 str
 		</p>
 		<p>
-			The best option would be Archon Plate (103 str req). Our Paladin has base (25)+20 (torch)+20 (annihilus) = 65 str. To gear Archon Plate with base str we will need additionally 38 str. Strength should be taken Circlet, Rings or Amulet <em>(these items don't have str req, that's why the can be bugged by flashing)</em>. In case of base strength* we better get 30 str from amulet and 8+ str from the ring.
+			The best option would be Archon Plate (103 str req). Our Paladin has base (25)+20 (torch)+20 (annihilus) = 65 str. To gear Archon Plate with base str we will need additionally 38 str. Strength should be taken Circlet, Rings or Amulet <em>(these items don't have str req, that's why they can be bugged by flashing)</em>. In the case of base strength* we better get 30 str from the amulet and 8+ str from the ring.
 		</p>
 		<p>
 			<em>*but I'd advise putting 3 str in addition to base</em><em> strength. that way we would only need 5 str from the ring. now we can use Blood Craft ring (5 str, 60hp)</em>
@@ -164,7 +165,7 @@ draft: false
 		</p>
 		<h4>Let's look into other classes</h4>
 		<p>
-			It's better to gain strength from amulet + ring. But it as well can be taken from tiara+ring/tiara+ammy/ring+ring etc. The choice is yours.
+			It's better to gain strength from the amulet + ring. But it as well can be taken from tiara+ring/tiara+ammy/ring+ring etc. The choice is yours.
 		</p>
 		<p>
 			Preferable ammys and rings will be for bold bases.
@@ -201,7 +202,7 @@ draft: false
 		<h4>Sorceress:</h4>
 		<ul>
 			<li>Base's str req: &gt; 84</li>
-			<li>Preferable base: Scarab Husk (95 str req), eth Scarab Husk* (85 str req) <em>(*if having ethereal armor isn't <u>BM</u> (duel vs caster's, where defense doesn't matter (that way you will be able to gear 5 str craft ring))</em></li>
+			<li>Preferable base: Scarab Husk (95 str req), eth Scarab Husk* (85 str req) <em>(*if having ethereal armor isn't <u>BM</u> (duel vs caster's, where a defense doesn't matter (that way you will be able to gear 5 str craft ring))</em></li>
 			<li>Amul: 30 str</li>
 			<li>Ring: rare (craft) ring 15+ str</li>
 		</ul>
