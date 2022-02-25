@@ -1,19 +1,16 @@
 {{ define "main" }}
-<article class="post">
-<h1>
-{{.Title }}
-</h1>
-<div class= "text">
-{{ range .Pages }}
-	<ul>
-		<li>
-			<a href="{{ .RelPermalink }}">
-			{{ .Title }}
-			</a>
-		</li>
-	</ul>
-		</article>
-{{end}}
-</div>
-</main>
-{{end}}
+<h1 itemprop="headline">{{.Title }}</h1>
+<span itemprop="description">
+	<span itemprop="description">
+		{{ range .Pages }}
+		<ul>
+			<li>
+				<a href="{{ .RelPermalink }}">
+					{{ .Title }}
+				</a>
+			</li>
+		</ul>
+	</span>
+	{{end}}
+	</main>
+	{{end}}

@@ -128,7 +128,7 @@ a {
 	;
 }
 
-.content a,
+.article a,
 a:hover,
 .authorbox__description a,
 .authorbox__description a:hover {
@@ -147,7 +147,7 @@ a:hover,
 	color: pink;
 }
 
-.content {
+.article {
 	/*background: whitesmoke;
 	color: black;*/
 	order: 1;
