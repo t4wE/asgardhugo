@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	
+	
+	<link rel="alternate" hreflang="en" href="/guides/pvp/" title="ENG">
+	
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Diablo 2 PvP/Duels #начинающему ПвП-шнику посвящается - АсгардПвП</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	
+</head>
+
+<body>
+	<header>
+		<a id="top"></a>
+		<a class="logo__link" href="/ru/" title="АсгардПвП" rel="home">
+<div class="logo__title">АсгардПвП</div>
+
+
+</a>
+	</header>
+	<nav>
+		<ul class="menu__list"> 
+<li class="menu__item">
+	<a class="menu__link" href="/ru/">
+		<span class="menu__text">Главная</span>
+	</a>
+</li>
+<li class="menu__item">
+	<a class="menu__link" href="/ru/how-to-connect">
+		<span class="menu__text">Как присоедениться</span>
+	</a>
+</li>
+<li class="menu__item">
+	<a class="menu__link" href="/ru/create-account">
+		<span class="menu__text">Создать аккаунт</span>
+	</a>
+</li>
+<li class="menu__item">
+	<a class="menu__link" href="/ru/mod-info">
+		<span class="menu__text">Мод</span>
+	</a>
+</li>
+<li class="menu__item">
+	<a class="menu__link" href="/ru/cube-recipes">
+		<span class="menu__text">Рецепты</span>
+	</a>
+</li>
+<li class="menu__item">
+	<a class="menu__link" href="/ru/gm-rules">
+		<span class="menu__text">ГМ правила</span>
+	</a>
+</li>
+<li class="menu__item">
+	<a class="menu__link" href="/ru/fpk-rules">
+		<span class="menu__text">ФПК правила</span>
+	</a>
+</li>
+<li class="menu__item">
+	<a class="menu__link" href="/ru/guides/">
+		<span class="menu__text">Гайды</span>
+	</a>
+</li>
+<li class="menu__item">
+	<a class="menu__link" href="/ru/contacts">
+		<span class="menu__text">Контакты</span>
+	</a>
+</li>
+</ul>
+		<div class="lang-switcher" style="align-content:right;text-align: center ;">Switch to:
+	<br>
+	<img src="/ru.png" />
+	
+	
+	<a href="/guides/pvp/">ENG</a>
+	
+	
+</div>
+
+		<div class="js-toggle-wrapper">
+	<div class="js-toggle">
+		<div class="js-toggle-track">
+			<div class="js-toggle-track-check">
+				<img src="data:image/png;base64,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" role="presentation" style="pointer-events: none;" width="16" height="16">
+			</div>
+			<div class="js-toggle-track-x">
+				<img src="data:image/png;base64,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" role="presentation" style="pointer-events: none;" width="16" height="16">
+			</div>
+		</div>
+		<div class="js-toggle-thumb"></div>
+		<input class="js-toggle-screenreader-only" type="checkbox" aria-label="Switch between Dark and Light mode">
+	</div>
+</div>
+<style>
+ 
+
+.js-toggle-wrapper {
+	display: table;
+	 
+	margin-left: 10px;
+	margin-top: 23px;
+}
+
+.js-toggle {
+	touch-action: pan-x;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	background-color: transparent;
+	border: 0;
+	padding: 0;
+	-webkit-touch-callout: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+.js-toggle-screenreader-only {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.js-toggle-track {
+	width: 50px;
+	height: 24px;
+	padding: 0;
+	border-radius: 30px;
+	background-color: hsl(222, 14%, 7%);
+	transition: all 0.2s ease;
+}
+
+.js-toggle-track-check {
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	left: 5px;
+	top: 0px;
+	bottom: 0px;
+	margin-top: auto;
+	margin-bottom: auto;
+	line-height: 0;
+	opacity: 0;
+	transition: opacity 0.25s ease;
+}
+
+.js-toggle--checked .js-toggle-track-check {
+	opacity: 1;
+	transition: opacity 0.25s ease;
+}
+
+.js-toggle-track-x {
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	right: 5px;
+	top: 0px;
+	bottom: 0px;
+	margin-top: auto;
+	margin-bottom: auto;
+	line-height: 0;
+	opacity: 1;
+	transition: opacity 0.25s ease;
+}
+
+.js-toggle--checked .js-toggle-track-x {
+	opacity: 0;
+}
+
+.js-toggle-thumb {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background-color: #fafafa;
+	box-sizing: border-box;
+	transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+	transform: translateX(0);
+}
+
+.js-toggle--checked .js-toggle-thumb {
+	transform: translateX(26px);
+	border-color: #19ab27;
+}
+
+.js-toggle--focus .js-toggle-thumb {
+	box-shadow: 0px 0px 2px 3px rgb(255, 167, 196);
+}
+
+.js-toggle:active .js-toggle-thumb {
+	box-shadow: 0px 0px 5px 5px rgb(255, 167, 196);
+}
+
+</style>
+<script>
+var body = document.body;
+var switcher = document.getElementsByClassName('js-toggle')[0];
+
+
+switcher.addEventListener("click", function() {
+	this.classList.toggle('js-toggle--checked');
+	this.classList.add('js-toggle--focus');
+	
+	if (this.classList.contains('js-toggle--checked')) {
+		body.classList.add('dark-mode');
+		
+		localStorage.setItem('darkMode', 'true');
+	} else {
+		body.classList.remove('dark-mode');
+		setTimeout(function() {
+			localStorage.removeItem('darkMode');
+		}, 100);
+	}
+})
+
+
+if (localStorage.getItem('darkMode')) {
+	
+	switcher.classList.add('js-toggle--checked');
+	body.classList.add('dark-mode');
+}
+
+</script>
+
+	</nav>
+	<div class="content">
+		
+<article class="post">
+<h1>
+Diablo 2 PvP/Duels #начинающему ПвП-шнику посвящается
+</h1>
+<div class= "text">
+<p>
+	Здравствуй, дорогой друг! Эта статья будет посвящена всем тем, кто только-только начал свой путь ПвП-шника в игре Diablo 2. В ней я постараюсь показать общую картину, дать вам некоторые советы (направить вас на верный путь, так сказать) и мотивировать.
+</p>
+<img src="/images/pvp-guide.png" alt="pvp-guide" width="723" height="382">
+<p>
+	<strong>Diablo 2</strong> — это культовый Hack’n’Slash всех времён. Эта игра действительно сделана с умом. В неё вкладывали душу и делалась она на века. Тогда о прибыли и не думали. Целью было создать что-то действительно уникальное и стоящее. В наше время люди стали жадными, их целью стало получение прибыли. Такие аналогии характерны не только для компьютерных игр, но и для музыки, фильмов и автомобилей.
+</p>
+<p>
+	Сравните Мерседес W210 1995 года и теперешние автомобили. Их специально делают некачественно, так, чтобы они ломались, чтобы люди вкладывали дополнительные деньги на их починку, чтобы через несколько лет им пришлось покупать новый автомобиль и опять отдавать за него деньги. Всё ради наживы.fit.
+</p>
+<p>
+	Вспомните «Lord of the Rings», «Matrix» и теперешний шлак вроде «Восхождение Юпитер» или «Фантастической четвёрки». Куча компьютерной графики, эпичный и зрелищный трейлер — а на деле одноразовое дерьмо, пустышка для отмывания денег, не интересная, тупая и ничего за собой не несущая. Вспомните песни «Queen», «Beatles», Frank’а Sinatra и сравните их с современными исполнителями.
+</p>
+<img src="/images/music.png" alt="music" width="334" height="502">
+</p>
+<p>
+	Так вот Diablo 2 — это тот самый «эталон качества» среди всех игр подобного жанра.
+</p>
+<p>
+	Геймплэй, сюжет, атмосфера, музыка — всё здесь выполнено феноменально. Эта потрясающе продуманная игра, в которую можно играть годами или даже десятилетиями и вы никогда не будете уверены, что постигли все её нюансы на все 100%. Я сам, играя в неё уже больше 10 лет частенько открываю для себя что-то новое.ng new.
+</p>
+<p>
+	Помимо непревзойдённой PvM-составляющей в игре доступен PvP режим. Возможно Близзы, сами того не подозревая, упустили некоторые моменты и накосячили (может и знали всё наперёд), но в PvP игроками было обнаружено много разного рода «багов», а вскоре и необычных «приёмов», связанных с ними, таких, как Lock — телепорт на соперника, находящегося за пределами вашего экрана и многих других. Вроде бы это плохо? Баги ;/ Нет! Всё образовалось в лучшую сторону и мы (возможно случайно), благодаря этим самым «багам», получили очень необычную механику PvP. Не просто необычную — её по праву можно назвать лучшей из когда-либо созданных. Ни LA2 ни WoW ни какой-либо другой игре с ней не сравнится. Этого не поймёшь, пока не попробуешь. Знание множества таких приемов и багов, умение и понимание, когда их нужно использовать, ваша реакция, опыт, — вот что вам предстоит освоить и нарабатывать, если вы решили стать ПвП-шником.ate.
+</p>
+<p>
+	Сразу должен признаться, что «Золотая Эра» PvP уже прошла. В 2008-2013 был самый пик игроков, скилла, техник и приёмов. Почти все «легенды» этой эры уже не играют. Кто-то завел семью, кто-то ушел в работу.work.
+</p>
+<ul>
+	<li>Paul</li>
+	<li>Jesper</li>
+	<li>Kam</li>
+	<li>Gyomlalas</li>
+	<li>Cam</li>
+	<li>DHA</li>
+	<li>Marvel.</li>
+	<li>Austin</li>
+	<li>Nosemonkey-b</li>
+</ul>
+<p>
+	Вот те самые легенды. Скилл некоторых из них можно увидеть на старых роликах, некоторые видео вовсе не снимали. Но даже видео не передаст вам всю мощь их скилла. Это надо было видеть в живую.
+</p>
+<p>
+	Но не расстраивайтесь. Ушли не все. На нонладдере EU и US East/West некоторых всё ещё можно застать.
+</p>
+<p>
+	<h2>
+		Where to start with?
+	</h2>
+</p>
+<p>
+	Монополистом среди всех русских серверов является Playground.ru. Про PvP на PG я очень подробно писал тут, так что если вы не читали — обязательно прочтите. Как видите, условия для ПвП там крайне неблагоприятные.
+</p>
+<p>
+	Если вы выбрали путь ПвП-пацана и хотите за относительно короткий промежуток времени достигнуть каких-то <a href="https://pp.userapi.com/c845421/v845421793/e7eb3/uH8OHJBKqtI.jpg" rel="alternate">вершин в ПвП</a>, то наиболее предпочтительными будут две площадки:
+</p>
+<ul>
+	<li><a href="https://asgardphugo.pages.dev/" rel="nofollow external">Asgard</a></li>
+	<li><a href="http://eu.battle.net/forums/redirect?uri=/bnet/ru/forum/index?forumId=12011&amp;amp;sid=3000" rel="nofollow external">EU Non-ladder</a></li>
+</ul>
+<p>
+	На этих двух серверах вы можете быстро собрать своего PvP-персонажа и, собственно, перейти к делу.
+</p>
+<p>
+	Идеальный вариант это, конечно же, Asgard.
+</p>
+<p>
+	Это русский бесплатный PvP-сервер, чей хост находится в Москве. Любой шмот с перф статами здесь можно сварить в кубе с помощью рецептов, или же взять с внутриигровых аккаунтов. Любого персонажа (сборку) можно собрать за 5-10 минут. Пинг у большинства жителей Европейской части России в пределах нормы.
+</p>
+<p>
+	Вторым вариантом является EU Non-ladder.er.
+</p>
+<p>
+	Для игры тут нужно купить официальную версию игры (ключ(cd-key)). Стоит 1000 рублей. Здесь можно с помощью ботов за относительно небольшой срок собрать себе чара. Это может занять некоторое время (несколько месяцев) — зато бесплатно.
+	Также возможна покупка вещей за <a class="bbc_url" href="http://forums.d2jsp.org/buyGold.php" rel="nofollow external">реальные деньги</a> (среднего чара можно собрать на 30$~). Скорее всего будут проблемы с пингом (хост находится ~ во Франции), однако с помощью программы <a class="bbc_url" href="http://www.battleping.com/" rel="nofollow external">Battle Ping</a> пинг можно снизить до играбельных значений (70-100). Здесь хороший онлайн, так что благодаря этому диапазон игроков варьируется от полных нубов до лучших игроков мира.
+</p>
+<h2>
+	Выбор персонажа
+</h2>
+<p>
+	Вот техническая часть уже решена и вы в меню создания персонажа. Попробую и здесь дать пару советов.
+	Для начала посмотрите конечный баланс при двух равносильных игроках, хорошем пинге и шмоте.
+	Баланс написан для самых распространённых правил — <a class="bbc_url" href="/gm-rules" rel="nofollow external">GM (Good Manner) Rules</a>. Для Fair Rules сервера Playground.ru они не подходят. (EU).
+</p>
+<ul>
+	<li>non-block necro &gt; dclaw / 174 sin</li>
+	<li>non-block necro &gt; bvc</li>
+	<li>non-block necro &gt; bow-java zon</li>
+	<li>non-block necro &gt; hdin</li>
+	<li>non-block necro &gt; smiter</li>
+	<li>non-block druid &gt; non-block necro</li>
+	<li>non-block druid &gt; bvc</li>
+	<li>non-block druid &gt; hdin</li>
+	<li>non-block druid &gt; smiter</li>
+	<li>dclaw sin &gt; non-block druid</li>
+	<li>dclaw / 174 sin &gt; hdin</li>
+	<li>dclaw sin &gt; bvc</li>
+	<li>sin(block) &gt; smiter</li>
+	<li>bow-java zon &gt; non-block druid</li>
+	<li>bow-java zon &gt; bvc (BvA &gt; zon)</li>
+	<li>bow-java zon &gt; hammer</li>
+	<li>bow-java zon &gt; sin(block)</li>
+	<li>hdin &gt; smiter</li>
+	<li>hdin &gt; bvc</li>
+	<li>smiter &gt; bvc</li>
+	<li>smiter &gt; bow-java</li>
+</ul>
+<p>
+	Должен сразу сказать, что Сорки (за исключением 95 Fire Es) вообще редкость в PvP. Поэтому брать их в качестве своего первого чара определенно не стоит.
+	Вот прибавка к балансу для 95 Fire ES.
+</p>
+<ul>
+	<li>95 es fire soso &gt; necro</li>
+	<li>95 es fire soso &gt; smiter</li>
+	<li>95 es fire soso &gt; hdin</li>
+</ul>
+<p>
+	Все остальные чары &gt; 95 es fire soso
+</p>
+<p>
+	Естественно, если скилл игрока справа больше чем у того, что слева — всё может поменяться.
+</p>
+<p>
+	В общем я бы советовал начать свой путь в PvP с Некроманта или Друида. Это самые простые персонажи для новичка.
+</p>
+<p>
+	<strong>Necromancer:</strong>
+</p>
+<p>
+	Преимущества:
+</p>
+<ul>
+	<li>Урон от всех скиллов — магический (к нему нет резиста)</li>
+	<li>Самонаводящийся скилл Bone Spirit, прямолинейный, но очень быстрый Bone Spear, охватывающий большой радиус Teeth, которым легко сносить стак</li>
+	<li>Стак (Golem+Oak)</li>
+	<li>Возможность наносить атаки с далёкого расстояния</li>
+	<li>Возможность пускать <a href="/guides/ibs" target="_blank" rel="alternate noopener noreferrer">Инвизы (НБС)</a></li>
+</ul>
+<p>
+	Недостатки:
+</p>
+<ul>
+	<li>Низкий показатель хп (4-4,5k)</li>
+</ul>
+<p>
+	<strong>Druid</strong>
+</p>
+<p>
+	Преимущества:
+</p>
+<ul>
+	<li>Высокий показатель хп благодаря Oak Sage (7-8,5k)</li>
+	<li>Стак (5 волков + Oak Sage)</li>
+	<li>При Локе Торнадо не блокируется, у него высокий урон и один может ударить до трёх раз</li>
+	<li>Cyclone Armor, благодаря которому элементальные атаки нам нипочём</li>
+</ul>
+<p>
+	Недостатки:
+</p>
+<ul>
+	<li>Низкий показатель FСR</li>
+	<li>Необходимость находиться в относительной близости к врагу при атаке</li>
+</ul>
+<p>
+	Да, Некр явно является самым сильным персонажем в игре, однако в NvD (Некр против Дру) у Друида большое преимущество. Так что выбор за вами.<br><br>
+	В общем, это лишь мой совет. Если вам по душе другой персонаж — конечно пробуйте играть за него. Но другие чары (Assassin, Barbarian) более сложны в освоении и пройдёт много времени, прежде вы достигните хоть какого-то уровня и начнёте реализовывать своего персонажа.<br><br>
+	Также, <span class="bbc_underline"><strong>ПОЖАЛУЙСТА</strong></span>, воздержитесь от таких сборок как:
+</p>
+<ul>
+	<li>FoHer</li>
+	<li>Auradin</li>
+	<li>V/T</li>
+	<li>T/V</li>
+	<li>Charger</li>
+	<li>Bow-Sorc</li>
+	<li>FO-Sorc</li>
+	<li>Poison-Necro</li>
+	<li>Fissure-Dru</li>
+	<li>Fury/Rabies-Dru</li>
+	<li>FC-Zon</li>
+	<li>Poison-Zon</li>
+	<li>Kick-Sin</li>
+</ul>
+<p>
+	Конечно, многие из этих сборок очень фановые и да, они могут быть сильными в прямых руках, но очень сложно назвать их достойными или скилловыми. Большинство из них сводится либо к пассиву и/или к удаче (попадание Rabies, Poison Explosion) а также отсутствием у соперника нужного количества резистов. Играя такими сборками вы никогда не раскроете потенциал своего персонажа.<br>
+	По фану — пожалуйста, но никогда не воспринимайте такие дуэли серьёзно.
+	<p>
+		<h2>
+			Что же решает в PvP?
+		</h2>
+	</p>
+	<ol>
+		<li>Пинг</li>
+		<li>Твой скилл</li>
+		<li>Шмот</li>
+	</ol>
+	<p>
+		<h3>
+			Пинг
+		</h3>
+	</p>
+	<p>
+		Да, при высоком пинге или его скачках вы будете часто проигрывать. Тут уж ничего не поделать. Во многих дуэлях одна секунда промедления = rip, или же потеря большого количества хит-поинтов. Пинг очень важен при игре за Barbarian’a, 174 Sin.
+	</p>
+	<p>
+		<h3>
+			Твой скилл
+		</h3>
+	</p>
+	<p>
+		Здесь нет предела совершенству. Понятие «античар» применимо лишь в одной-единственной дуэли:
+		95% ES Sorc> Bone necro
+	</p>
+	<ul>
+		<li>95% ES Sorc&gt; Bone Necro</li>
+	</ul>
+	<p>
+		Здесь все ваши усилия тщетны и как бы вы не старались Некром 95%ES Сорку в серьёзной дуэли вы не победите.
+		ВО ВСЕХ остальных «unbalanced» дуэлях у одной из сторон есть «преимущество». И при должной подготовке и скилле более слабая сторона(персонаж) <u>может выиграть</u> более сильную, несмотря на это самое «преимущество» на стороне соперника. Чтоб вы понимали: сильный Hdin может справиться с 95% ES Fire Sorc, PnB Necro с Wind Druid’ом, а Traps-Sin c PnB Necro.
+	</p>
+	<p>
+		<h3>
+			Шмот
+		</h3>
+	</p>
+	<p>
+		Разрывая мировоззрение <a href="http://users.playground.ru/550077/" target="_blank" rel="alternate noopener noreferrer">некоторых личностей</a>, сразу скажу, что Enigma — обязательна для ПвП Всем классам, кроме Амазонки. Недосборки типо дэсающего Хаммера в Lionheart или Traps-Sin с Vipermage — это шлак появившиеся на PG из-за бомжедропа и как следствие невозможности собрать данный Рунворд. Без него все ваши возможности и потенциал вашего персонажа серьёзно ограничиваются. (aka «Танцы на Льду без Коньков»)
+	</p>
+	<p>
+		Что касается разницы в рарках, крафтах, инвентаре и прочего. Если у одного (скажем) Некра 2sk/20fcr clear amul|10fcr clear ring|clear skillers pack — он при прочих равных (скилле) уступит Некру с 2sk/20fcr/15str/30hp/60mana amul|10fcr/20str/80mana ring|35+hp skillers pack. Разница в хп будет велика, где-то 500+. А под БО это почти 1к ХП. <br>
+		Если же разница не велика (2sk/20fcr/15str/30hp/40 mana amul <—> 2sk/20fcr/30str/60hp/90mana amul (аналогично с рингом и скиллерами)) — всё решат ваши прямые руки, а не шмот.
+	</p>
+	<p>
+		<h2>
+			Наставления
+		</h2>
+	</p>
+	<p>
+		Всё приходит с опытом. Прежде чем вы чему-то научитесь, вы умрёте 100, 1000 а то и ещё больше раз. Фундаментом вашего скилла является 1) ваш опыт 2) aim 3) знание и умелое использование различных приёмов и багов, таких как:such as:
+	</p>
+	<ul>
+		<li><a href="/guides/wsg" target="_blank" rel="nofollow external noopener noreferrer">WSG</a></li>
+		<li><a href="/guides/stomp" target="_blank" rel="nofollow external noopener noreferrer">Lock/Chainlock/Chain</a></li>
+		<li><a href="/guides/swirls" target="_blank" rel="nofollow external noopener noreferrer">Swirls [Shock Wave / Smite]</a></li>
+		<li><a href="/guides/ct" target="_blank" rel="nofollow external noopener noreferrer">C/T Trick</a></li>
+		<li><a href="/guides/tt" target="_blank" rel="nofollow external noopener noreferrer">Tank Trick</a></li>
+		<li><a href="/guides/str" target="_blank" rel="nofollow external noopener noreferrer">Strength Bug</a></li>
+		<li><a href="/guides/sb" target="_blank" rel="nofollow external noopener noreferrer">Skill Bug</a></li>
+		<li><a href="/guides/desynch" target="_blank" rel="nofollow external noopener noreferrer">Desynch</a></li>
+		<li><a href="/guides/wsm" target="_blank" rel="alternate noopener noreferrer">WSM Bug</a></li>
+	</ul>
+	<p>
+		Читайте, учитесь. Всё в ваших руках. Пробуйте, пробуйте и ещё раз пробуйте. Учатся всегда на ошибках. Вещи, которые по-началу вам казались сложными скоро будут выполняться без каких либо усилий благодаря мышечной памяти.<br>
+		По-началу и базовые приемы будут сложны и все дуэли будут сводится к их изучению. Освоив и закрепив их, вы уже будете обращать внимание на другие детали дуэли — микро- и макро-контроль. Получаться будет не сразу, но как я уже сказал — всё приходит с опытом.
+		Assassin или Amazone по-началу будут бесить своим вечными Mind Blast/Knockback. Освоив <a href="/guides/wsg" target="_blank" rel="alternate noopener noreferrer">WSG</a>, <a href="/guides/tt" target="_blank" rel="alternate noopener noreferrer">TT</a> и <a href="/guides/ct" target="_blank" rel="alternate noopener noreferrer">C/T</a> вы увидите, что, оказывается, эти персонажи не такие и страшные, как казалось поначалу.<br>
+		«Чтобы поймать преступника, нужно думать, как он»!<br>
+		Всегда свапайтесь чарами. Не смотрите на дуэль с одной стороны. Поменявшись и сыграв за чара (сторону) соперника, вы сможете лучше понять, что и как он делает, где он может совершить ошибку и вовремя его на этом подловить.
+		Вперёд!
+	</p>
+	<p>
+		Вперёд!
+	</p>
+	<p>
+		h3>Th3>
+	</p>
+	<p>
+		Это кардинально перевернёт ваше представление об игре. Здесь померкнет и будет не важен ваш скилл в дулях 1v1. Это уже командная игра и здесь все правила и представления меняются. Здесь уже важна не Микро, а Макро-составляющая. Вам нужно понимать действия соперников и их перемещения, ведь ваше небольшое отдаление от своего союзника (или его от вас) спровоцирует мгновенную атаку и вы (союзник) можете умереть в считанные секунды. В то же время вам самому надо понимать, когда соперник «загулял» и <u>уже вам вдвоём</u> провести быструю атаку, при это не забывая про других врагов. Комбинации Necro(Amplify Damage)+Druid(Tornado), Assassin(Mind Blast(Swirls))+ Necro (Bone Prison) (или даже всё вместе) не дает вам вообще права на ошибку, ведь благодаря их сочетанию любая атака становится в разы опасней.
+	</p>
+	<p>
+		В TvT вы получаете нечто новое, чего вы бы вы никогда не испытали в дуэлях 1v1.
+	</p>
+	<p>
+		TvT по праву можно назвать лучшим, что есть в Diablo 2. Не зацикливайтесь только на скилле 1v1. Он офк тоже важен, как фундамент, но TvT — это совсем другое. Обязательно попробуйте. Вы точно не пожалеете и поймёте, чтó я имел ввиду.
+	</p>
+	<p>
+		Двумя самыми популярными вариантами являются в TvT являются:
+	</p>
+	<ul>
+		<li>FPK</li>
+		<li>Rush vs Camp (Rush/Camp (r/c))</li>
+	</ul>
+	<p>
+		+их смесь
+	</p>
+	<p>
+		<h3>
+			FPK
+		</h3>
+	</p>
+	<p>
+		Это четыре персонажа — Druid, Necr, Barbarian и Assassin и их игра по специальным <a href="/fpk-rules" target="_blank" rel="alternate noopener noreferrer">FPK Rules</a> (правилам). Дуэли между этими персонажами по этим правилам считаются наиболее балансными как в 1v1, так и в TvT. Все сборки здесь Нон-блок. Это может многим показаться странным, ведь якобы в таком случае Варвар должен со всех легко резать. Тем не менее на деле Барб всё равно уступает оставшимся трём чарам при прочих равных.
+	</p>
+	<p>
+		<h3>
+			Rush vs Camp
+		</h3>
+	</p>
+	<p>
+		R/C это Hdin+Zon против двух Fpk чаров. Hdin+Zon это Camp сторона. Они стоят и обороняются от атак (кемперят), а команда Rush нападает. <br>
+		Смесь R/C и FPK — тут всё понятно. Hdin + Zon +1FPK vs 3FPK или любое другое сочетание.
+	</p>
+	<p>
+		Обязательно попробуйте следующие связки (match-ups):
+	</p>
+	<p>
+		<strong>FPK:</strong>
+	</p>
+	<ul>
+		<li>Dru Trap ~&gt; Barb Nec*</li>
+		<li>Dru Nec ~= Trap Nec**</li>
+		<li>Barb Nec ~= Trap Nec</li>
+		<li>Dru Nec &gt; Barb Nec</li>
+		<li>Dru Trap ~&gt; Trap Nec</li>
+		<li>Dru Barb ~= Trap Nec</li>
+	</ul>
+	<p>
+		<strong>R/C:</strong>
+	</p>
+	<ul>
+		<li>Bow Hdin ~= Barb Trap</li>
+		<li>Bow Hdin ~= Dru Trap</li>
+		<li>Bow Hdin &lt; Nec Trap</li>
+		<li>Bow Hdin &lt; Dru Nec</li>
+		<li>Bow Hdin &lt; Barb Nec</li>
+		<p>
+			Also:
+		</p>
+		<li>Hdin Trap &lt; Nec Dru</li>
+		<li>Hdin Trap &lt; Smiter Nec</li>
+		<p>
+			(Hdin и Smiter должен уметь делать <a href="/guides/swirls" target="_blank" rel="alternate noopener noreferrer">Throw&gt;FoH&gt;Tele&gt;Hammer+Conc</a>)
+		</p>
+	</ul>
+	<p>
+		<em>*~&gt; — немного сильнее</em>
+	</p>
+	<p>
+		<em>**~= — примерно равны</em>
+	</p>
+	<p>
+		И при возможности не обойдите стороной и 4v4. Это вообще нéчто :)
+	</p>
+	<p>
+		Всем удачи и приятной игры
+	</p>
+	<p>
+		Успехов во всех начинаниях!
+	</p>
+	<p>
+		© Progon_mulov
+	</p>
+
+</div>
+
+	</article>
+</main>
+
+	</div>
+</body>
+&uarr;
+<a href="#top" style="    
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    ">&uarr; Наверх</a>
+
+
+</html>
