@@ -1,9 +1,9 @@
 <div class="lang-switcher" style="align-content:right;text-align: center ;">{{ i18n "switch" }}
-	<br>
-	<img src="/{{.Language}}.png" />
-	{{ if .IsTranslated }}
-	{{ range .Translations }}
-	<a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-	{{ end}}
-	{{ end }}
+ <br>
+ <img src="/{{.Language}}.png" / style="width: 45px" alt="lang">
+ {{ if .IsTranslated }}
+ {{ range .Translations }}
+ <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+ {{ end}}
+ {{ end }}
 </div>

@@ -2,35 +2,33 @@
 <html lang="en">
 
 <head>
-	
-	
-	<link rel="alternate" hreflang="ru" href="/ru/guides/stomp/" title="RU">
-	
-	
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Stomping [Namelock, Lock (Stomp), Chainlock, Chain] - AsgardPvP</title>
-	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
-	<meta name="description" content="Namelock is your aim, which is your reaction, precision, and rapidness. That is to say, the foundation of your skill, is an experience that is accumulated for months and even years.">
-	<meta name="keywords" content="diablo 2 namelock, diablo 2 stomp, diablo 2 chainlock, diablo 2 chain, d2 namelock, d2 stomp, d2 chainlock, d2 chain, d2r namelock, d2r stomp, d2r chainlock, d2r chain">
-	<link rel="stylesheet" href="/css/style.css">
-	
-	<link rel="icon" type="image/x-icon" href="/favicon.ico">
-	
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <title>Stomping [Namelock, Lock (Stomp), Chainlock, Chain] - AsgardPvP</title>
+ <meta name="description" content="Namelock is your aim, which is your reaction, precision, and rapidness. That is to say, the foundation of your skill, is an experience that is accumulated for months and even years.">
+ <meta name="keywords" content="diablo 2 namelock, diablo 2 stomp, diablo 2 chainlock, diablo 2 chain, d2 namelock, d2 stomp, d2 chainlock, d2 chain, d2r namelock, d2r stomp, d2r chainlock, d2r chain">
+ <link rel="stylesheet" href="/css/style.css">
+ 
+ <link rel="icon" type="image/x-icon" href="/favicon.ico">
+ 
+ <meta name="robots" content="index,follow">
+ <script>
+ (function(d, e) { d[e] = d[e].replace("no-js", "js"); })(document.documentElement, "className");
+ </script>
 </head>
 
 <body>
-	<header>
-		<a id="top"></a>
-		<a class="logo__link" href="/" title="AsgardPvP" rel="home">
+ <header>
+  <a id="top"></a>
+  <a class="logo__link" href="/" title="AsgardPvP" rel="home">
 <div class="logo__title">AsgardPvP</div>
 
 
 </a>
-	</header>
-	<nav>
-		<ul class="menu__list"> 
+ </header>
+ <nav>
+  <ul class="menu__list"> 
 <li class="menu__item">
 	<a class="menu__link" href="/">
 		<span class="menu__text">Home</span>
@@ -77,17 +75,16 @@
 	</a>
 </li>
 </ul>
-		<div class="lang-switcher" style="align-content:right;text-align: center ;">Поменять на:
-	<br>
-	<img src="/en.png" />
-	
-	
-	<a href="/ru/guides/stomp/">RU</a>
-	
-	
+  <div class="lang-switcher" style="align-content:right;text-align: center ;">Поменять на:
+ <br>
+ <img src="/en.png" / style="width: 45px" alt="lang">
+ 
+ 
+ <a href="/ru/guides/stomp/">RU</a>
+ 
+ 
 </div>
-
-		<div class="js-toggle-wrapper">
+  <div class="theme">
 	<div class="js-toggle">
 		<div class="js-toggle-track">
 			<div class="js-toggle-track-check">
@@ -100,289 +97,287 @@
 		<div class="js-toggle-thumb"></div>
 		<input class="js-toggle-screenreader-only" type="checkbox" aria-label="Switch between Dark and Light mode">
 	</div>
-</div>
-<style>
- 
-
-.js-toggle-wrapper {
-	display: table;
+	<style>
 	 
-	margin-left: 10px;
-	margin-top: 23px;
-}
 
-.js-toggle {
-	touch-action: pan-x;
-	display: inline-block;
-	position: relative;
-	cursor: pointer;
-	background-color: transparent;
-	border: 0;
-	padding: 0;
-	-webkit-touch-callout: none;
-	user-select: none;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-	-webkit-tap-highlight-color: transparent;
-}
-
-.js-toggle-screenreader-only {
-	border: 0;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	width: 1px;
-}
-
-.js-toggle-track {
-	width: 50px;
-	height: 24px;
-	padding: 0;
-	border-radius: 30px;
-	background-color: hsl(222, 14%, 7%);
-	transition: all 0.2s ease;
-}
-
-.js-toggle-track-check {
-	position: absolute;
-	width: 17px;
-	height: 17px;
-	left: 5px;
-	top: 0px;
-	bottom: 0px;
-	margin-top: auto;
-	margin-bottom: auto;
-	line-height: 0;
-	opacity: 0;
-	transition: opacity 0.25s ease;
-}
-
-.js-toggle--checked .js-toggle-track-check {
-	opacity: 1;
-	transition: opacity 0.25s ease;
-}
-
-.js-toggle-track-x {
-	position: absolute;
-	width: 17px;
-	height: 17px;
-	right: 5px;
-	top: 0px;
-	bottom: 0px;
-	margin-top: auto;
-	margin-bottom: auto;
-	line-height: 0;
-	opacity: 1;
-	transition: opacity 0.25s ease;
-}
-
-.js-toggle--checked .js-toggle-track-x {
-	opacity: 0;
-}
-
-.js-toggle-thumb {
-	position: absolute;
-	top: 1px;
-	left: 1px;
-	width: 22px;
-	height: 22px;
-	border-radius: 50%;
-	background-color: #fafafa;
-	box-sizing: border-box;
-	transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
-	transform: translateX(0);
-}
-
-.js-toggle--checked .js-toggle-thumb {
-	transform: translateX(26px);
-	border-color: #19ab27;
-}
-
-.js-toggle--focus .js-toggle-thumb {
-	box-shadow: 0px 0px 2px 3px rgb(255, 167, 196);
-}
-
-.js-toggle:active .js-toggle-thumb {
-	box-shadow: 0px 0px 5px 5px rgb(255, 167, 196);
-}
-
-</style>
-<script>
-var body = document.body;
-var switcher = document.getElementsByClassName('js-toggle')[0];
-
-
-switcher.addEventListener("click", function() {
-	this.classList.toggle('js-toggle--checked');
-	this.classList.add('js-toggle--focus');
-	
-	if (this.classList.contains('js-toggle--checked')) {
-		body.classList.add('dark-mode');
-		
-		localStorage.setItem('darkMode', 'true');
-	} else {
-		body.classList.remove('dark-mode');
-		setTimeout(function() {
-			localStorage.removeItem('darkMode');
-		}, 100);
+	.theme {
+		display: table;
+		 
+		margin-left: 10px;
+		margin-top: 23px;
 	}
-})
 
+	.js-toggle {
+		touch-action: pan-x;
+		display: inline-block;
+		position: relative;
+		cursor: pointer;
+		background-color: transparent;
+		border: 0;
+		padding: 0;
+		-webkit-touch-callout: none;
+		user-select: none;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		-webkit-tap-highlight-color: transparent;
+	}
 
-if (localStorage.getItem('darkMode')) {
+	.js-toggle-screenreader-only {
+		border: 0;
+		clip: rect(0 0 0 0);
+		height: 1px;
+		margin: -1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+	}
+
+	.js-toggle-track {
+		width: 50px;
+		height: 24px;
+		padding: 0;
+		border-radius: 30px;
+		background-color: hsl(222, 14%, 7%);
+		transition: all 0.2s ease;
+	}
+
+	.js-toggle-track-check {
+		position: absolute;
+		width: 17px;
+		height: 17px;
+		left: 5px;
+		top: 0px;
+		bottom: 0px;
+		margin-top: auto;
+		margin-bottom: auto;
+		line-height: 0;
+		opacity: 0;
+		transition: opacity 0.25s ease;
+	}
+
+	.js-toggle--checked .js-toggle-track-check {
+		opacity: 1;
+		transition: opacity 0.25s ease;
+	}
+
+	.js-toggle-track-x {
+		position: absolute;
+		width: 17px;
+		height: 17px;
+		right: 5px;
+		top: 0px;
+		bottom: 0px;
+		margin-top: auto;
+		margin-bottom: auto;
+		line-height: 0;
+		opacity: 1;
+		transition: opacity 0.25s ease;
+	}
+
+	.js-toggle--checked .js-toggle-track-x {
+		opacity: 0;
+	}
+
+	.js-toggle-thumb {
+		position: absolute;
+		top: 1px;
+		left: 1px;
+		width: 22px;
+		height: 22px;
+		border-radius: 50%;
+		background-color: #fafafa;
+		box-sizing: border-box;
+		transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+		transform: translateX(0);
+	}
+
+	.js-toggle--checked .js-toggle-thumb {
+		transform: translateX(26px);
+		border-color: #19ab27;
+	}
+
+	.js-toggle--focus .js-toggle-thumb {
+		box-shadow: 0px 0px 2px 3px rgb(255, 167, 196);
+	}
+
+	.js-toggle:active .js-toggle-thumb {
+		box-shadow: 0px 0px 5px 5px rgb(255, 167, 196);
+	}
+
+	</style>
+	<script>
+	var body = document.body;
+	var switcher = document.getElementsByClassName('js-toggle')[0];
+
 	
-	switcher.classList.add('js-toggle--checked');
-	body.classList.add('dark-mode');
-}
-
-</script>
-
-	</nav>
-	<div class="content">
+	switcher.addEventListener("click", function() {
+		this.classList.toggle('js-toggle--checked');
+		this.classList.add('js-toggle--focus');
 		
-<article class="post">
-<h1>
-Stomping [Namelock, Lock (Stomp), Chainlock, Chain]
-</h1>
-<div class= "text">
-<p>
-	It's worth mentioning that if you play in a windowed mode ("-w" in the shortcut properties), you should install the <a href="https://drive.google.com/uc?export=download&id=1Mrkd_ZvXF0wU8f_95wDWRyoZ7ZlcXfX0" target="_blank" rel="alternate noopener noreferrer">Cursor Locker</a>. Otherwise, your cursor will constantly fly out of the window and your play will simply be awful. So if you want to learn how to duel in Diablo 2 - make sure you download, install, and use it.
+		if (this.classList.contains('js-toggle--checked')) {
+			body.classList.add('dark-mode');
+			
+			localStorage.setItem('darkMode', 'true');
+		} else {
+			body.classList.remove('dark-mode');
+			setTimeout(function() {
+				localStorage.removeItem('darkMode');
+			}, 100);
+		}
+	})
+
+	
+	if (localStorage.getItem('darkMode')) {
+		
+		switcher.classList.add('js-toggle--checked');
+		body.classList.add('dark-mode');
+	}
+
+	</script>
+</div>
+
+ </nav>
+ <div class="article">
+  <div itemscope itemtype="https://schema.org/Article">
+   
+<h1 itemprop="headline">Stomping [Namelock, Lock (Stomp), Chainlock, Chain]</h1>
+<span itemprop="description">
+	<p>
+ It's worth mentioning that if you play in a windowed mode ("-w" in the shortcut properties), you should install the <a href="https://drive.google.com/uc?export=download&id=1Mrkd_ZvXF0wU8f_95wDWRyoZ7ZlcXfX0" target="_blank" rel="alternate noopener noreferrer">Cursor Locker</a>. Otherwise, your cursor will constantly fly out of the window and your play will simply be awful. So if you want to learn how to duel in Diablo 2 - make sure you download, install, and use it.
 </p>
 <h2>
-	Namelock
+ Namelock
 </h2>
 <p>
-	Let's start with simple techniques. The thing with Namelock is to quickly and precisely aim at your opponent's nickname.
+ Let's start with simple techniques. The thing with Namelock is to quickly and precisely aim at your opponent's nickname.
 </p>
 <a href="https://www.youtube.com/watch?v=roGZy8NP0Vo" target="_blank">
-	<img src="/images/yt.svg" alt="stomp1" width="350">
+ <img src="/images/yt.svg" alt="stomp1" width="350">
 </a>
 <p>
-	It is a very important thing. You will need this in almost every duel. In fact, Namelock is your aim, which is your reaction, precision, and rapidness. That is to say, the foundation of your skill, is an experience that is accumulated for months and even years.
+ It is a very important thing. You will need this in almost every duel. In fact, Namelock is your aim, which is your reaction, precision, and rapidness. That is to say, the foundation of your skill, it is an experience that is accumulated for months and even years.
 </p>
 <p>
-	here's a good <a href="https://aim400kg.ru/" target="_blank" rel="alternate noopener noreferrer">site</a> for training aim and accuracy
+ here's a good <a href="https://aim400kg.ru/" target="_blank" rel="alternate noopener noreferrer">site</a> for training aim and accuracy
 </p>
 <h2>
-	Lock [Stomp]
+ Lock [Stomp]
 </h2>
 <p>
-	Let's go ahead. Bind your attacking skill (e.g. Fire Ball, Bone Spear, Lightning) and teleport to the right skill bar. Catch the opponent's nickname with an attacking skill and move the cursor to your feet (~on the knees of our character).
+ Let's go ahead. Bind your attacking skill (e.g. Fire Ball, Bone Spear, Lightning) and teleport to the right skill bar. Catch the opponent's nickname with an attacking skill and move the cursor to your feet (~on the knees of our character).
 </p>
 <p>
-	<img src="/images/yt.svg" alt="stomp2" width="350">
+ <img src="/images/yt.svg" alt="stomp2" width="350">
 </p>
 <p>
-	Then switch to the teleport. As a result, after teleport, our cursor is again on the nickname of the opponent. Switch to the attacking skill, press RMB again, and kill the guy.
+ Then switch to the teleport. As a result, after teleport, our cursor is again on the nickname of the opponent. Switch to the attacking skill, press RMB again, and kill the guy.
 </p>
 <a href="https://www.youtube.com/watch?v=kxGxq54kROs" target="_blank">
-	<img src="/images/yt.svg" alt="stomp3" width="300" width="350">
+ <img src="/images/yt.svg" alt="stomp3" width="300" width="350">
 </a>
 <p>
-	If you do not move the cursor to your knees, you might start to shoot in a different direction and your enemy will simply kill you meantime.
-</p>
-<a href="https://www.youtube.com/watch?v=ZfMMdVNEaMs" target="_blank">
-	<img src="/images/yt.svg" alt="stomp4" width="350">
-</a>
-<p>
-	It is noteworthy that the player who stomped first has an advantage in the exchange. In many duels, the one who stomped first - wins.
-</p>
-<p>
-	It is also worth mentioning that the Lock works on a specific radius, and after the opponent gets away from it the Lock will break.
-</p>
-<p>
-	<img src="/images/yt.svg" alt="stomp5" width="350">
-</p>
-<p>
-	*radius on the mini-map
-</p>
-<p>
-	In the beginning, everything will look clumsy and slow. But don't worry. Everything comes with an experience. Soon you will train your muscle memory and Lock that was complex at first will now be easy and simple.
-</p>
-<h2>
-	Chainlock
-</h2>
-<p>
-	This is essentially the second stage of a Lock. Your opponent will not always stay in one spot and soon, feeling the coming Lock, will simply fly away. No wonder, while performing a Lock we moved our cursor under the knees. Now after a successful Lock, the nickname of our opponent will be again held with an attacking skill (we renewed it), which means you can do again Lock. Multiple Lock is, in fact, a Chainlock. This technique also requires skill and training.
-</p>
-<a href="https://www.youtube.com/watch?v=W298nsb9uB0" target="_blank">
-	<img src="/images/yt.svg" alt="stomp6" width="350">
-</a>
-<p>
-	*Chailnlock with characters such as Hammer, V/T, and Smiter is a little different. This will be discussed in the relevant guides.
-</p>
-<h2>
-	Chain
-</h2>
-<p>
-	This technique is quite simple. Soon your opponent, suspecting that you are going to Chainlock will start to immediately fly away from you at berserk speed (multiple teleports in the corner of the screen). You won't have enough time to perform a Chainlock and the opponent will get away. Now we can chase him down by using Chain. To do this, after holding the attacking skill and moving the cursor to the knees we switch to teleport and still keep RMB held.
-</p>
-<a href="https://www.youtube.com/watch?v=1NfzJWCWsXA" target="_blank">
-	<img src="/images/yt.svg" alt="stomp7" width="350">
-</a>
-<p>
-	<em>It is important to get the cursor exactly between the knees of your character. Judging by my personal experience it is likely to "stick" for longer.</em>
-</p>
-<p>
-	It is important not to get carried away and see when the opponent starts to attack, otherwise, this technique will play with you a bad joke and you'll only hurt yourself. The opponent will stop and will start to attack you, and you will still ride around while getting hit.
-</p>
-<p>
-	Chain usually breaks when the opponent makes tp next to the "holes" or walls. On the "clean" distance Chain is more effective.
-</p>
-<p>
-	If your opponent uses Oak or Golem, then performing Chain is even easier. The chances that Chain breaks on "clean" distances are close to zero.
-</p>
-<h2>
-	Chainlock+Chain
-</h2>
-<p>
-	We are simply combining these two techniques. After gaining some game experience against a certain player you will already know his habits. For example, how many TP he does before making recast, or counter-attack, you'll have to guess when you need to "stick" with Chain and when you need to do a Chainlock.
-</p>
-<p>
-	Those who always fly away like mad fucks (multiple teleports in the corner of the screen), certainly do wisely, but catching them is still possible. For example in NvN Nec is often catching up with the chased Nec with Spear. Apparently, this is because the frames coincide so that Necros do TP at the same time. While the chased Nec casts teleport that lasts 9 frames the chasing Nec manages to catch him with Bone Spear. So the chased Nec gets unexpectedly FHR'd and dies.
-</p>
-<p>
-	On the long diagonals is better to use Chain and on the "bends" — Chainlock. For the first part of runaway (1), the enemy is likely to hold TP in the upper-right corner of the screen. That way he will be able to fly away from the Chainlock area before you manage to perform it even if you do everything as quickly as possible.
-</p>
-<p>
-	<img src="/images/stomp8.png" alt="stomp8">
-</p>
-<p>
-	A masterful combination of these two techniques allows us to literally stick to the opponent and not let him go. In some ways, this is one of the peaks of the skill in Diablo 2.
-</p>
-<a href="https://www.youtube.com/watch?v=G15HSXOl5n4" target="_blank">
-	<img src="/images/yt.svg" alt="stomp9" width="350">
-</a>
-<p style="text-align: center;">
-	<em>© <a href="https://youtu.be/YKGi8LQ62SY?t=84">eLa</a></em>
-</p>
-<p>
-	Good Luck and Have Fun!
-</p>
-<p>
-	Wish you good luck in all your endeavors!
-</p>
-<p>
-	© Progon_mulov
-</p>
-
-</div>
-
-	</article>
+ If you do not move the cursor to your knees, you might start to shoot in a different direction and your enemy will simply kill you in the meantime.
+ <a href="https://www.youtube.com/watch?v=ZfMMdVNEaMs" target="_blank">
+  <img src="/images/yt.svg" alt="stomp4" width="350">
+ </a>
+ <p>
+  It is noteworthy that the player who stomped first has an advantage in the exchange. In many duels, the one who stomped first - wins.
+ </p>
+ <p>
+  It is also worth mentioning that the Lock works on a specific radius, and after the opponent gets away from it the Lock will break.
+ </p>
+ <p>
+  <img src="/images/yt.svg" alt="stomp5" width="350">
+ </p>
+ <p>
+  *radius on the mini-map
+ </p>
+ <p>
+  In the beginning, everything will look clumsy and slow. But don't worry. Everything comes with an experience. Soon you will train your muscle memory and Lock that was complex at first will now be easy and simple.
+ </p>
+ <h2>
+  Chainlock
+ </h2>
+ <p>
+  This is essentially the second stage of a Lock. Your opponent will not always stay in one spot and soon, feeling the coming Lock, will simply fly away. No wonder, while performing a Lock we moved our cursor under the knees. Now after a successful Lock, the nickname of our opponent will be again held with an attacking skill (we renewed it), which means you can do again Lock. Multiple Lock is, in fact, a Chainlock. This technique also requires skill and training.
+ </p>
+ <a href="https://www.youtube.com/watch?v=W298nsb9uB0" target="_blank">
+  <img src="/images/yt.svg" alt="stomp6" width="350">
+ </a>
+ <p>
+  *Chailnlock with characters such as Hammer, V/T, and Smiter is a little different. This will be discussed in the relevant guides.
+ </p>
+ <h2>
+  Chain
+ </h2>
+ <p>
+  This technique is quite simple. Soon your opponent, suspecting that you are going to Chainlock will start to immediately fly away from you at berserk speed (multiple teleports in the corner of the screen). You won't have enough time to perform a Chainlock and the opponent will get away. Now we can chase him down by using a Chain trick. To do this, after holding the attacking skill and moving the cursor to the knees we switch to teleport and still keep RMB held.
+ </p>
+ <a href="https://www.youtube.com/watch?v=1NfzJWCWsXA" target="_blank">
+  <img src="/images/yt.svg" alt="stomp7" width="350">
+ </a>
+ <p>
+  <em>It is important to get the cursor exactly between the knees of your character. Judging by my personal experience it is likely to "stick" for longer.</em>
+ </p>
+ <p>
+  It is important not to get carried away and see when the opponent starts to attack, otherwise, this technique will play with you a bad joke and you'll only hurt yourself. The opponent will stop and will start to attack you, and you will still ride around while getting hit.
+ </p>
+ <p>
+  Chain usually breaks when the opponent makes tp next to the "holes" or walls. On the "clean" distance Chain is more effective.
+ </p>
+ <p>
+  If your opponent uses Oak or Golem, then performing Chain is even easier. The chances that Chain breaks on "clean" distances are close to zero.
+ </p>
+ <h2>
+  Chainlock+Chain
+ </h2>
+ <p>
+  We are simply combining these two techniques. After gaining some game experience against a certain player you will already know his habits. For example, how many TP he does before making recast, or counter-attack, you'll have to guess when you need to "stick" with Chain and when you need to do a Chainlock.
+ </p>
+ <p>
+  Those who always fly away like mad fucks (multiple teleports in the corner of the screen), certainly do wisely, but catching them is still possible. For example in NvN Nec is often catching up with the chased Nec with Spear. Apparently, this is because the frames coincide so that Necros do TP at the same time. While the chased Nec casts teleport that lasts 9 frames the chasing Nec manages to catch him with Bone Spear. So the chased Nec gets unexpectedly FHR'd and dies.
+ </p>
+ <p>
+  On the long diagonals is better to use Chain and on the "bends" — Chainlock. For the first part of runaway (1), the enemy is likely to hold TP in the upper-right corner of the screen. That way he will be able to fly away from the Chainlock area before you manage to perform it even if you do everything as quickly as possible.
+ </p>
+ <p>
+  <img src="/images/stomp8.png" alt="stomp8">
+ </p>
+ <p>
+  A masterful combination of these two techniques allows us to literally stick to the opponent and not let him go. In some ways, this is one of the peaks of the skill in Diablo 2.
+ </p>
+ <a href="https://www.youtube.com/watch?v=G15HSXOl5n4" target="_blank">
+  <img src="/images/yt.svg" alt="stomp9" width="350">
+ </a>
+ <p style="text-align: center;">
+  <em>© <a href="https://youtu.be/YKGi8LQ62SY?t=84">eLa</a></em>
+ </p>
+ <p>
+  Good Luck and Have Fun!
+ </p>
+ <p>
+  Wish you good luck in all your endeavors!
+ </p>
+ <p>
+  © Progon_mulov
+ </p>
+</span>
+</article>
 </main>
 
-	</div>
+  </div>
 </body>
-&uarr;
-<a href="#top" style="    
+<footer>
+ <a href="#top" style="    
     display: flex;
     margin: auto;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    ">&uarr; Back to top</a>
 
+    ">&uarr; Back to top
+</a>
+
+</footer>
 
 </html>
