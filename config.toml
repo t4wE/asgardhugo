@@ -4,9 +4,6 @@ showLanguageSelector = true
 defaultContentLanguageInSubdir = false
 baseURL = '/'
 
-
-
-
 [params]
 
 [sitemap]
@@ -21,10 +18,9 @@ baseURL = '/'
   weight=1
   title = "AsgardPvP"
   owner = "Progon & Holy"
-  keywords = ""
+  description = "Diablo 2 Asgard PvP Realm is an international Diablo 2 PvP arena server designed to play PvP/Duels"
+  keywords = "diablo 2 asgard, diablo 2 asgardpvp"
   copyright = ""
-
-
 
 [languages.ru]
   contentDir = 'content/ru'
@@ -32,9 +28,9 @@ baseURL = '/'
   weight=2
   title = "АсгардПвП"
   owner = "Progon & Holy"
-  keywords = ""
+  description = "Диабло 2 Асгард ПвП это международный Диабло 2 ПвП сервер"
+  keywords = "диабло 2 асгард, Диабло 2 асгардпвп"
   copyright = ""
-
 
 [languages.en.menu]
   [[languages.en.menu.main]]
