@@ -36,7 +36,10 @@ html {
 
 body {
 	line-height: 1.5;
-	margin: 0px background: whitesmoke;
+	margin: 0px;
+	background: rgb(230, 230, 230);
+
+
 
 	font-family: {
 			{

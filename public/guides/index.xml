@@ -12,9 +12,7 @@
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/guides/bp/</guid>
-      <description>In Diablo 2, a second is divided into 25 frames. As a result, every action (animation) is measured in these frames. By reaching certain breakpoints, you increase the speed of the animations.
-Recommended breakpoints will be marked red.
-It is worth mentioning that further suggestions are rather PvP-oriented, yet they are pretty similar to PvE ones. FBR FBR stands for Faster Block Rate. When you get hit with physical damage, you have a chance to block it (if you have a shield).</description>
+      <description>In Diablo 2, a second is divided into 25 frames. As a result, every action (animation) is measured in these frames. By reaching certain breakpoints, you increase the speed of the animations.  Recommended breakpoints will be marked red.  It is worth mentioning that further suggestions are rather PvP-oriented, yet they are pretty similar to PvE ones.  FBR   FBR stands for Faster Block Rate. When you get hit with physical damage, you have a chance to block it (if you have a shield).</description>
     </item>
     
     <item>
@@ -23,10 +21,7 @@ It is worth mentioning that further suggestions are rather PvP-oriented, yet the
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/guides/ct/</guid>
-      <description>The name of the C/T Trick comes from the default binds that are used for this technique.
-C — Character Screen
-T— Skill Tree
-Of course, these binds should be changed. Personally, I have them as follows: &#34;A&#34; — CS, S — ST, but when playing Hdin I am lack available binds, so I had to bind Fanaticism on &#34;T&#34;, which is not very convenient. One of my friend&#39;s binds are as follows: &#34;</description>
+      <description>The name of the C/T Trick comes from the default binds that are used for this technique.  C — Character Screen  T— Skill Tree  Of course, these binds should be changed. Personally, I have them as follows: &#34;A&#34; — CS, S — ST, but when playing Hdin I am lack available binds, so I had to bind Fanaticism on &#34;T&#34;, which is not very convenient. One of my friend&#39;s binds are as follows: &#34;</description>
     </item>
     
     <item>
@@ -53,8 +48,7 @@ Of course, these binds should be changed. Personally, I have them as follows: &#
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/guides/ibs/</guid>
-      <description>The Train is a Necromancer&#39;s trick, flying in one line train of Bone Spirits. It is a very simple trick. We hold the Bone Spirit skill in any of the corners of the screen. After five casts of Spirits, we switch to TP and immediately back to Bone Spirit. The cursor does not move.
-  After 3 packs there will be about 15 Spirits which is about 75 k magic damage.</description>
+      <description>The Train is a Necromancer&#39;s trick, flying in one line train of Bone Spirits. It is a very simple trick. We hold the Bone Spirit skill in any of the corners of the screen. After five casts of Spirits, we switch to TP and immediately back to Bone Spirit. The cursor does not move.   After 3 packs there will be about 15 Spirits which is about 75 k magic damage.</description>
     </item>
     
     <item>
@@ -72,7 +66,7 @@ Of course, these binds should be changed. Personally, I have them as follows: &#
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/guides/stomp/</guid>
-      <description>It&#39;s worth mentioning that if you play in a windowed mode (&#34;-w&#34; in the shortcut properties), you should install the Cursor Locker. Otherwise, your cursor will constantly fly out of the window and your play will simply be awful. So if you want to learn how to duel in Diablo 2 - make sure you download, install, and use it.   Namelock    Let&#39;s start with simple techniques.</description>
+      <description>It&#39;s worth mentioning that if you play in a windowed mode (&#34;-w&#34; in the shortcut properties), you should install the Cursor Locker. Otherwise, your cursor will constantly fly out of the window and your play will simply be awful. So if you want to learn how to duel in Diablo 2 - make sure you download, install, and use it.  Namelock   Let&#39;s start with simple techniques. The thing with Namelock is to quickly and precisely aim at your opponent&#39;s nickname.</description>
     </item>
     
     <item>
@@ -99,10 +93,7 @@ Of course, these binds should be changed. Personally, I have them as follows: &#
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/guides/tt/</guid>
-      <description>You need to know what WSG is before reading this.
- So, WSG is a technique for &#34;breaking&#34; FHR animation and increasing desynchronization. But few people know that this technique can be used not only when running, but when you teleport and even attack. No special complications/differences from WSG.
-  Tank Trick while teleport will help you avoid the Leap of Barb:
-  Often you&#39;ll be caught for double or even triple Leap</description>
+      <description>You need to know what WSG is before reading this.  So, WSG is a technique for &#34;breaking&#34; FHR animation and increasing desynchronization. But few people know that this technique can be used not only when running, but when you teleport and even attack. No special complications/differences from WSG.  Tank Trick while teleport will help you avoid the Leap of Barb:   Often you&#39;ll be caught for double or even triple Leap   *4th second of the video  In case you won&#39;t Tank Trick you can be double Leaped and you will be separated from your stack and most likely die from Barb&#39;s stomp&amp;gt;WW.</description>
     </item>
     
     <item>
@@ -120,9 +111,7 @@ Of course, these binds should be changed. Personally, I have them as follows: &#
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/guides/server/</guid>
-      <description>I will try to make a little server classification here. I will point out the pros and cons of every single one so it will be up to you to pick which one to play on.
- All servers can be divided into:
-  Official  Unofficial  Official  These are well-known to you Europe/US West/US East/Asia. These are official servers. Ya need to buy a CD-Key to play here for two games: D2 и D2: LoD.</description>
+      <description>I will try to make a little server classification here. I will point out the pros and cons of every single one so it will be up to you to pick which one to play on.  All servers can be divided into:   Official  Unofficial   Official   These are well-known to you Europe/US West/US East/Asia. These are official servers. Ya need to buy a CD-Key to play here for two games: D2 и D2: LoD.</description>
     </item>
     
     <item>
@@ -131,9 +120,7 @@ Of course, these binds should be changed. Personally, I have them as follows: &#
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/guides/wsg/</guid>
-      <description>WSG is a simple basic technique in PvP. The essence of the trick lies in the constant switching of weapons while running.
- What you should know about swapping:
- Swapping breaks FHR animation Swapping increases desynchronization  FHR  So the animation of Faster Hit Recovery, depending on the class lasts somewhere between 4 and 7 frames. If you will swap weapons during this animation, the animation of FHR will end.</description>
+      <description>WSG is a simple basic technique in PvP. The essence of the trick lies in the constant switching of weapons while running.  What you should know about swapping:  Swapping breaks FHR animation Swapping increases desynchronization   FHR   So the animation of Faster Hit Recovery, depending on the class lasts somewhere between 4 and 7 frames. If you will swap weapons during this animation, the animation of FHR will end.</description>
     </item>
     
     <item>
