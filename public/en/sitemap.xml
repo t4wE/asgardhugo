@@ -4,6 +4,8 @@
   <url>
     <loc>/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -17,6 +19,8 @@
   </url><url>
     <loc>/guides/bp/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -30,6 +34,8 @@
   </url><url>
     <loc>/guides/ct/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -43,6 +49,8 @@
   </url><url>
     <loc>/contacts/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -56,6 +64,8 @@
   </url><url>
     <loc>/create-account/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -69,6 +79,8 @@
   </url><url>
     <loc>/cube-recipes/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -82,6 +94,8 @@
   </url><url>
     <loc>/guides/desynch/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -95,6 +109,8 @@
   </url><url>
     <loc>/guides/pvp/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -108,6 +124,8 @@
   </url><url>
     <loc>/fpk-rules/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -121,6 +139,8 @@
   </url><url>
     <loc>/gm-rules/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -134,6 +154,8 @@
   </url><url>
     <loc>/guides/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -147,6 +169,8 @@
   </url><url>
     <loc>/guides/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -160,6 +184,8 @@
   </url><url>
     <loc>/how-to-connect/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -173,6 +199,8 @@
   </url><url>
     <loc>/guides/ibs/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -186,6 +214,8 @@
   </url><url>
     <loc>/mod-info/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -199,6 +229,8 @@
   </url><url>
     <loc>/guides/sb/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -212,6 +244,8 @@
   </url><url>
     <loc>/guides/stomp/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -225,6 +259,8 @@
   </url><url>
     <loc>/guides/str/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -238,6 +274,8 @@
   </url><url>
     <loc>/guides/swirls/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -251,6 +289,8 @@
   </url><url>
     <loc>/guides/tt/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -264,6 +304,8 @@
   </url><url>
     <loc>/guides/pg/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -277,6 +319,8 @@
   </url><url>
     <loc>/guides/server/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -290,6 +334,8 @@
   </url><url>
     <loc>/guides/wsg/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -303,6 +349,8 @@
   </url><url>
     <loc>/guides/wsm/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -315,6 +363,8 @@
                 />
   </url><url>
     <loc>/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -327,6 +377,8 @@
                 />
   </url><url>
     <loc>/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"

@@ -97,3 +97,7 @@
 - id: switch
   translation:
     "Switch to:"
+
+- id: top
+  translation:
+    "Наверх"

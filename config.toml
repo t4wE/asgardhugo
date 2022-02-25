@@ -4,14 +4,22 @@ showLanguageSelector = true
 defaultContentLanguageInSubdir = false
 baseURL = '/'
 
+
+
+
 [params]
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [languages]
 [languages.en]
   contentDir = 'content/en'
   languageName = "ENG"
   weight=1
   title = "AsgardPvP"
-  subtitle = "International Diablo 2 PvP/Duel server/realm"
   owner = "Progon & Holy"
   keywords = ""
   copyright = ""
@@ -23,7 +31,6 @@ baseURL = '/'
   languageName = "RU"
   weight=2
   title = "АсгардПвП"
-  subtitle = "Международный Диабло 2 ПвП сервер"
   owner = "Progon & Holy"
   keywords = ""
   copyright = ""

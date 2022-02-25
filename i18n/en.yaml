@@ -96,3 +96,7 @@
 - id: switch
   translation:
     "Поменять на:"
+
+- id: top
+  translation:
+    "Back to top"
