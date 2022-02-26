@@ -3,7 +3,7 @@ defaultContentLanguage = 'en'
 showLanguageSelector = true
 defaultContentLanguageInSubdir = false
 baseURL = '/'
-disableKinds = ["sitemap"]
+enableRobotsTXT = true
 
 [params]
 [sitemap]
