@@ -20,7 +20,7 @@ baseURL = '/'
   owner = "Progon & Holy"
   description = "Diablo 2 Asgard PvP Realm is an international Diablo 2 PvP arena server designed to play PvP/Duels"
   keywords = "diablo 2 asgard, diablo 2 asgardpvp"
-  copyright = ""
+  copyright = "Progon & Holy"
 
 [languages.ru]
   contentDir = 'content/ru'
@@ -30,7 +30,7 @@ baseURL = '/'
   owner = "Progon & Holy"
   description = "Диабло 2 Асгард ПвП это международный Диабло 2 ПвП сервер"
   keywords = "диабло 2 асгард, диабло 2 асгардпвп"
-  copyright = ""
+  copyright = "Progon & Holy"
 
 [languages.en.menu]
   [[languages.en.menu.main]]
