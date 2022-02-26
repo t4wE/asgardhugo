@@ -149,7 +149,7 @@ a:hover,
 
 .article {
  /*background: whitesmoke;
-	color: black;*/
+  color: black;*/
  order: 1;
  max-width: 1000px;
  margin: auto;
@@ -230,10 +230,10 @@ ul {
  display: block;
  list-style-type: disc;
  /*margin-block-start: 20px;
-	margin-block-end: 20px;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	padding-inline-start: 40px;*/
+  margin-block-end: 20px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;*/
 }
 
 body.dark-mode,
@@ -242,4 +242,17 @@ body.dark-mode main * {
 
  color: #f5f5f5;
 
+}
+
+table {
+ font-family: arial, sans-serif;
+ border-collapse: collapse;
+ width: 100%;
+}
+
+td,
+th {
+ border: 1px solid grey;
+ text-align: left;
+ padding: 8px;
 }

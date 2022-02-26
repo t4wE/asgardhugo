@@ -14,7 +14,7 @@ baseURL = '/'
 [languages]
 [languages.en]
   contentDir = 'content/en'
-  languageName = "ENG"
+  languageName = "EN"
   weight=1
   title = "AsgardPvP"
   owner = "Progon & Holy"
@@ -29,7 +29,7 @@ baseURL = '/'
   title = "АсгардПвП"
   owner = "Progon & Holy"
   description = "Диабло 2 Асгард ПвП это международный Диабло 2 ПвП сервер"
-  keywords = "диабло 2 асгард, Диабло 2 асгардпвп"
+  keywords = "диабло 2 асгард, диабло 2 асгардпвп"
   copyright = ""
 
 [languages.en.menu]
