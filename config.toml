@@ -3,12 +3,12 @@ defaultContentLanguage = 'en'
 showLanguageSelector = true
 defaultContentLanguageInSubdir = false
 baseURL = '/'
+disableKinds = ["sitemap"]
 
 [params]
-
 [sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
   priority = 0.5
 
 [languages]
