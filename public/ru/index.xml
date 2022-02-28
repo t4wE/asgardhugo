@@ -8,15 +8,6 @@
     <copyright>Progon &amp; Holy</copyright>
     <lastBuildDate>Fri, 11 Feb 2022 21:20:47 +0300</lastBuildDate><atom:link href="/ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Breakpoints [FBR / FHR / FCR / FRW / IAS]</title>
-      <link>/ru/guides/bp/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/guides/bp/</guid>
-      <description>В игре Diablo 2 секунда делиться на 25 фреймов. В итоге каждое действие (анимация) измеряется в этих самых фреймах. Достигая определенные пороги, вы увеличиваете скорость соответствующих анимаций.  Красным цветом будут указаны рекомендуемые пороги.  Стоит упомянуть, что последующие рекомендации ориентированы на ПвП.  FBR   Когда вас бьют физическим уроном - у вас есть шанс блокировать удар при условии, что у вас имеется Shield. Во время блока никакие другие физические атаки не наносят урон.</description>
-    </item>
-    
-    <item>
       <title>C/T трик [CT]</title>
       <link>/ru/guides/ct/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
@@ -44,39 +35,21 @@
     </item>
     
     <item>
-      <title>Truth about PvP on PG</title>
-      <link>/ru/guides/pg/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/guides/pg/</guid>
-      <description>Через 20 минут тема была удалена с ПГ без каких либо объяснений. Видимо, боятся правды.  Сразу дам вам спойлер: его нет.  Глубокоуважаемый модератор! Прошу до конца прочитать мою тему. Поначалу она покажется очень вызывающей и критично настроенной, но уверяю — несет она самые благие намерения, а именно — привлечение внимание людей к проблеме ПвП. Я, вроде бы никого не оскорбил, ничто не рекламировал (офф есть офф). Да, где-то был чрезмерно резок, но всё это в рамках моего мнения.</description>
-    </item>
-    
-    <item>
-      <title>What server to pick in 2k21</title>
-      <link>/ru/guides/server/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/guides/server/</guid>
-      <description>I will try to make a little server classification here. I will point the pros and cons of every single one so it will be up to you to pick which one to play on.  All servers can be divided into:   Official  Unofficial   Official   These are well-known to you Europe/US West/US East/Asia. These are official servers. Ya need to buy a CD-Key to play here for two games: D2 и D2: LoD.</description>
-    </item>
-    
-    <item>
-      <title>WSM Bug [&#43;Auto WSM]</title>
-      <link>/ru/guides/wsm/</link>
-      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
-      
-      <guid>/ru/guides/wsm/</guid>
-      <description>Когда я со всем этим сам разбирался, мне очень помог данный сайт. Текста там много и написан он на английском. Так что я буду основываться на нём. Многое просто переведу и постараюсь упростить.  Так что на всякий:  (c) all right reserved Xepolite&#39;s shithole!  WSM Bug предназначается для облегчения набора IAS на Claws для набора максимальной скорости каста Traps (9 frame’ов) без использования скила Burst of Speed.  *Против чаров, наносящих физический урон мы будем использовать Fade, ведь он даёт нам ДР, который сложно набрать с вещей.</description>
-    </item>
-    
-    <item>
       <title>ВСГ [Weapon Switch Glitch]</title>
       <link>/ru/guides/wsg/</link>
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/ru/guides/wsg/</guid>
       <description>Wsg — достаточно простой базовый приём в PvP. Суть приёма заключается в постоянном переключении свапа (swap) во время бега.  Что вы должны знать о свапе:  При свапе сбрасывается анимация FHR При свапе усиливается десинхронизация   FHR   Итак, анимация Faster Hit Recovery в зависимости от класса и сборки длится где-то от 4 до 7 фреймов. Если во время этой анимации сделать Swap, то анимация закончится. 4 и 7 фреймов — это меньше, чем 1/3 секунды, а значит свап нужно делать непрерывно (!</description>
+    </item>
+    
+    <item>
+      <title>ВСМ баг [&#43;Авто ВСМ]</title>
+      <link>/ru/guides/wsm/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/guides/wsm/</guid>
+      <description>Когда я со всем этим сам разбирался, мне очень помог данный сайт. Текста там много и написан он на английском. Так что я буду основываться на нём. Многое просто переведу и постараюсь упростить.  Так что на всякий:  (c) all right reserved Xepolite&#39;s shithole!  WSM Bug предназначается для облегчения набора IAS на Claws для набора максимальной скорости каста Traps (9 frame’ов) без использования скила Burst of Speed.  *Против чаров, наносящих физический урон мы будем использовать Fade, ведь он даёт нам ДР, который сложно набрать с вещей.</description>
     </item>
     
     <item>
@@ -94,7 +67,7 @@
       <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
       
       <guid>/ru/guides/</guid>
-      <description> List of guides:   Diablo 2 PvP/Duels #начинающему ПвП-шнику посвящается НБС [Поезда] Свирлс [Smite/Shock Wave] Скилл баг [SB] Десинк [Jodering] C/T трик [CT] ВСМ баг [+Auto WSM] Стр баг [Str Bug] Танк трик [TT] ВСГ [Weapon Switch Glitch] Приёмы ПвП [Нэймлок, Лок (Стомп), Чейнлок, Чейн]  Пороги/Брейкпоинты/Breakpoints [FBR / FHR / FCR / FRW / IAS] Где поиграть в Diablo 2 в 2k21 Вся правда про PvP на PG  </description>
+      <description> Список гайдов:   Diablo 2 PvP/Duels #начинающему ПвП-шнику посвящаетсяНБС [Поезда] Свирлс [Smite/Shock Wave] Скилл баг [SB] Десинк [Jodering] C/T трик [CT] ВСМ баг [+Auto WSM] Стр баг [Str Bug] Танк трик [TT] ВСГ [Weapon Switch Glitch] Приёмы ПвП [Нэймлок, Лок (Стомп), Чейнлок, Чейн]  Пороги/Брейкпоинты/Breakpoints [FBR / FHR / FCR / FRW / IAS] Где поиграть в Diablo 2 в 2k21 Вся правда про PvP на PG  </description>
     </item>
     
     <item>
@@ -113,6 +86,15 @@
       
       <guid>/ru/how-to-connect/</guid>
       <description>Шаг 1   Скачайте Диабло 2: Лорд Разрушения.  Шаг 2   Наш сервер поддерживает версии 1.14+ . Если у вас уже есть игра с версией 1.14+, то читайте Шаг 3. Если у вас версия 1.13д или ниже, то вас есть два варианта:   Вариант #1   У нашего сервера стоит авто обновление до версии 1.14д. Так что вы можете просто скачать наш рег файл.  Добавьте информацию в реестр.</description>
+    </item>
+    
+    <item>
+      <title>Какой сервер выбрать в 2k21</title>
+      <link>/ru/guides/server/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/guides/server/</guid>
+      <description>I will try to make a little server classification here. I will point the pros and cons of every single one so it will be up to you to pick which one to play on.  All servers can be divided into:   Official  Unofficial   Official   These are well-known to you Europe/US West/US East/Asia. These are official servers. Ya need to buy a CD-Key to play here for two games: D2 и D2: LoD.</description>
     </item>
     
     <item>
@@ -149,6 +131,24 @@
       
       <guid>/ru/guides/ibs/</guid>
       <description>Train (он же «Паровоз») это приём за Некроманта — летящий по одной линии паровоз Bone Spirit’ов. Делается он очень просто. Мы зажимаем скилл Bone Spirit в любой из углов экрана. После каста пяти Спиритов переключаемся на ТП и сразу обратно на Bone Spirit. Курсор при этом не двигается.   После 3 паков в таком паровозе летит около 15 Спиритов, а это 75к магического урона. После пенальти это потенциальные 12 к ХП.</description>
+    </item>
+    
+    <item>
+      <title>Пороги/Breakpoints [FBR / FHR / FCR / FRW / IAS]</title>
+      <link>/ru/guides/bp/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/guides/bp/</guid>
+      <description>В игре Diablo 2 секунда делиться на 25 фреймов. В итоге каждое действие (анимация) измеряется в этих самых фреймах. Достигая определенные пороги, вы увеличиваете скорость соответствующих анимаций.  Красным цветом будут указаны рекомендуемые пороги.  Стоит упомянуть, что последующие рекомендации ориентированы на ПвП.  FBR   Когда вас бьют физическим уроном - у вас есть шанс блокировать удар при условии, что у вас имеется Shield. Во время блока никакие другие физические атаки не наносят урон.</description>
+    </item>
+    
+    <item>
+      <title>Правда о ПвП на ПГ</title>
+      <link>/ru/guides/pg/</link>
+      <pubDate>Fri, 11 Feb 2022 21:20:47 +0300</pubDate>
+      
+      <guid>/ru/guides/pg/</guid>
+      <description>function lighton() { document.getElementById(&#39;myimage&#39;).src = &#34;/firk.svg&#34;; } function lightoff() { document.getElementById(&#39;myimage&#39;).src = &#34;/logo.png&#34;; }   Через 20 минут тема была удалена с ПГ без каких либо объяснений. Видимо, боятся правды.  Сразу дам вам спойлер: его нет.  Глубокоуважаемый модератор! Прошу до конца прочитать мою тему. Поначалу она покажется очень вызывающей и критично настроенной, но уверяю — несет она самые благие намерения, а именно — привлечение внимание людей к проблеме ПвП.</description>
     </item>
     
     <item>
