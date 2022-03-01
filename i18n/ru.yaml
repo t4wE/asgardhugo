@@ -96,3 +96,7 @@
 - id: top
   translation:
     "Наверх"
+
+- id: guides
+  translation:
+    "Список гайдов:"

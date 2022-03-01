@@ -95,3 +95,7 @@
 - id: top
   translation:
     "Back to top"
+
+- id: guides
+  translation:
+    "List of guides:"

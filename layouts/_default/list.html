@@ -1,16 +1,16 @@
 {{ define "main" }}
 <h1 itemprop="headline">{{.Title }}</h1>
 <span itemprop="description">
-	<span itemprop="description">
-		{{ range .Pages }}
-		<ul>
-			<li>
-				<a href="{{ .RelPermalink }}">
-					{{ .Title }}
-				</a>
-			</li>
-		</ul>
-	</span>
-	{{end}}
-	</main>
-	{{end}}
+ <span itemprop="description">
+  {{ range .Pages }}
+  <ul>
+   <li>
+    <a href="{{ .RelPermalink }}">
+     {{ .Title }}
+    </a>
+   </li>
+  </ul>
+ </span>
+ {{end}}
+ </main>
+ {{end}}

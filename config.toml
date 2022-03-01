@@ -1,4 +1,4 @@
-paginate = 20
+paginate = 40
 defaultContentLanguage = 'en'
 showLanguageSelector = true
 defaultContentLanguageInSubdir = false
@@ -33,7 +33,7 @@ filename = 'static-content/sitemap.xml'
 [languages.en.menu]
   [[languages.en.menu.main]]
         identifier = "home"
-        name = "Home"
+        name = "Home page"
         url = "/"
         weight = 1
 
@@ -63,13 +63,13 @@ filename = 'static-content/sitemap.xml'
 
   [[languages.en.menu.main]]
         identifier = "gm"
-        name = "GM Rules"
+        name = "GM"
         url = "/gm-rules"
         weight = 6
 
   [[languages.en.menu.main]]
         identifier = "fpk"
-        name = "FPK Rules"
+        name = "FPK"
         url = "/fpk-rules"
         weight = 7
 
@@ -118,13 +118,13 @@ filename = 'static-content/sitemap.xml'
 
   [[languages.ru.menu.main]]
         identifier = "gm"
-        name = "ГМ правила"
+        name = "ГМ"
         url = "/ru/gm-rules"
         weight = 6
 
   [[languages.ru.menu.main]]
         identifier = "fpk"
-        name = "ФПК правила"
+        name = "ФПК"
         url = "/ru/fpk-rules"
         weight = 7
 
