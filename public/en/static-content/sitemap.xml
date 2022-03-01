@@ -262,6 +262,19 @@
                 href="/guides/tt/"
                 />
   </url><url>
+    <loc>/ias/</loc>
+    <lastmod>2022-02-11T21:20:47+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/ias/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/ias/"
+                />
+  </url><url>
     <loc>/guides/pg/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
