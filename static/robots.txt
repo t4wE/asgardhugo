@@ -10,6 +10,7 @@ Disallow: /ru//categories/
 Disallow: /ru//tags/
 Disallow: /404.html
 Disallow: 404.html
+Disallow: /ru/404.html
 
 Host: asgardpvp.com
  

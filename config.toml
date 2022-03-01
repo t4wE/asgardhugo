@@ -4,7 +4,7 @@ showLanguageSelector = true
 defaultContentLanguageInSubdir = false
 baseURL = '/'
 
-disableKinds = ["taxonomyTerm","sitemap"]
+disableKinds = ["taxonomyTerm","sitemap","RSS"]
 
 [params]
 [sitemap]
@@ -76,7 +76,7 @@ filename = 'static-content/sitemap.xml'
         weight = 7
 
   [[languages.en.menu.main]]
-        identifier = "guides"
+        identifier = "/guides"
         name = "Guides"
         url = "/guides/"
         weight = 8
