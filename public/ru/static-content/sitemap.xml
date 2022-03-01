@@ -54,17 +54,17 @@
                 href="/ru/guides/sb/"
                 />
   </url><url>
-    <loc>/ru/ias/</loc>
+    <loc>/ru/guides/ias/</loc>
     <lastmod>2022-02-11T21:20:47+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/ias/"
+                href="/guides/ias/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="/ru/ias/"
+                href="/ru/guides/ias/"
                 />
   </url><url>
     <loc>/ru/</loc>
