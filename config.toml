@@ -4,6 +4,8 @@ showLanguageSelector = true
 defaultContentLanguageInSubdir = false
 baseURL = '/'
 
+disableKinds = ["taxonomyTerm","sitemap"]
+
 [params]
 [sitemap]
 filename = 'static-content/sitemap.xml'
