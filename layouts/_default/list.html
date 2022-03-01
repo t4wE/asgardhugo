@@ -3,7 +3,7 @@
 <span itemprop="description">
  <span itemprop="description">
   <ol>
-   {{ range .Pages }}
+   {{ range sort .Pages "Date" "desc"}}
    <li>
     <a href="{{ .RelPermalink }}">
      {{ .Title }}
