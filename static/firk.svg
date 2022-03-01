@@ -4,12 +4,13 @@
 <desc>Created with Fabric.js 4.2.0</desc>
 <defs>
 </defs>
-<g transform="matrix(1 0 0 1 39.5 39.5)" id="6f6d1b06-2030-4c49-bdfa-923328dbc85c"  >
-<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-39.5" y="-39.5" rx="0" ry="0" width="79" height="79" />
+<g transform="matrix(0 0 0 0 0 0)" id="b4023a19-c9d3-49e8-9c57-cc09cb0cac41"  >
 </g>
-<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="20ccc58f-718a-4b0c-b477-1e3578ba76a5"  >
+<g transform="matrix(1 0 0 1 39.5 39.5)" id="80cfff61-ce3e-4f22-811e-bdbae3b8ed38"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(199,29,29); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-39.5" y="-39.5" rx="0" ry="0" width="79" height="79" />
 </g>
-<g transform="matrix(1 0 0 1 39.5 39.5)" style="" id="ce4cc338-8e19-4349-9b44-2691cd89ca9d"  >
-		<text xml:space="preserve" font-family="Raleway" font-size="17" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-29.19" y="5.34" >firk loh</tspan></text>
+<g transform="matrix(0.53 0 0 0.53 39.63 39.54)" style="" id="c2216377-c085-46a8-8637-054341d0730e"  >
+		<rect opacity="0" fill="rgb(0,0,0)" x="-77.6" y="-22.6" width="155.2" height="45.2"></rect>
+		<text xml:space="preserve" font-family="Lato" font-size="40" font-style="normal" font-weight="100" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(66,59,59); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-57.89" y="12.57" >f</tspan><tspan x="-46.87" y="12.57" >i</tspan><tspan x="-38.17" y="12.57" >r</tspan><tspan x="-23.09" y="12.57" >k</tspan><tspan x="-6.49" y="12.57" style="white-space: pre; "> </tspan><tspan x="-1.85" y="12.57" style="white-space: pre; "> </tspan><tspan x="5.07" y="12.57" >l</tspan><tspan x="15.41" y="12.57" >o</tspan><tspan x="36.25" y="12.57" >h</tspan></text>
 </g>
 </svg>

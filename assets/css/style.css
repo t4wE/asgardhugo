@@ -255,3 +255,9 @@ th {
  text-align: center;
  padding: 2px;
 }
+
+td:hover,
+th:hover {
+ background-color: grey;
+
+}
