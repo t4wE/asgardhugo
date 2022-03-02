@@ -66,14 +66,15 @@
   {{ partial "langmenu.html" .}}
   {{ partial "theme.html" .}}
  </nav>
- <div class="article">
+ <article>
   <div itemscope itemtype="https://schema.org/Article">
    {{ block "main" . }}
    {{ end }}
   </div>
+  <article>
 </body>
-<footer>
- {{ partial "footer.html"}}
+</footer>
+{{ partial "footer.html"}}
 </footer>
 
 </html>

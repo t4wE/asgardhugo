@@ -1,12 +1,6 @@
 {{ define "main" }}
-<article class="post">
-<h1>
-{{.Title }}
-</h1>
-<div class= "text">
-{{ .Content }}
-</div>
-
-  </article>
-</main>
+<h1 itemprop="headline">{{.Title }}</h1>
+<span itemprop="description">
+ {{ .Content }}
+</span>
 {{ end }}
