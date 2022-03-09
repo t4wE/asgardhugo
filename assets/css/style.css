@@ -54,6 +54,23 @@ h1 {
  text-align: center;
 }
 
+h1::first-letter,
+h2::first-letter,
+h3::first-letter {
+ color: #ff0000;
+}
+
+::marker {
+ color: red;
+}
+
+
+
+::selection {
+ color: darkgrey;
+ background: indianred;
+}
+
 a {
  color: #e22d30;
  text-decoration: none;
