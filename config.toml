@@ -80,6 +80,8 @@ filename = 'static-content/sitemap.xml'
         name = "Guides"
         url = "/guides/"
         weight = 8
+        description = "Diablo 2 Asgard PvP Realm Guides"
+        keywords = "diablo guides, d2 guides"
 
   [[languages.en.menu.main]]
         identifier = "contacts"
@@ -135,6 +137,8 @@ filename = 'static-content/sitemap.xml'
         name = "Гайды"
         url = "/ru/guides/"
         weight = 8
+        description = "Диабло 2 Асгард ПвП Гайды"
+         keywords = "диабло 2 гайды, д2 гайды"
 
   [[languages.ru.menu.main]]
         identifier = "contacts"
