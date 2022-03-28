@@ -62,6 +62,19 @@ h1 {
  text-align: center;
 }
 
+h1,
+h2,
+h3,
+h4 {
+
+ padding-left: 15px;
+}
+
+::marker {
+ color: red;
+
+}
+
 h1::first-letter,
 h2::first-letter,
 h3::first-letter {
@@ -70,6 +83,7 @@ h3::first-letter {
 
 ::marker {
  color: red;
+
 }
 
 
