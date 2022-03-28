@@ -1,8 +1,8 @@
 <div class="lang-switcher" style="align-content:right;text-align: center ; font-size: 8px; padding-top: 16px">{{ i18n "switch" }}
  <br>
- <img src="/images/{{.Language}}.png" / style="width: 30px; height: 20px; margin-top: 3 px;" alt="lang">
  {{ if .IsTranslated }}
  {{ range .Translations }}
+ <a href="{{ .Permalink }}"><img src="/images/{{.Language}}.png" / style="width: 30px; height: 20px; margin-top: 3 px;" alt="lang"></a>
  <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
  {{ end}}
  {{ end }}

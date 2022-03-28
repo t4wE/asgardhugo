@@ -13,10 +13,11 @@ keywords:
 translationKey: ias
 ---
 <style>
- td:hover,
+td:hover,
 th:hover {
  background-color: inherit;
 }
+
 td,
 th {
  border: 1px solid grey;
@@ -452,6 +453,20 @@ th {
       </tr>
      </tbody>
     </table>
+    <p> Slowed?</p>
+    <table style="border: hidden;">
+     <tr style="border: hidden;">
+      <td width=" 100" style="text-align: left;">
+       <input type="radio" name="slow" id="none" checked="checked" onchange="calculateframes()">No
+      </td>
+     <tr style="border: hidden;">
+      <td width=" 100" style="text-align: left;">
+       <input type="radio" name="slow" id="slow" onchange="calculateframes()">Clay Golem's slow (-50%)
+      </td>
+     <tr>
+      <td style="text-align: left;">
+       <input type="radio" name="slow" id="slow_asgard" onchange="calculateframes()">Asgard's Clay Golem's slow // SW // Nosferatu (-10%)
+    </table>
    </td>
    <td>
     <table height="678">
@@ -476,19 +491,19 @@ th {
          <option value="31">Skill Level 3</option>
          <option value="34">Skill Level 4</option>
          <option value="37">Skill Level 5</option>
-         <option value="41">Skill Level 6</option>
-         <option value="42">Skill Level 7</option>
-         <option value="44">Skill Level 8</option>
+         <option value="39">Skill Level 6</option>
+         <option value="41">Skill Level 7</option>
+         <option value="42">Skill Level 8</option>
          <option value="44">Skill Level 9</option>
          <option value="45">Skill Level 10</option>
          <option value="46">Skill Level 11</option>
          <option value="47">Skill Level 12</option>
-         <option value="49">Skill Level 13</option>
-         <option value="50">Skill Level 14</option>
-         <option value="51">Skill Level 15</option>
+         <option value="48">Skill Level 13</option>
+         <option value="49">Skill Level 14</option>
+         <option value="50">Skill Level 15</option>
          <option value="51">Skill Level 16</option>
          <option value="51">Skill Level 17</option>
-         <option value="52">Skill Level 18</option>
+         <option value="51">Skill Level 18</option>
          <option value="52">Skill Level 19</option>
          <option value="52">Skill Level 20</option>
          <option value="53">Skill Level 21</option>
@@ -501,33 +516,6 @@ th {
          <option value="55">Skill Level 28</option>
          <option value="55">Skill Level 29</option>
          <option value="55">Skill Level 30</option>
-         <option value="56">Skill Level 31</option>
-         <option value="56">Skill Level 32</option>
-         <option value="56">Skill Level 33</option>
-         <option value="56">Skill Level 34</option>
-         <option value="56">Skill Level 35</option>
-         <option value="57">Skill Level 36</option>
-         <option value="57">Skill Level 37</option>
-         <option value="57">Skill Level 38</option>
-         <option value="57">Skill Level 39</option>
-         <option value="57">Skill Level 40</option>
-         <option value="57">Skill Level 41</option>
-         <option value="58">Skill Level 42</option>
-         <option value="58">Skill Level 43</option>
-         <option value="58">Skill Level 44</option>
-         <option value="58">Skill Level 45</option>
-         <option value="58">Skill Level 46</option>
-         <option value="58">Skill Level 47</option>
-         <option value="58">Skill Level 48</option>
-         <option value="59">Skill Level 49</option>
-         <option value="59">Skill Level 50</option>
-         <option value="59">Skill Level 51</option>
-         <option value="59">Skill Level 52</option>
-         <option value="59">Skill Level 53</option>
-         <option value="59">Skill Level 54</option>
-         <option value="59">Skill Level 55</option>
-         <option value="59">Skill Level 56</option>
-         <option value="59">Skill Level 57</option>
         </select>
        </td>
       </tr>
@@ -1029,8 +1017,15 @@ function calculateframes() {
   primaryWSM = type1[0];
   secondaryWSM = type2[0];
 
-  WSM = (parseFloat(primaryWSM) + parseFloat(secondaryWSM)) / 2;
+  if (document.getElementById('slow').checked) {
+   WSM = (parseFloat(primaryWSM) + parseFloat(secondaryWSM)) / 2 + 50;
+  } else if (document.getElementById('slow_asgard').checked) {
+   WSM = (parseFloat(primaryWSM) + parseFloat(secondaryWSM)) / 2 + 10;
+  } else {
+   WSM = (parseFloat(primaryWSM) + parseFloat(secondaryWSM)) / 2;
+  }
  }
+
  acquireframe(primaryWSM, secondaryWSM, WSM, type);
 }
 
@@ -1081,7 +1076,10 @@ function acquireframe(pWSM, sWSM, WSM, type) {
  bosIAS = document.theForm.BoS.value;
  fanaIAS = document.theForm.Fana.value;
 
+
+
  var EIAS = Math.floor(((120 * parseFloat(eqIAS)) / (120 + parseFloat(eqIAS))) + parseFloat(bosIAS) + parseFloat(fanaIAS) - parseFloat(WSM));
+
 
  // TRAPS
  if (EIAS >= 61) { var trapframe = 9; }
@@ -1154,6 +1152,5 @@ function wissel(oldprim, oldsec) {
 }
 </script>
 </body>
-<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 
 </html>
