@@ -42,11 +42,6 @@
   <priority>0.80</priority>
  </url>
  <url>
-  <loc>https://asgardpvp.com/contacts/</loc>
-  <lastmod>2022-02-26T14:19:46+00:00</lastmod>
-  <priority>0.80</priority>
- </url>
- <url>
   <loc>https://asgardpvp.com/ru/</loc>
   <lastmod>2022-02-26T14:19:46+00:00</lastmod>
   <priority>0.80</priority>
@@ -83,11 +78,6 @@
  </url>
  <url>
   <loc>https://asgardpvp.com/ru/guides/</loc>
-  <lastmod>2022-02-26T14:19:46+00:00</lastmod>
-  <priority>0.80</priority>
- </url>
- <url>
-  <loc>https://asgardpvp.com/ru/contacts/</loc>
   <lastmod>2022-02-26T14:19:46+00:00</lastmod>
   <priority>0.80</priority>
  </url>
@@ -162,6 +152,16 @@
   <priority>0.64</priority>
  </url>
  <url>
+  <loc>https://asgardpvp.com/ru/guides/ias/</loc>
+  <lastmod>2022-02-26T14:19:46+00:00</lastmod>
+  <priority>0.64</priority>
+ </url>
+ <url>
+  <loc>https://asgardpvp.com/ru/guides/awsm/</loc>
+  <lastmod>2022-02-26T14:19:46+00:00</lastmod>
+  <priority>0.64</priority>
+ </url>
+ <url>
   <loc>https://asgardpvp.com/ru/guides/bp/</loc>
   <lastmod>2022-02-26T14:19:46+00:00</lastmod>
   <priority>0.64</priority>
@@ -228,6 +228,16 @@
  </url>
  <url>
   <loc>https://asgardpvp.com/ru/guides/wsm/</loc>
+  <lastmod>2022-02-26T14:19:46+00:00</lastmod>
+  <priority>0.64</priority>
+ </url>
+ <url>
+  <loc>https://asgardpvp.com/ru/guides/ias/</loc>
+  <lastmod>2022-02-26T14:19:46+00:00</lastmod>
+  <priority>0.64</priority>
+ </url>
+ <url>
+  <loc>https://asgardpvp.com/ru/guides/awsm/</loc>
   <lastmod>2022-02-26T14:19:46+00:00</lastmod>
   <priority>0.64</priority>
  </url>

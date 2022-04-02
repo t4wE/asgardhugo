@@ -145,3 +145,5 @@ filename = 'static-content/sitemap.xml'
         name = "Контакты"
         url = "/ru/contacts"
         weight = 9
+
+

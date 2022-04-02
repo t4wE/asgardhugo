@@ -1,90 +1,42 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
+<html prefix="og: http://ogp.me/ns#" lang="{{ .Site.Language.Lang }}">
 
-<head>
+<head itemscope itemtype="{{ .Site.BaseURL }}">
  <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <link rel="canonical" href="{{ .Permalink }}" />
- <title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
- <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
- <meta name="keywords" content="{{ if .Params.Keywords }}{{ delimit .Params.Keywords ", " }}{{ end }}">
- {{ $style := resources.Get "css/style.css" | resources.ExecuteAsTemplate "css/style.css" . -}}
- <link rel="stylesheet" href="{{ $style.RelPermalink }}">
- {{ range .Site.Params.customCSS -}}
- <link rel="stylesheet" href="{{ . | relURL }}">
- {{- end }}
- {{- with .OutputFormats.Get "rss" }}
- {{ printf `
- <link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
- {{- end }}
- <link rel="icon" type="image/x-icon" href="/favicon.ico">
- {{- if not .Site.IsServer }}
- {{- if hasPrefix .Site.GoogleAnalytics "G-" }}
- {{ template "_internal/google_analytics.html" . }}
- {{- else }}
- {{ template "_internal/google_analytics_async.html" . }}
- {{- end }}
- {{- end }}
- <meta name="robots" content="index,follow">
- <meta name="theme-color" content="#e6e6e6">
- <link rel="apple-touch-icon" href="/images/apple.png">
- <script>
- (function(d, e) { d[e] = d[e].replace("no-js", "js"); })(document.documentElement, "className");
- </script>
- <!-- Yandex.Metrika counter -->
- <script type="text/javascript">
- (function(m, e, t, r, i, k, a) {
-  m[i] = m[i] || function() {
-   (m[i].a = m[i].a || []).push(arguments)
-  };
-  m[i].l = 1 * new Date();
-  k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
- })
- (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
- ym(45176040, "init", {
-  clickmap: true,
-  trackLinks: true,
-  accurateTrackBounce: true
- });
- </script>
- <noscript>
-  <div><img src="https://mc.yandex.ru/watch/45176040" style="position:absolute; left:-9999px;" alt="" /></div>
- </noscript>
- <!-- /Yandex.Metrika counter -->
- <!-- Global site tag (gtag.js) - Google Analytics -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=G-6MNNH4HR35"></script>
- <script>
- window.dataLayer = window.dataLayer || [];
-
- function gtag() { dataLayer.push(arguments); }
- gtag('js', new Date());
-
- gtag('config', 'G-6MNNH4HR35');
- </script>
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+ {{ partial "title" . }}
+ {{ partial "meta" . }}
+ {{ partial "links" . }}
+ {{ partial "language" . }}
+ {{ partial "scripts" . }}
 </head>
 
 <body>
  <header>
   <a id="top"></a>
-  {{ partial "header.html" . }}
+  {{ partial "header" . }}
  </header>
  <nav>
-  {{ partial "logo.html" . }}
-  <ul class="menu__list"> {{ partial "nav.html" . }}</ul>
-  {{ partial "langmenu.html" .}}
-  {{ partial "theme.html" .}}
+  {{ partial "logo" . }}
+  <ul class="menu__list">
+   {{ partial "nav" . }}
+  </ul>
+  {{ partial "langmenu" .}}
+  {{ partial "theme" .}}
  </nav>
- <article>
-  <div itemscope itemtype="https://schema.org/Article">
-   {{ block "main" . }}
-   {{ end }}
-  </div>
- </article>
+ <main id="main">
+  <article>
+   <div itemscope itemtype="https://schema.org/Article">
+    {{ block "main" . }}
+    {{ end }}
+   </div>
+  </article>
+ </main>
+ <footer>
+  <div id="foo">{{ partial "footer"}}</div>
+ </footer>
+ {{ partial "js"}}
 </body>
-<footer>
- <div id="foo">{{ partial "footer.html"}}</div>
-</footer>
 
 </html>
