@@ -171,6 +171,8 @@ th:hover {
  float: left;
 }
 
+
+
 .menu__btn {
  display: block;
  width: 100%;
@@ -186,6 +188,14 @@ th:hover {
 
 .menu__item:hover {
  background: grey;
+}
+
+.menu__item:active {
+ background: darkgray;
+}
+
+.menu__item--active {
+ background: darkgray;
 }
 
 .menu__link {
