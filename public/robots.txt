@@ -11,6 +11,9 @@ Disallow: /ru//tags/
 Disallow: /404.html
 Disallow: *404.html
 Disallow: /ru/404.html
+Disallow: /ru/guides/9-namelock-lock-chainlock-chain
+Disallow: /guides/48-i-b-s
+
 
 Host: https://asgardpvp.com/
  
