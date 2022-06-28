@@ -114,7 +114,7 @@ filename = 'static-content/sitemap.xml'
         url = "/ru/mod-info"
         weight = 4
 
-  [[languages.ru.menu.main]]
+  [[languages.ru.menu.main.nav]]
         identifier = "recipes"
         name = "Рецепты"
         url = "/ru/cube-recipes"

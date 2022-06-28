@@ -2,39 +2,39 @@
 <html prefix="og: http://ogp.me/ns#" lang="{{ .Site.Language.Lang }}">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
- {{ partial "title" . }}
- {{ partial "meta" . }}
- {{ partial "links" . }}
- {{ partial "language" . }}
- {{ partial "scripts" . }}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    {{ partial "title" . }}
+    {{ partial "meta" . }}
+    {{ partial "links" . }}
+    {{ partial "language" . }}
+    {{ partial "scripts" . }}
 </head>
 
 <body>
- <header>
-  <a id="top"></a>
-  {{ partial "header" . }}
- </header>
- <nav>
-  {{ partial "logo" . }}
-  {{ partial "nav" . }}
-  {{ partial "langmenu" .}}
-  {{ partial "theme" .}}
- </nav>
- <main id="main">
-  <article>
-   <div itemscope itemtype="https://schema.org/Article">
-    {{ block "main" . }}
-    {{ end }}
-   </div>
-  </article>
- </main>
- <footer>
-  <div id="foo">{{ partial "footer"}}</div>
- </footer>
- {{ partial "js"}}
+    <input type="checkbox" id="themeswitcher">
+    <div class="container">
+        {{ partial "theme" . }}
+        <header>
+            <a id="top"></a>
+            {{ partial "header" . }}
+        </header>
+        <nav>
+            {{ partial "logo" . }}
+            {{ partial "nav" . }}
+            {{ partial "langmenu" .}}
+        </nav>
+        <main id="main">
+            <article>
+                <div itemscope itemtype="https://schema.org/Article">
+                    {{ block "main" . }}
+                    {{ end }}
+                </div>
+                <div id="totop">{{ partial "footer"}}</div>
+            </article>
+        </main>
+    </div>
 </body>
 
 </html>
