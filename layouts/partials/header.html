@@ -1,11 +1,10 @@
 {{- $logoTitle := .Site.Params.logo.title | default .Site.Title -}}
 {{- $logoSubtitle := .Site.Params.logo.subtitle | default .Site.Params.subtitle -}}
-
-<a class="logo__link" href="{{ "" | relLangURL }}"{{ with $logoTitle }} title="{{ . }}"{{ end }} rel="home">
-{{ with $logoTitle -}}
-<div class="logo__title" style="font-size:10vw;">{{ . }}</div>
-{{ with $logoSubtitle }}
-<div class="logo__tagline">{{ . }}</div>
-{{ end }}
-{{end }}
+<a class="logo__link" href="{{ "" | relLangURL }}" {{ with $logoTitle }} title="{{ . }}" {{ end }} rel="home">
+    {{ with $logoTitle -}}
+    <div class="logo__title">{{ . }}</div>
+    {{ with $logoSubtitle }}
+    <div class="logo__tagline">{{ . }}</div>
+    {{ end }}
+    {{end }}
 </a>
