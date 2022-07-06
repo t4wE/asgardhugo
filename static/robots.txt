@@ -4,6 +4,8 @@ Allow: /sitemap.xml
 Disallow: /en/
 Disallow: /contacts
 Disallow: /ru/contacts
+Disallow: /contacts/
+Disallow: /ru/contacts/
 Disallow: /categories/
 Disallow: /tags/
 Disallow: /ru//categories/
@@ -18,6 +20,15 @@ Disallow: /guides/49-wsm-bug
 Disallow: /ru/guides/11-desynch-bug
 Disallow: /guides/41-namelock-lock-chainlock-chain
 Disallow: /guides/43-desynch-bug
+Disallow: /guides/50-w-s-g
+Disallow: /ru/guides/skill-bug
+Disallow: /guides/preferable-breakpoints
+Disallow: /guides/str-bug
+Disallow: /ru/guides/bp/?
+Disallow: /ru/guides/desynch-bug
+Disallow: /ru/guides/namelock-lock-chainlock-chain
+Disallow: /ru/guides/pvp-guide
+Disallow: /ru/guides/str-bug
 
 Host: https://asgardpvp.com/
  
