@@ -166,11 +166,11 @@ doesnt work cause i cant to add active class
 /* To top */
 
 #totop {
-    font-size: 3vmin;
-    background: grey;
     position: fixed;
     bottom: 0px;
     left: 0px;
+    width: 5vw;
+
 }
 
 /* Dark theme*/
