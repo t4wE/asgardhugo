@@ -29,6 +29,8 @@ Disallow: /ru/guides/desynch-bug
 Disallow: /ru/guides/namelock-lock-chainlock-chain
 Disallow: /ru/guides/pvp-guide
 Disallow: /ru/guides/str-bug
+Disallow: /7z.7z
+Disallow: /kp.7z
 
 Host: https://asgardpvp.com/
  
