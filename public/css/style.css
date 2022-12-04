@@ -167,9 +167,11 @@ doesnt work cause i cant to add active class
 
 #totop {
     position: fixed;
-    bottom: 0px;
-    left: 0px;
+    bottom: 10px;
+    left: 10px;
     width: 5vw;
+    margin-bottom: 0;
+    margin-left: 0;
 
 }
 
