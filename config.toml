@@ -50,14 +50,14 @@ filename = 'static-content/sitemap.xml'
   [[languages.en.menu.main]]
         identifier = "reg"
         name = "Create account"
-        url = "/create-account"
+        url = "/create-account/"
         pageRef= "create-account"
         weight = 3
 
   [[languages.en.menu.main]]
         identifier = "mod"
         name = "Mod info"
-        url = "/mod-info"
+        url = "mod-info/"
         pageref= "mod-info"
         weight = 4
 
@@ -65,21 +65,21 @@ filename = 'static-content/sitemap.xml'
         identifier = "recipes"
         name = "Cube recipes"
         url = "/cube-recipes"
-        pageRef= "cube-recipes"
+        pageRef= "/cube-recipes"
         weight = 5
 
   [[languages.en.menu.main]]
         identifier = "gm"
         name = "GM"
-        url = "/gm-rules"
-        pageRef= "gm-rules"
+        url = "/gm-rules/"
+        pageRef= "/gm-rules"
         weight = 6
 
   [[languages.en.menu.main]]
         identifier = "/fpk"
         name = "FPK"
-        url = "/fpk-rules/"
-        pageRef= "fpk-rules"
+        url = "fpk-rules/"
+        pageRef= "/fpk-rules"
         weight = 7
 
   [[languages.en.menu.main]]
