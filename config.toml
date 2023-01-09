@@ -44,49 +44,49 @@ filename = 'static-content/sitemap.xml'
         identifier = "connect"
         name = "How to connect"
         url = "/how-to-connect"
-        pageRef= "/how-to-connect"
+        pageRef= "how-to-connect"
         weight = 2
 
   [[languages.en.menu.main]]
         identifier = "reg"
         name = "Create account"
         url = "/create-account"
-        pageRef= "/create-account"
+        pageRef= "create-account"
         weight = 3
 
   [[languages.en.menu.main]]
         identifier = "mod"
         name = "Mod info"
         url = "/mod-info"
-        pageRef= "/mod-info"
+        pageRef= "mod-info"
         weight = 4
 
   [[languages.en.menu.main]]
         identifier = "recipes"
         name = "Cube recipes"
         url = "/cube-recipes"
-        pageRef= "/cube-recipes"
+        pageRef= "cube-recipes"
         weight = 5
 
   [[languages.en.menu.main]]
         identifier = "gm"
         name = "GM"
         url = "/gm-rules"
-        pageRef= "/gm-rules"
+        pageRef= "gm-rules"
         weight = 6
 
   [[languages.en.menu.main]]
         identifier = "fpk"
         name = "FPK"
         url = "/fpk-rules"
-        pageRef= "/fpk-rules"
+        pageRef= "fpk-rules"
         weight = 7
 
   [[languages.en.menu.main]]
         identifier = "/guides"
         name = "Guides"
         url = "/guides/"
-        pageRef= "/guides/"
+        pageRef= "guides/"
         weight = 8
         description = "Diablo 2 Asgard PvP Realm Guides"
         keywords = "diablo guides, d2 guides"
@@ -95,7 +95,7 @@ filename = 'static-content/sitemap.xml'
         identifier = "contacts"
         name = "Contacts"
         url = "/contacts"
-        pageRef= "/contacts"
+        pageRef= "contacts"
         weight = 9
 
 
@@ -110,49 +110,49 @@ filename = 'static-content/sitemap.xml'
         identifier = "connect"
         name = "Как присоедениться"
         url = "/ru/how-to-connect"
-        pageRef= "/how-to-connect"
+        pageRef= "how-to-connect"
         weight = 2
 
   [[languages.ru.menu.main]]
         identifier = "reg"
         name = "Создать аккаунт"
         url = "/ru/create-account"
-        pageRef= "/create-account"
+        pageRef= "create-account"
         weight = 3
 
   [[languages.ru.menu.main]]
         identifier = "mod"
         name = "Мод"
         url = "/ru/mod-info"
-        pageRef= "/mod-info"
+        pageRef= "mod-info"
         weight = 4
 
   [[languages.ru.menu.main]]
         identifier = "recipes"
         name = "Рецепты"
         url = "/ru/cube-recipes"
-        pageRef= "/cube-recipes"
+        pageRef= "cube-recipes"
         weight = 5
 
   [[languages.ru.menu.main]]
         identifier = "gm"
         name = "ГМ"
         url = "/ru/gm-rules"
-        pageRef= "/gm-rules"
+        pageRef= "gm-rules"
         weight = 6
 
   [[languages.ru.menu.main]]
         identifier = "fpk"
         name = "ФПК"
         url = "/ru/fpk-rules"
-        pageRef= "/fpk-rules"
+        pageRef= "fpk-rules"
         weight = 7
 
   [[languages.ru.menu.main]]
         identifier = "guides"
         name = "Гайды"
         url = "/ru/guides/"
-        pageRef= "/guides/"
+        pageRef= "guides/"
         weight = 8
         description = "Диабло 2 Асгард ПвП Гайды"
          keywords = "диабло 2 гайды, д2 гайды"
@@ -161,7 +161,7 @@ filename = 'static-content/sitemap.xml'
         identifier = "contacts"
         name = "Контакты"
         url = "/ru/contacts"
-        pageRef= "/contacts"
+        pageRef= "contacts"
         weight = 9
 
 
