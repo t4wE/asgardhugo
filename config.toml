@@ -58,7 +58,7 @@ filename = 'static-content/sitemap.xml'
         identifier = "mod"
         name = "Mod info"
         url = "/mod-info"
-        pageRef= "mod-info"
+        pageRef= "mod-info/"
         weight = 4
 
   [[languages.en.menu.main]]
@@ -76,9 +76,9 @@ filename = 'static-content/sitemap.xml'
         weight = 6
 
   [[languages.en.menu.main]]
-        identifier = "fpk"
+        identifier = "/fpk"
         name = "FPK"
-        url = "/fpk-rules"
+        url = "/fpk-rules/"
         pageRef= "fpk-rules"
         weight = 7
 

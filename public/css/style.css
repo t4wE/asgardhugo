@@ -146,13 +146,6 @@ th:hover {
   padding-top: 7px;
 }
 
-.is-active {
-    background: darkgray;
-  /*  font-size: 150%;*/
-  padding-bottom: 7px ;
-  padding-top: 7px;
-}
-
 .menu__link {
     display: block;
     padding: .625rem .9375rem;
