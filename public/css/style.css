@@ -132,26 +132,19 @@ th:hover {
     font-size: 17px;
     border: 1px dotted grey;
     display: inline-block;
+      vertical-align: middle;
 }
 
 .menu__item:hover {
     background: grey;
 }
 
-/*
-
-doesnt work cause i cant to add active class
-
-.menu__item:active {
+.active {
     background: darkgray;
-    clear: left;
+  /*  font-size: 150%;*/
+  padding-bottom: 7px ;
+  padding-top: 7px;
 }
-
-.menu__item--active {
-    background: darkgray;
-}
-
-*/
 
 .menu__link {
     display: block;
