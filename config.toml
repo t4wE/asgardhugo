@@ -8,7 +8,7 @@ disableKinds = ["taxonomyTerm","sitemap","RSS"]
 
 [params]
 [sitemap]
-filename = 'static-content/sitemap.xml'
+filename = '/sitemap.xml'
 
 
 [languages]
@@ -34,14 +34,11 @@ filename = 'static-content/sitemap.xml'
 
 [languages.en.menu]
   [[languages.en.menu.main]]
-        identifier = "home"
         name = "Home page"
-        url = "/"
         pageRef= "/"
         weight = 1
 
   [[languages.en.menu.main]]
-        identifier = "connect"
         name = "How to connect"
         pageRef= "how-to-connect"
         weight = 2
@@ -96,55 +93,47 @@ filename = 'static-content/sitemap.xml'
   [[languages.ru.menu.main]]
         identifier = "home"
         name = "Главная"
-        url = "/ru/"
         pageRef= "/"
         weight = 1
   [[languages.ru.menu.main]]
         identifier = "connect"
         name = "Как присоедениться"
-        url = "/ru/how-to-connect"
         pageRef= "how-to-connect"
         weight = 2
 
   [[languages.ru.menu.main]]
         identifier = "reg"
         name = "Создать аккаунт"
-        url = "/ru/create-account"
         pageRef= "create-account"
         weight = 3
 
   [[languages.ru.menu.main]]
         identifier = "mod"
         name = "Мод"
-        url = "/ru/mod-info"
         pageRef= "mod-info"
         weight = 4
 
   [[languages.ru.menu.main]]
         identifier = "recipes"
         name = "Рецепты"
-        url = "/ru/cube-recipes"
         pageRef= "cube-recipes"
         weight = 5
 
   [[languages.ru.menu.main]]
         identifier = "gm"
         name = "ГМ"
-        url = "/ru/gm-rules"
         pageRef= "gm-rules"
         weight = 6
 
   [[languages.ru.menu.main]]
         identifier = "fpk"
         name = "ФПК"
-        url = "/ru/fpk-rules"
         pageRef= "fpk-rules"
         weight = 7
 
   [[languages.ru.menu.main]]
         identifier = "guides"
         name = "Гайды"
-        url = "/ru/guides/"
         pageRef= "guides/"
         weight = 8
         description = "Диабло 2 Асгард ПвП Гайды"
@@ -153,7 +142,6 @@ filename = 'static-content/sitemap.xml'
   [[languages.ru.menu.main]]
         identifier = "contacts"
         name = "Контакты"
-        url = "/ru/contacts"
         pageRef= "contacts"
         weight = 9
 
