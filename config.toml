@@ -44,7 +44,7 @@ filename = 'static-content/sitemap.xml'
         identifier = "connect"
         name = "How to connect"
         url = "/how-to-connect"
-        pageRef= "/how-to-connect"
+        pageRef= "how-to-connect"
         weight = 2
 
   [[languages.en.menu.main]]
@@ -58,7 +58,7 @@ filename = 'static-content/sitemap.xml'
         identifier = "mod"
         name = "Mod info"
         url = "/mod-info"
-        pageRef= "mod-info/"
+        pageRef= "mod-info"
         weight = 4
 
   [[languages.en.menu.main]]
