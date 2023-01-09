@@ -50,8 +50,8 @@ filename = 'static-content/sitemap.xml'
   [[languages.en.menu.main]]
         identifier = "reg"
         name = "Create account"
-        url = "/create-account/"
         pageRef= "create-account"
+        url = "/create-account"
         weight = 3
 
   [[languages.en.menu.main]]
