@@ -42,43 +42,43 @@ filename = 'static-content/sitemap.xml'
   [[languages.en.menu.main]]
         identifier = "connect"
         name = "How to connect"
-        pageref= "how-to-connect"
+        pageref= "/how-to-connect"
         weight = 2
 
   [[languages.en.menu.main]]
         identifier = "reg"
         name = "Create account"
-        pageref= "create-account"
+        pageref= "/create-account"
         weight = 3
 
   [[languages.en.menu.main]]
         identifier = "mod"
         name = "Mod info"
-        pageref= "mod-info"
+        pageref= "/mod-info"
         weight = 4
 
   [[languages.en.menu.main]]
         identifier = "recipes"
         name = "Cube recipes"
-        pageref= "cube-recipes"
+        pageref= "/cube-recipes"
         weight = 5
 
   [[languages.en.menu.main]]
         identifier = "gm"
         name = "GM"
-        pageref= "gm-rules"
+        pageref= "/gm-rules"
         weight = 6
 
   [[languages.en.menu.main]]
         identifier = "fpk"
         name = "FPK"
-        pageref= "fpk-rules"
+        pageref= "/fpk-rules"
         weight = 7
 
   [[languages.en.menu.main]]
         identifier = "/guides"
         name = "Guides"
-        pageref= "guides/"
+        pageref= "/guides/"
         weight = 8
         description = "Diablo 2 Asgard PvP Realm Guides"
         keywords = "diablo guides, d2 guides"
@@ -86,7 +86,7 @@ filename = 'static-content/sitemap.xml'
   [[languages.en.menu.main]]
         identifier = "contacts"
         name = "Contacts"
-        pageref= "contacts"
+        pageref= "/contacts"
         weight = 9
 
 
