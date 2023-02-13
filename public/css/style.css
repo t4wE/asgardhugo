@@ -9,7 +9,7 @@ body {
     line-height: 1.3;
     background: rgb(230, 230, 230);
     margin: 5px;
-    min-height: 1050px;
+    overflow-y: scroll; /* Show vertical scrollbar */
 }
 
 body.dark-mode {
