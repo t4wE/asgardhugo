@@ -126,7 +126,6 @@ th:hover {
     margin: auto 16px auto 16px;S
     padding: 0;
     justify-content: center;
-    min-width: 935px;
 }
 
 .menu__item {
@@ -134,7 +133,7 @@ th:hover {
     font-size: 17px;
     border: 1px dotted grey;
     display: inline-block;
-      vertical-align: middle;
+    vertical-align: middle;
 }
 
 .menu__item:hover {
@@ -287,5 +286,5 @@ th:hover {
 @media (prefers-color-scheme: dark) {
     body {
         background: rgb(40, 40, 40);
-        color: #D3D3D3;;
+        color: #D3D3D3;
   }
