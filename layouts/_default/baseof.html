@@ -2,29 +2,14 @@
 <html prefix="og: http://ogp.me/ns#" lang="{{ .Site.Language.Lang }}">
 
 <head>
+    {{ partial "title" . }}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    {{ partial "title" . }}
+    {{ partial "language" . }}
     {{ partial "meta" . }}
     {{ partial "links" . }}
-    {{ partial "language" . }}
     {{ partial "scripts" . }}
-    <!-- Matomo -->
-<script>
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://asgardpvp.matomo.cloud/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src='//cdn.matomo.cloud/asgardpvp.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
 </head>
 
 <body>
