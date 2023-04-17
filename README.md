@@ -1,2 +1,2 @@
 Source code of asgardpvp.com website (Hugo)
-![Example](example.png)\
+![Example](example.png)
