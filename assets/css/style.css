@@ -1,41 +1,54 @@
 /* Default styling here
-
 // Little larger screen
-@media only screen and (min-width: 480px) {
-
-}
+@media only screen and (min-width: 480px) 
 
 // Pads and larger phones
-@media only screen and (min-width: 600px) {
-
-}
+@media only screen and (min-width: 600px)
 
 // Larger pads
-@media only screen and (min-width: 768px) {
-
-}
+@media only screen and (min-width: 768px)
 
 // Horizontal pads and laptops
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px)
 
-}
-
-    // Really large screens
-@media only screen and (min-width: 1382px) {
-
-
-}
+// Really large screens
+@media only screen and (min-width: 1382px)
 */
 
-@media (max-width:768px) {
+/*Responsivnes*/
+
+@media (max-width:1100px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+    }
+
     .asgardlogo {
         display: none;
     }
 
+    .theme {
+        padding-right: 10px
+    }
+
+    .lang-switcher {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:855px) {
     #totop {
         display: none;
     }
+
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+    }
 }
+
+/*Main*/
 
 html {
     font-size: 100%;
@@ -141,6 +154,8 @@ th:hover {
     background-color: grey;
 }
 
+/*Pseudo-elements*/
+
 ::selection {
     color: darkgrey;
     background: indianred;
@@ -150,7 +165,13 @@ th:hover {
     color: red;
 }
 
+
+
 /* Logo */
+
+.asgardlogo {
+    max-width: none;
+}
 
 .logo__title {
     padding-bottom: 17px;
@@ -166,6 +187,7 @@ th:hover {
     margin: auto 16px auto 16px;
     justify-content: center;
     padding: 0;
+    display: flex;
 }
 
 .menu__item {
@@ -174,6 +196,7 @@ th:hover {
     border: 1px dotted grey;
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
 }
 
 .menu__item:hover {
@@ -182,7 +205,7 @@ th:hover {
 
 .active {
     background: darkgray;
-    /*  font-size: 150%;*/
+    /font-size: 150%;
     padding-bottom: 7px;
     padding-top: 7px;
 }
@@ -221,8 +244,8 @@ th:hover {
 **/
 
 .theme {
-    display: float;
     margin: auto 0 auto 16px;
+    margin: auto 0 auto 0;
 }
 
 .js-toggle {
@@ -322,9 +345,9 @@ th:hover {
     box-shadow: 0px 0px 5px 5px rgb(255, 167, 196);
 }
 
-
 @media (prefers-color-scheme: dark) {
     body {
-        background: rgb(40, 40, 40);
+        background: #282828;
         color: #D3D3D3;
     }
+}
