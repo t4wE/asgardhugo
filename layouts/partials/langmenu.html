@@ -2,7 +2,7 @@
     <br>
     {{ if .IsTranslated }}
     {{ range .Translations }}
-    <a href="{{ .Permalink }}"><img src="/images/{{.Language}}.webp" / style="width: 30px; height: 20px; margin-top: 3 px;" alt="lang"></a>
+    <a href="{{ .Permalink }}"><img src="/images/{{.Language}}.svg" / style="width: 30px; height: 20px; margin-top: 3 px;" alt="lang"></a>
     <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
     {{ end}}
     {{ end }}
