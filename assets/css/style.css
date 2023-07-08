@@ -1,4 +1,33 @@
-@media (max-width:770px) {
+/* Default styling here
+
+// Little larger screen
+@media only screen and (min-width: 480px) {
+
+}
+
+// Pads and larger phones
+@media only screen and (min-width: 600px) {
+
+}
+
+// Larger pads
+@media only screen and (min-width: 768px) {
+
+}
+
+// Horizontal pads and laptops
+@media only screen and (min-width: 992px) {
+
+}
+
+    // Really large screens
+@media only screen and (min-width: 1382px) {
+
+
+}
+*/
+
+@media (max-width:768px) {
     .asgardlogo {
         display: none;
     }
