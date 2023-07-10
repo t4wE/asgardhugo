@@ -178,13 +178,11 @@ th:hover {
 }
 
 /*Font*/
+/*exocet.woff2*/
 
 @font-face {
     font-family: 'Exocet';
-    src: url('/fonts/exocet.woff') format('woff'), /*exocet.woff2*/
-    font-weight: normal;
-    font-style: normal;
-
+    src: url('/fonts/exocet.woff') format('woff');
 }
 
 /* Logo */
