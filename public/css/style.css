@@ -84,25 +84,6 @@ nav {
     justify-content: center;
     margin: auto;
 }
-/*
-@font-face {
-    font-family: "Exocet";
-    src: url('/fonts/Exocet.woff') format('woff');
-}
-
-@font-face  {
-    font-family:"Exocet";
-    src:local("/fonts/Exocet.woff");
-}
-*/
-
-@font-face {
-    font-family: 'Exocet';
-    src: url('/fonts/exocet.woff') format('woff'),
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 
 header {
@@ -196,7 +177,15 @@ th:hover {
     color: red;
 }
 
+/*Font*/
 
+@font-face {
+    font-family: 'Exocet';
+    src: url('/fonts/exocet.woff') format('woff'), /*exocet.woff2*/
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /* Logo */
 
