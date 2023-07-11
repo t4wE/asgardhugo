@@ -64,6 +64,7 @@ html {
     -ms-text-size-adjust: none;
     -webkit-text-size-adjust: none;
     scroll-behavior: smooth;
+    /*cursor: url('/cursor/cursor.jpg') auto; */
 }
 
 body {
@@ -224,13 +225,15 @@ th:hover {
 
 .menu__item:hover {
     background: grey;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .active {
     background: darkgray;
     /font-size: 150%;
-    padding-bottom: 7px;
-    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 .menu__link {
