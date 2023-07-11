@@ -1,7 +1,7 @@
 {{ define "main" }}
 <h1 itemprop="headline">{{.Title }}</h1>
 <span itemprop="description">
- <ol>
+ <ol style="font-family: 'Exocet', sans-serif;">
   {{ range sort .Pages "Date" "desc"}}
   <li>
    <a href="{{ .RelPermalink }}">

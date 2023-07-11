@@ -70,7 +70,8 @@ body {
     line-height: 1.3;
     background: rgb(230, 230, 230);
     margin: 5px;
-    overflow-y: scroll; /* Show vertical scrollbar */
+    overflow-y: scroll;
+    /* Show vertical scrollbar */
     color: #404040;
 }
 
@@ -90,11 +91,11 @@ header {
     font-weight: 900;
 }
 
-
 h1 {
     font-size: 32px;
     text-align: center;
     font-family: 'Exocet', sans-serif;
+    margin: 5px 0 5px 0;
 }
 
 h2,
@@ -102,6 +103,7 @@ h3,
 h4 {
     padding-left: 15px;
     font-family: 'Exocet', sans-serif;
+    margin: 5px 0 5px 0;
 }
 
 h1::first-letter,
@@ -217,7 +219,7 @@ th:hover {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-        font-family: 'Exocet', sans-serif;
+    font-family: 'Exocet', sans-serif;
 }
 
 .menu__item:hover {
