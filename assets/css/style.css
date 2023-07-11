@@ -197,6 +197,8 @@ th:hover {
     justify-content: center;
     padding: 0;
     display: flex;
+    vertical-align: middle;
+    
 }
 
 .menu__item {
