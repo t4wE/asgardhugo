@@ -54,6 +54,7 @@
     .menu__list {
         align-items: stretch !important;
         flex-direction: column;
+
     }
 }
 
@@ -65,6 +66,8 @@ html {
     -webkit-text-size-adjust: none;
     scroll-behavior: smooth;
     /*cursor: url('/cursor/cursor.jpg') auto; */
+
+
 }
 
 body {
@@ -74,11 +77,23 @@ body {
     overflow-y: scroll;
     /* Show vertical scrollbar */
     color: #404040;
+    margin: 0;
+    background: no-repeat center/80% url("/images/d2-hd-5m.svg"), rgb(251, 250, 245);
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 70%;
 }
 
 body.dark-mode {
     background: rgb(0, 0, 0);
     color: darkgrey;
+    margin: 0;
+    background: no-repeat center/80% url("/images/d2-hd-10m.svg"), rgb(0, 0, 0);
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 70%;
 }
 
 nav {
@@ -129,6 +144,8 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+main {}
 
 article {
     order: 1;
@@ -214,6 +231,7 @@ th:hover {
     padding: 0;
     display: flex;
     align-items: center;
+    width: auto;
 
 }
 
@@ -254,8 +272,9 @@ th:hover {
 /* Simplify stuff*/
 
 ul.hor li {
-    display:block;
-    margin-left: 15px;
+    display: block;
+    margin-left: 0;
+    margin-right: 15px;
 }
 
 /* To top */

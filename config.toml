@@ -115,7 +115,7 @@ filename = '/sitemap.xml'
 
   [[languages.ru.menu.main]]
         identifier = "recipes"
-        name = "Рецепты"
+        name = "Рецепты куба"
         pageRef= "cube-recipes"
         weight = 5
 
