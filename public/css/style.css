@@ -188,6 +188,10 @@ th:hover {
     src: url('/fonts/exocet.woff') format('woff');
 }
 
+.exocet {
+    font-family: 'Exocet', sans-serif;
+}
+
 /* Logo */
 
 .asgardlogo {
@@ -245,6 +249,13 @@ th:hover {
 .lang-switcher {
     padding-left: 10px;
     min-width: 70px;
+}
+
+/* Simplify stuff*/
+
+ul.hor li {
+    display:block;
+    margin-left: 15px;
 }
 
 /* To top */
