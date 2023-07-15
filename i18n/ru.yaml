@@ -61,7 +61,6 @@
 - id: tags_title
   translation: "Теги"
 
-
 # 404
 - id: 404_title
   translation: "404. Страница не найдена"
@@ -100,3 +99,11 @@
 - id: guides
   translation:
     "Список гайдов:"
+
+- id: gl
+  translation:
+    "Всем удачи и приятной игры"
+
+- id: bw
+  translation:
+    "Успехов во всех начинаниях!"
