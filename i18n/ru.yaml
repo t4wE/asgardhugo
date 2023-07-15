@@ -64,9 +64,9 @@
 # 404
 - id: 404_header
   translation: "404"
-  
+
 - id: 404_title
-  translation: "404. Страница не найдена"
+  translation: "Страница не найдена"
 
 - id: 404_text
   translation:
