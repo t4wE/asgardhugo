@@ -1,9 +1,15 @@
 {{ define "main" }}
 <main class="main" role="main">
-	<div class="warning">
-		<h1 class="warning__headline">{{ T "404_title" }}</h1>
-		<p class="warning__text">{{ T "404_text" }} <a href="{{ "" | relLangURL }}">{{ T "404_linktext" }}</a>.
-		</p>
-	</div>
+    <div class="asgardlogo" style="display: flex;align-content: center; justify-content: center ">
+        <a href="{{ site.Home.Permalink }}">
+            <img class="asgardlogo" src="/images/logo.svg" width="80" height="80" alt="logo" style=" margin: auto 0 auto 0; max-height: 100%;">
+        </a>
+    </div>
+    <div class="warning">
+        <h1 class="warning__headline" style="font-size:50px">{{ T "404_header" }}</h1>
+        <h2 style="text-align:center;" class="warning__headline">{{ T "404_title" }}</h1>
+            <p class="warning__text">{{ T "404_text" }} <a href="{{ "" | relLangURL }}">{{ T "404_linktext" }}</a>.
+            </p>
+    </div>
 </main>
 {{ end }}

@@ -62,8 +62,11 @@
   translation: "Tags"
 
 # 404
-- id: "404_title"
-  translation: "404.Page not found."
+- id: 404_header
+  translation: "404"
+
+- id: 404_title
+  translation: "Page not found"
 
 - id: 404_text
   translation:
