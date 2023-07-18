@@ -109,3 +109,7 @@
 - id: bw
   translation:
     "Wish you good luck in all your endeavors!"
+
+- id: guides
+  translation:
+    "Guides"

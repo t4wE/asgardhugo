@@ -137,7 +137,7 @@ filename = '/sitemap.xml'
         pageRef= "guides/"
         weight = 8
         description = "Диабло 2 Асгард ПвП Гайды"
-         keywords = "диабло 2 гайды, д2 гайды"
+        keywords = "диабло 2 гайды, д2 гайды"
 
   [[languages.ru.menu.main]]
         identifier = "contacts"

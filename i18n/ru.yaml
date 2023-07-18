@@ -110,3 +110,7 @@
 - id: bw
   translation:
     "Успехов во всех начинаниях!"
+
+- id: guides
+  translation:
+    "Гайды"
