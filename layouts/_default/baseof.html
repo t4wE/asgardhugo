@@ -25,10 +25,13 @@
     </nav>
     <main id="main">
         <article>
-            <div itemscope itemtype="https://schema.org/Article">
-                {{ block "main" . }}
-                {{ end }}
+            <div class="context">
+                <div itemscope itemtype="https://schema.org/Article">
+                    {{ block "main" . }}
+                    {{ end }}
+                </div>
             </div>
+            {{ partial "copyright" .}}
         </article>
     </main>
     <footer>

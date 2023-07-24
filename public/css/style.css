@@ -153,8 +153,12 @@ main {
 article {
     order: 1;
     max-width: 1100px;
-    min-height: 115px;
+    min-height:750px;
     margin: auto;
+}
+
+.context {
+    min-height: 750px;
 }
 
 ul {
