@@ -1,6 +1,6 @@
 {{ define "main" }}
 <h1 itemprop="headline">{{ i18n "guides" }} </h1>
-<span itemprop="description">
+<div itemprop="description">
  <ol style="font-family: 'Exocet', sans-serif;">
   {{ range sort .Pages "Date" "desc"}}
   <li>
@@ -10,5 +10,5 @@
   </li>
   {{end}}
  </ol>
-</span>
+</div>
 {{end}}
