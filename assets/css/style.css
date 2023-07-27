@@ -159,6 +159,7 @@ article {
 
 .context {
     min-height: 750px;
+    overflow: hidden;
 }
 
 ul {
