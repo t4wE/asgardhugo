@@ -45,40 +45,37 @@ th {
         </tr>
 </table>
 <font size="5">Калькулятор скорости ловушек Когтей</font>
-<p style="text-align: left;font-style: italic;">Note: choose left claw first</p>
-<table>
+<p style="text-align: left;font-style: italic;">Примечание: сначала выберите левые когти</p>
+<table class="left" style=" border-style: hidden;">
     <form name="theForm">
         <tr>
             <td style="margin-left: 50px;" width="500" style="border: hidden; border-right: hidden;">
-                <table style="border-style: hidden;">
+                <table style="border-style: hidden">
                     <tbody>
                         <tr style="border: hidden;">
-                            <td width=" 52" style="border: hidden;">
-                            </td>
-                            <td width="30" style="border: hidden;"></td>
-                            <td align="center" style="border: hidden;">
+                            <td style="border: hidden;max-width: 150px;"></td>
+                            <td style="border: hidden;min-width: 35px;"></td>
+                            <td align="center" style="border: hidden; min-width: 100px;">
                                 <img src="/images/helm.webp" width="90" onclick="calculateframes()"><br>
                                 <select name="helm" onchange="calculateframes();">
-                                    <option value="default" selected="" disabled="">Helm</option>
+                                    <option value="default" selected="" disabled="">Шлем</option>
                                     <option value="0">0%</option>
                                     <option value="15">15%</option>
                                     <option value="30">30%</option>
                                     <option value="35">35%</option>
                                     <option value="45">45%</option>
-                                </select>
-                            </td>
-                            <td width="32" valign="bottom" align="center" style="border: hidden;">
+                                </select></td>
+                            <td valign="bottom" align="center" style="border: hidden;min-width: 53px;">
                                 <img src="/images/amul.webp" width="40"><br>
                                 <select name="amu" onchange="calculateframes();">
-                                    <option value="default" selected="" disabled="">Amu</option>
+                                    <option value="default" selected="" disabled="">Амулет</option>
                                     <option value="0">0%</option>
                                     <option value="20">20%</option>
-                                </select>
-                            </td>
+                                </select></td>
                             <td width="150" style="border: hidden;"></td>
                         </tr>
                         <tr valign="top" style="border: hidden;">
-                            <td align="center" style="border: hidden;padding-left: 10px">
+                            <td align="center" style="border: hidden;padding-left: 5px">
                                 <img src="/images/claw.webp" width="50" name="pclaw"><br>
                                 <select name="primaryslot" align="center" onchange="detecttype(this.value);" ;="">
                                     <option value="" selected="" disabled="">Primary Slot</option>
@@ -382,7 +379,7 @@ th {
                             <td align="center" style="border: hidden;">
                                 <img src="/images/armor.webp" width="120"><br>
                                 <select name="armor" onchange="calculateframes();">
-                                    <option value="default" selected="" disabled="">Armor</option>
+                                    <option value="default" selected="" disabled="">Броня</option>
                                     <option value="0">0%</option>
                                     <option value="5">5%</option>
                                     <option value="10">10%</option>
@@ -401,7 +398,7 @@ th {
                             <td style="border: hidden;"></td>
                             <td align="center" style="border: hidden;">
                                 <img src="/images/claw.webp" width="50" name="sclaw"><br>
-                                <select name="secondaryslot" align="center" onchange="calculateframes();" ;="">
+                                <select name="secondaryslot" style="padding-right: 3px" align="center" onchange="calculateframes();" ;="">
                                     <option selected="" disabled="">Secondary Slot</option>
                                 </select><br>
                                 <select name="secondaryIAS" align="center" onchange="calculateframes();">
@@ -432,232 +429,216 @@ th {
                                 </select>
                             </td>
                         </tr>
-                        <tr style="border: hidden;">
-                            <td style="border: hidden;"></td>
-                        </tr>
                         <tr>
                             <td align="center" style="border: hidden;">
                                 <img src="/images/gloves.webp" width="80"><br>
                                 <select name="glove" onchange="calculateframes();">
-                                    <option value="default" selected="" disabled="">Gloves</option>
+                                    <option value="default" selected="" disabled="">Перчатки</option>
                                     <option value="0">0%</option>
                                     <option value="10">10%</option>
                                     <option value="20">20%</option>
                                 </select>
                             </td>
-                            <td valign="top" style="border: hidden;"><img src="/images/ring.webp" width="35"></td>
+                            <td width="32" valign="top" style="border: hidden;">
+                                <img src="/images/ring.webp" width="35"></td>
                             <td valign="top" align="center" style="border: hidden;">
                                 <img src="/images/belt.webp" width="100"><br>
                                 <select name="belt" onchange="calculateframes();">
-                                    <option value="default" selected="" disabled="">Belt</option>
+                                    <option value="default" selected="" disabled="">Пояс</option>
                                     <option value="0">0%</option>
                                     <option value="10">10%</option>
                                 </select>
                             </td>
-                            <td valign="top" style="border: hidden;"><img src="/images/ring.webp" width="35"></td>
+                            <td width="32" valign="top" style="border: hidden;"><img src="/images/ring.webp" width="35"></td>
                             <td align="center" valign="top" style="border: hidden;"><img src="/images/boots.webp" width="80"></td>
                         </tr>
                     </tbody>
                 </table>
-            </td>
-            <td>
-                <table height="678">
-                    <tbody>
-                        <tr>
-                            <td nowrap="">
-                                <p>Equipment IAS present:</p>
-                            </td>
-                            <td width="201">
-                                <p id="message0">0%</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Burst of Speed Level:</p>
-                            </td>
-                            <td>
-                                <select name="BoS" onchange="calculateframes();">
-                                    <option value="0" selected="">I don't use Burst of Speed</option>
-                                    <option value="21">Skill Level 1</option>
-                                    <option value="27">Skill Level 2</option>
-                                    <option value="31">Skill Level 3</option>
-                                    <option value="34">Skill Level 4</option>
-                                    <option value="37">Skill Level 5</option>
-                                    <option value="41">Skill Level 6</option>
-                                    <option value="42">Skill Level 7</option>
-                                    <option value="44">Skill Level 8</option>
-                                    <option value="44">Skill Level 9</option>
-                                    <option value="45">Skill Level 10</option>
-                                    <option value="46">Skill Level 11</option>
-                                    <option value="47">Skill Level 12</option>
-                                    <option value="49">Skill Level 13</option>
-                                    <option value="50">Skill Level 14</option>
-                                    <option value="51">Skill Level 15</option>
-                                    <option value="51">Skill Level 16</option>
-                                    <option value="51">Skill Level 17</option>
-                                    <option value="52">Skill Level 18</option>
-                                    <option value="52">Skill Level 19</option>
-                                    <option value="52">Skill Level 20</option>
-                                    <option value="53">Skill Level 21</option>
-                                    <option value="53">Skill Level 22</option>
-                                    <option value="54">Skill Level 23</option>
-                                    <option value="54">Skill Level 24</option>
-                                    <option value="54">Skill Level 25</option>
-                                    <option value="55">Skill Level 26</option>
-                                    <option value="55">Skill Level 27</option>
-                                    <option value="55">Skill Level 28</option>
-                                    <option value="55">Skill Level 29</option>
-                                    <option value="55">Skill Level 30</option>
-                                    <option value="56">Skill Level 31</option>
-                                    <option value="56">Skill Level 32</option>
-                                    <option value="56">Skill Level 33</option>
-                                    <option value="56">Skill Level 34</option>
-                                    <option value="56">Skill Level 35</option>
-                                    <option value="57">Skill Level 36</option>
-                                    <option value="57">Skill Level 37</option>
-                                    <option value="57">Skill Level 38</option>
-                                    <option value="57">Skill Level 39</option>
-                                    <option value="57">Skill Level 40</option>
-                                    <option value="57">Skill Level 41</option>
-                                    <option value="58">Skill Level 42</option>
-                                    <option value="58">Skill Level 43</option>
-                                    <option value="58">Skill Level 44</option>
-                                    <option value="58">Skill Level 45</option>
-                                    <option value="58">Skill Level 46</option>
-                                    <option value="58">Skill Level 47</option>
-                                    <option value="58">Skill Level 48</option>
-                                    <option value="59">Skill Level 49</option>
-                                    <option value="59">Skill Level 50</option>
-                                    <option value="59">Skill Level 51</option>
-                                    <option value="59">Skill Level 52</option>
-                                    <option value="59">Skill Level 53</option>
-                                    <option value="59">Skill Level 54</option>
-                                    <option value="59">Skill Level 55</option>
-                                    <option value="59">Skill Level 56</option>
-                                    <option value="59">Skill Level 57</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Fanaticism Level:</p>
-                            </td>
-                            <td>
-                                <select name="Fana" onchange="calculateframes();">
-                                    <option value="0" selected="">No Aura present</option>
-                                    <option value="14">Skill Level 1</option>
-                                    <option value="18">Skill Level 2</option>
-                                    <option value="20">Skill Level 3</option>
-                                    <option value="23">Skill Level 4</option>
-                                    <option value="25">Skill Level 5</option>
-                                    <option value="26">Skill Level 6</option>
-                                    <option value="27">Skill Level 7</option>
-                                    <option value="28">Skill Level 8</option>
-                                    <option value="29">Skill Level 9</option>
-                                    <option value="30">Skill Level 10</option>
-                                    <option value="31">Skill Level 11</option>
-                                    <option value="31">Skill Level 12</option>
-                                    <option value="32">Skill Level 13</option>
-                                    <option value="33">Skill Level 14</option>
-                                    <option value="33">Skill Level 15</option>
-                                    <option value="34">Skill Level 16</option>
-                                    <option value="34">Skill Level 17</option>
-                                    <option value="34">Skill Level 18</option>
-                                    <option value="34">Skill Level 19</option>
-                                    <option value="35">Skill Level 20</option>
-                                    <option value="35">Skill Level 21</option>
-                                    <option value="35">Skill Level 22</option>
-                                    <option value="36">Skill Level 23</option>
-                                    <option value="36">Skill Level 24</option>
-                                    <option value="36">Skill Level 25</option>
-                                    <option value="36">Skill Level 26</option>
-                                    <option value="37">Skill Level 27</option>
-                                    <option value="37">Skill Level 28</option>
-                                    <option value="37">Skill Level 29</option>
-                                    <option value="37">Skill Level 30</option>
-                                    <option value="37">Skill Level 31</option>
-                                    <option value="37">Skill Level 32</option>
-                                    <option value="37">Skill Level 33</option>
-                                    <option value="37">Skill Level 34</option>
-                                    <option value="37">Skill Level 35</option>
-                                    <option value="38">Skill Level 36</option>
-                                    <option value="38">Skill Level 37</option>
-                                    <option value="38">Skill Level 38</option>
-                                    <option value="38">Skill Level 39</option>
-                                    <option value="38">Skill Level 40</option>
-                                    <option value="38">Skill Level 41</option>
-                                    <option value="38">Skill Level 42</option>
-                                    <option value="38">Skill Level 43</option>
-                                    <option value="38">Skill Level 44</option>
-                                    <option value="39">Skill Level 45</option>
-                                    <option value="39">Skill Level 46</option>
-                                    <option value="39">Skill Level 47</option>
-                                    <option value="39">Skill Level 48</option>
-                                    <option value="39">Skill Level 49</option>
-                                    <option value="39">Skill Level 50</option>
-                                    <option value="39">Skill Level 51</option>
-                                    <option value="39">Skill Level 52</option>
-                                    <option value="39">Skill Level 53</option>
-                                    <option value="39">Skill Level 54</option>
-                                    <option value="39">Skill Level 55</option>
-                                    <option value="39">Skill Level 56</option>
-                                    <option value="39">Skill Level 57</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Trap Laying Speed:</p>
-                            </td>
-                            <td id="trapbackground" style="border-left: solid 1px #666666; border-top: solid 1px #666666;" bgcolor="#990000" ;="">
-                                <p id="message1">Please specify your weapon(s)</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Initial Dragon Talon Kick Speed:</p>
-                            </td>
-                            <td id="kickbackground" style="border-left: solid 1px #666666; border-top: solid 1px #666666;" bgcolor="#990000" ;="">
-                                <p id="message2">-</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Follow-up Dragon Talon Kick Speed:</p>
-                            </td>
-                            <td id="kick2background" style="border-left: solid 1px #666666; border-top: solid 1px #666666;" bgcolor="#990000 !important" ;="">
-                                <p id="message3">-</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Primary Claw Whirlwind Hit-checks:</p>
-                            </td>
-                            <td id="wwpbackground" style="border-left: solid 1px #666666; border-top: solid 1px #666666;" bgcolor="#990000" ;="">
-                                <p id="message4">-</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td nowrap="" style="border-top: solid 1px #666666; border-bottom: solid 1px #666666;">
-                                <p>Secondary Claw Whirlwind Hit-checks:</p>
-                            </td>
-                            <td id="wwsbackground" style="border-left: solid 1px #666666; border-top: solid 1px #666666; border-bottom: solid 1px #666666;" bgcolor="#990000" ;="">
-                                <p id="message5">-</p>
-                            </td>
-                        </tr>
-                        <tr height="157">
-                            <td colspan="2">
-                                <p id="switchmessage" class="text"></p>
-                            </td>
-                        </tr>
-                        <tr height="35">
-                            <td colspan="2">
-                                <input name="clawswitchbutton" ;="" type="button" value="Switch Claws" onclick="wissel(document.theForm.primaryIAS.value,document.theForm.secondaryIAS.value)" style="border: solid 1px #666666; background: #666666" disabled="">
-                            </td>
-                        </tr>
-                    </tbody>
+                <table class="slowed" style="border: hidden;">
+                    <p> Slowed?
+                    </p>
+                    <tr style="border: hidden;">
+                        <td width=" 100" style="text-align: left;">
+                            <input type="radio" name="slow" id="none" checked="checked" onchange="calculateframes()">No
+                        </td>
+                    <tr style="border: hidden;">
+                        <td width=" 100" style="text-align: left;">
+                            <input type="radio" name="slow" id="slow" onchange="calculateframes()">Clay Golem's slow (-50%)
+                        </td>
+                    <tr>
+                        <td style="text-align: left;">
+                            <input type="radio" name="slow" id="slow_asgard" onchange="calculateframes()">Asgard's Clay Golem's slow // SW // Nosferatu (-10%)
                 </table>
             </td>
+            <table height="678" class="right">
+                <tbody>
+                    <tr>
+                        <td nowrap="">
+                            <p>Equipment IAS present:</p>
+                        </td>
+                        <td width="201">
+                            <p id="message0">0%</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Burst of Speed Level:</p>
+                        </td>
+                        <td>
+                            <select name="BoS" onchange="calculateframes();">
+                                <option value="0" selected="">I don't use Burst of Speed</option>
+                                <option value="21">Skill Level 1</option>
+                                <option value="27">Skill Level 2</option>
+                                <option value="31">Skill Level 3</option>
+                                <option value="34">Skill Level 4</option>
+                                <option value="37">Skill Level 5</option>
+                                <option value="39">Skill Level 6</option>
+                                <option value="41">Skill Level 7</option>
+                                <option value="42">Skill Level 8</option>
+                                <option value="44">Skill Level 9</option>
+                                <option value="45">Skill Level 10</option>
+                                <option value="46">Skill Level 11</option>
+                                <option value="47">Skill Level 12</option>
+                                <option value="48">Skill Level 13</option>
+                                <option value="49">Skill Level 14</option>
+                                <option value="50">Skill Level 15</option>
+                                <option value="51">Skill Level 16</option>
+                                <option value="51">Skill Level 17</option>
+                                <option value="51">Skill Level 18</option>
+                                <option value="52">Skill Level 19</option>
+                                <option value="52">Skill Level 20</option>
+                                <option value="53">Skill Level 21</option>
+                                <option value="53">Skill Level 22</option>
+                                <option value="54">Skill Level 23</option>
+                                <option value="54">Skill Level 24</option>
+                                <option value="54">Skill Level 25</option>
+                                <option value="55">Skill Level 26</option>
+                                <option value="55">Skill Level 27</option>
+                                <option value="55">Skill Level 28</option>
+                                <option value="55">Skill Level 29</option>
+                                <option value="55">Skill Level 30</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Fanaticism Level:</p>
+                        </td>
+                        <td>
+                            <select name="Fana" onchange="calculateframes();">
+                                <option value="0" selected="">No Aura present</option>
+                                <option value="14">Skill Level 1</option>
+                                <option value="18">Skill Level 2</option>
+                                <option value="20">Skill Level 3</option>
+                                <option value="23">Skill Level 4</option>
+                                <option value="25">Skill Level 5</option>
+                                <option value="26">Skill Level 6</option>
+                                <option value="27">Skill Level 7</option>
+                                <option value="28">Skill Level 8</option>
+                                <option value="29">Skill Level 9</option>
+                                <option value="30">Skill Level 10</option>
+                                <option value="31">Skill Level 11</option>
+                                <option value="31">Skill Level 12</option>
+                                <option value="32">Skill Level 13</option>
+                                <option value="33">Skill Level 14</option>
+                                <option value="33">Skill Level 15</option>
+                                <option value="34">Skill Level 16</option>
+                                <option value="34">Skill Level 17</option>
+                                <option value="34">Skill Level 18</option>
+                                <option value="34">Skill Level 19</option>
+                                <option value="35">Skill Level 20</option>
+                                <option value="35">Skill Level 21</option>
+                                <option value="35">Skill Level 22</option>
+                                <option value="36">Skill Level 23</option>
+                                <option value="36">Skill Level 24</option>
+                                <option value="36">Skill Level 25</option>
+                                <option value="36">Skill Level 26</option>
+                                <option value="37">Skill Level 27</option>
+                                <option value="37">Skill Level 28</option>
+                                <option value="37">Skill Level 29</option>
+                                <option value="37">Skill Level 30</option>
+                                <option value="37">Skill Level 31</option>
+                                <option value="37">Skill Level 32</option>
+                                <option value="37">Skill Level 33</option>
+                                <option value="37">Skill Level 34</option>
+                                <option value="37">Skill Level 35</option>
+                                <option value="38">Skill Level 36</option>
+                                <option value="38">Skill Level 37</option>
+                                <option value="38">Skill Level 38</option>
+                                <option value="38">Skill Level 39</option>
+                                <option value="38">Skill Level 40</option>
+                                <option value="38">Skill Level 41</option>
+                                <option value="38">Skill Level 42</option>
+                                <option value="38">Skill Level 43</option>
+                                <option value="38">Skill Level 44</option>
+                                <option value="39">Skill Level 45</option>
+                                <option value="39">Skill Level 46</option>
+                                <option value="39">Skill Level 47</option>
+                                <option value="39">Skill Level 48</option>
+                                <option value="39">Skill Level 49</option>
+                                <option value="39">Skill Level 50</option>
+                                <option value="39">Skill Level 51</option>
+                                <option value="39">Skill Level 52</option>
+                                <option value="39">Skill Level 53</option>
+                                <option value="39">Skill Level 54</option>
+                                <option value="39">Skill Level 55</option>
+                                <option value="39">Skill Level 56</option>
+                                <option value="39">Skill Level 57</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Trap Laying Speed:</p>
+                        </td>
+                        <td id="trapbackground" style="border-left: solid 1px #666666; border-top: solid 1px #666666;" bgcolor="#990000" ;="">
+                            <p id="message1">Please specify your weapon(s)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Initial Dragon Talon Kick Speed:</p>
+                        </td>
+                        <td id="kickbackground" style="border-left: solid 1px #666666; border-top: solid 1px #666666;" bgcolor="#990000" ;="">
+                            <p id="message2">-</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Follow-up Dragon Talon Kick Speed:</p>
+                        </td>
+                        <td id="kick2background" style="border-left: solid 1px #666666; border-top: solid 1px #666666;" bgcolor="#990000 !important" ;="">
+                            <p id="message3">-</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Primary Claw Whirlwind Hit-checks:</p>
+                        </td>
+                        <td id="wwpbackground" style="border-left: solid 1px #666666; border-top: solid 1px #666666;" bgcolor="#990000" ;="">
+                            <p id="message4">-</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td nowrap="" style="border-top: solid 1px #666666; border-bottom: solid 1px #666666;">
+                            <p>Secondary Claw Whirlwind Hit-checks:</p>
+                        </td>
+                        <td id="wwsbackground" style="border-left: solid 1px #666666; border-top: solid 1px #666666; border-bottom: solid 1px #666666;" bgcolor="#990000" ;="">
+                            <p id="message5">-</p>
+                        </td>
+                    </tr>
+                    <tr height="157">
+                        <td colspan="2">
+                            <p id="switchmessage" class="text"></p>
+                        </td>
+                    </tr>
+                    <tr height="35">
+                        <td colspan="2">
+                            <input name="clawswitchbutton" ;="" type="button" value="Switch Claws" onclick="wissel(document.theForm.primaryIAS.value,document.theForm.secondaryIAS.value)" style="border: solid 1px #666666; background: #666666" disabled="">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </tr>
     </form>
 </table>
