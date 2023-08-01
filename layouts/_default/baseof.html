@@ -3,10 +3,6 @@
 
 <head>
     {{ partial "title" . }}
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    {{ partial "language" . }}
     {{ partial "meta" . }}
     {{ partial "links" . }}
     {{ partial "scripts" . }}
@@ -23,19 +19,17 @@
         {{ partial "langmenu" .}}
         {{ partial "theme" .}}
     </nav>
-    <main id="main">
-        <article>
-            <div class="context">
-                <div itemscope itemtype="https://schema.org/Article">
-                    {{ block "main" . }}
-                    {{ end }}
-                </div>
+
+        <article style="flex: auto;flex-direction: column;">
+            <div class="context" itemscope itemtype="https://schema.org/Article">
+                {{ block "main" . }}
+                {{ end }}
             </div>
             {{ partial "copyright" .}}
         </article>
-    </main>
+
     <footer>
-        <div id="totop">{{ partial "footer"}}</div>
+        {{ partial "footer"}}
     </footer>
 </body>
 

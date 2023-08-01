@@ -71,6 +71,7 @@ html {
     -webkit-text-size-adjust: none;
     scroll-behavior: smooth;
     /*cursor: url('/cursor/cursor.jpg') auto; */
+        margin: 10px;
 }
 
 /*Light theme*/
@@ -161,20 +162,18 @@ img {
     margin-right: auto;
 }
 
-main {
-    margin: 10px;
-}
-
 article {
     order: 1;
     max-width: 1100px;
-    min-height: 750px;
+    min-height: 1000px;
     margin: auto;
+    display: flex;
 }
 
 .context {
-    min-height: 750px;
-    overflow: hidden;
+    min-height: 1000px;
+    position: relative;
+    margin-bottom: 50px;
 }
 
 ul {
@@ -183,7 +182,7 @@ ul {
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 90%;
 
 }
 
