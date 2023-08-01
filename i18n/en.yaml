@@ -113,3 +113,7 @@
 - id: guides
   translation:
     "Guides"
+
+- id: thislang
+  translation:
+    "en"

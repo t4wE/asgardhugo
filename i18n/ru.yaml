@@ -114,3 +114,7 @@
 - id: guides
   translation:
     "Гайды"
+
+- id: thislang
+  translation:
+    "ru"
