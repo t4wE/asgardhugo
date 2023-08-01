@@ -50,6 +50,13 @@
     }
 }
 
+@media (max-width:1400px) {
+    #totop {
+    height: 10vw !important;
+    width: 5vw !important;
+    }
+}
+
 /*Main stuff*/
 :root {
 
@@ -307,7 +314,8 @@ ul.hor li {
     position: fixed;
     bottom: 10px;
     left: 10px;
-    width: 5vw;
+    height: 20vw;
+    width: 10vw;
     margin-bottom: 0;
     margin-left: 0;
 
