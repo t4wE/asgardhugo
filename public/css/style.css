@@ -64,27 +64,26 @@ html {
     -webkit-text-size-adjust: none;
     scroll-behavior: smooth;
     /*cursor: url('/cursor/cursor.jpg') auto; */
-
-
 }
 
-body {
-    line-height: 1.3;
-    margin: 5px;
-    overflow-y: scroll;
-    /* Always show vertical scrollbar */
-    color: #404040;
-    margin: 0;
-    background: no-repeat center/80% url("/images/d2-hd-5m.svg"), var(--color-dark);
-    background-position: bottom;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position-y: 70%;
-
+/*Light theme*/
+@media (prefers-color-scheme: light) {
+    body {
+        line-height: 1.3;
+        margin: 5px;
+        overflow-y: scroll;
+        /* Always show vertical scrollbar */
+        margin: 0;
+        color: #404040;
+        background: no-repeat center/80% url("/images/d2-hd-5m.svg"), var(--color-dark);
+        background-position: bottom;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position-y: 70%;
+    }
 }
 
 /*Dark theme*/
-
 @media (prefers-color-scheme: dark) {
     body {
         color: #252525;
@@ -97,7 +96,6 @@ body {
 }
 
 /*Dark mode*/
-
 body.dark-mode {
     color: darkgrey;
     background: no-repeat center/80% url("/images/d2-hd-10m.svg"), var(--color-darkest);
@@ -113,7 +111,6 @@ nav {
     margin: auto;
     max-width: 1460px;
 }
-
 
 header {
     font-weight: 900;
@@ -280,7 +277,7 @@ th:hover {
 
 .active {
     background: darkgray;
-    /font-size: 150%;
+    font-size: 150%;
     padding-bottom: 8px;
     padding-top: 8px;
 }
