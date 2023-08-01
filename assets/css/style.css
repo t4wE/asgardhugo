@@ -36,6 +36,12 @@
     .lang-switcher {
         padding-top: 20px;
     }
+
+    td,
+    th {
+        font-size: 0.5em;
+    }
+
 }
 
 @media (max-width:890px) {
@@ -46,14 +52,17 @@
     .menu__list {
         align-items: stretch !important;
         flex-direction: column;
+    }
 
+    h1 {
+        font-size: 20px !important;
     }
 }
 
 @media (max-width:1400px) {
     #totop {
-    height: 10vw !important;
-    width: 5vw !important;
+        height: 10vw !important;
+        width: 5vw !important;
     }
 }
 
@@ -71,7 +80,7 @@ html {
     -webkit-text-size-adjust: none;
     scroll-behavior: smooth;
     /*cursor: url('/cursor/cursor.jpg') auto; */
-        margin: 10px;
+    margin: 10px;
 }
 
 /*Light theme*/
