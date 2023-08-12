@@ -115,7 +115,7 @@ html {
 /*Dark mode*/
 body.dark-mode {
     color: darkgrey;
-    background: no-repeat center/80% url("/images/d2-hd-10m.svg"), var(--color-darkest);
+    background: no-repeat center/80% url("/images/d2-hd-5m.svg"), var(--color-darkest);
     background-position: bottom;
     background-attachment: fixed;
     background-size: cover;
