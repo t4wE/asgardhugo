@@ -104,7 +104,7 @@ html {
 @media (prefers-color-scheme: dark) {
     body {
         color: #252525;
-        background: no-repeat center/80% url("/images/d2-hd-5m.svg"), var(--color-darker);
+        background: no-repeat center/80% url("/images/d2-hd-10m.svg"), var(--color-darker);
         background-position: bottom;
         background-attachment: fixed;
         background-size: cover;
