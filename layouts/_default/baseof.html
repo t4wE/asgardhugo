@@ -19,15 +19,13 @@
         {{ partial "langmenu" .}}
         {{ partial "theme" .}}
     </nav>
-
-        <article style="flex: auto;flex-direction: column;">
-            <div class="context" itemscope itemtype="https://schema.org/Article">
-                {{ block "main" . }}
-                {{ end }}
-            </div>
-            {{ partial "copyright" .}}
-        </article>
-
+    <article style="flex: auto;flex-direction: column;">
+        <div class="context" itemscope itemtype="https://schema.org/Article">
+            {{ block "main" . }}
+            {{ end }}
+        </div>
+        {{ partial "copyright" .}}
+    </article>
     <footer>
         {{ partial "footer"}}
     </footer>

@@ -287,7 +287,7 @@ th:hover {
 }
 
 .menu__item:hover {
-    background: grey;
+    background: lightgrey;
     padding-bottom: 5px;
     padding-top: 5px;
 }
@@ -448,4 +448,20 @@ ul.hor li {
 
 .js-toggle:active .js-toggle-thumb {
     box-shadow: 0px 0px 5px 5px rgb(255, 167, 196);
+}
+
+.ending hr {
+    margin: -50px auto 10px;
+    padding: 0;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    width: 85%;
+    color: red;
+    text-align: center;
+}
+
+.ending p {
+    text-align: center;
 }

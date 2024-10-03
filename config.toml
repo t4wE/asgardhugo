@@ -4,7 +4,7 @@ showLanguageSelector = true
 defaultContentLanguageInSubdir = false
 baseURL = '/'
 
-disableKinds = ["taxonomyTerm","sitemap","RSS"]
+disableKinds = ["taxonomy","sitemap","RSS"]
 
 [params]
 [sitemap]
@@ -34,11 +34,13 @@ filename = '/sitemap.xml'
 
 [languages.en.menu]
   [[languages.en.menu.main]]
+        identifier = "home"
         name = "Home page"
         pageRef= "/"
         weight = 1
 
   [[languages.en.menu.main]]
+        identifier = "how"
         name = "How to connect"
         pageRef= "how-to-connect"
         weight = 2
@@ -96,7 +98,7 @@ filename = '/sitemap.xml'
         pageRef= "/"
         weight = 1
   [[languages.ru.menu.main]]
-        identifier = "connect"
+        identifier = "how"
         name = "Как присоедениться"
         pageRef= "how-to-connect"
         weight = 2
