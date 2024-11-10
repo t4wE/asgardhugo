@@ -251,9 +251,11 @@ th:hover {
 
 .asgardlogo {
     max-width: none;
+
 }
 
 .logo__title {
+    color: #fd3e08;
     font-size: 7vw;
     line-height: 1;
     display: flex;
